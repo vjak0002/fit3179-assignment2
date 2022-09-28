@@ -21,10 +21,12 @@
           "url": "../data/countries-happiness-2019.csv"
         },
         "key": "country",
-        "fields": ["score"]
+        "fields": ["score", "lat", "long"]
       }
     },
-    { "calculate": "datum.score", "as": "Happiness Index" }
+    { "calculate": "datum.score", "as": "Happiness Index" },
+    { "calculate": "datum.lat", "as": "Latitude" },
+    { "calculate": "datum.long", "as": "Longitude" }
   ],
   "layer": [
     {
@@ -40,7 +42,10 @@
       "encoding": {
         "color": {
           "field": "Happiness Index",
-          "type": "quantitative"
+          "type": "quantitative",
+          "scale": {
+            "scheme": "yellowgreen"
+          }
         },
         "tooltip": [
           {
@@ -49,11 +54,29 @@
             "title": "Country"
           },
           {
-            "field": "score",
+            "field": "Happiness Index",
             "type": "quantitative",
             "title": "Happiness Index"
           }
         ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "dy": 5
+      },
+      "encoding": {
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "text": { "field": "Happiness Index", "type": "quantitative" }
       }
     }
   ],
