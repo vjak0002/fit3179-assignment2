@@ -24,7 +24,7 @@
         "fields": ["score", "lat", "long"]
       }
     },
-    { "calculate": "datum.score", "as": "Happiness Index" },
+    { "calculate": "datum.score", "as": "Score" },
     { "calculate": "datum.lat", "as": "Latitude" },
     { "calculate": "datum.long", "as": "Longitude" }
   ],
@@ -33,7 +33,7 @@
       "mark": {
         "type": "geoshape",
         "fill": "#E6E6E3",
-        "strokeWidth": 1,
+        "strokeWidth": 1.5,
         "stroke": "black"
       }
     },
@@ -41,10 +41,10 @@
       "mark": { "type": "geoshape" },
       "encoding": {
         "color": {
-          "field": "Happiness Index",
+          "field": "Score",
           "type": "quantitative",
           "scale": {
-            "scheme": "yellowgreen"
+            "scheme": "plasma"
           }
         },
         "tooltip": [
@@ -54,7 +54,7 @@
             "title": "Country"
           },
           {
-            "field": "Happiness Index",
+            "field": "Score",
             "type": "quantitative",
             "title": "Happiness Index"
           }
@@ -65,7 +65,9 @@
       "mark": {
         "type": "text",
         "fontSize": 10,
-        "dy": 5
+        "dy": 5,
+        "align": "center",
+        "fontWeight": "bold"
       },
       "encoding": {
         "latitude": {
@@ -76,7 +78,7 @@
           "field": "Longitude",
           "type": "quantitative"
         },
-        "text": { "field": "Happiness Index", "type": "quantitative" }
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
       }
     }
   ],
