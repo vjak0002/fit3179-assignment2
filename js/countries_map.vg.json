@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "add title here",
-  "width": 1250,
-  "height": 700,
+  "width": 1300,
+  "height": 800,
   "projection": {
     "type": "equalEarth"
   },
@@ -21,7 +21,7 @@
           "url": "../data/countries-happiness-2019.csv"
         },
         "key": "country",
-        "fields": ["score", "lat", "long"]
+        "fields": ["score", "lat", "long", "country"]
       }
     },
     { "calculate": "datum.score", "as": "Score" },
@@ -44,7 +44,7 @@
           "field": "Score",
           "type": "quantitative",
           "scale": {
-            "scheme": "plasma"
+            "scheme": "lighttealblue"
           }
         },
         "tooltip": [
@@ -64,6 +64,33 @@
     {
       "mark": {
         "type": "text",
+        "fontSize": 15,
+        "fontWeight": "bold",
+        "dy": -10
+      },
+      "encoding": {
+        "longitude": { "field": "Longitude", "type": "quantitative" },
+        "latitude": { "field": "Latitude", "type": "quantitative" },
+        "text": {
+          "field": "country",
+          "type": "nominal",
+          "format": {
+            "labels": {
+              "labelOverlap": "parity"
+            }
+          }
+        },
+        "color": { "value": "black" }
+      },
+      "transform": [
+        {
+          "filter": "indexof(['Canada', 'Russia', 'Brazil', 'Australia', 'China', 'USA', 'India'], datum.country) !== -1"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
         "fontSize": 10,
         "dy": 5,
         "align": "center",
@@ -78,11 +105,28 @@
           "field": "Longitude",
           "type": "quantitative"
         },
-        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
-      }
+        "text": {
+          "field": "Score",
+          "type": "quantitative",
+          "format": ".2f",
+          "condition": {
+            "test": "datum.Score < 4",
+            "value": ""
+          }
+        }
+      },
+      "transform": [
+        {
+          "filter": "indexof(['Mongolia','Sri Lanka','Chile','Madagascar','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Czechia','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Costa Rica','Panama','Honduras','Nicaragua','El Salvador','Guatemala'], datum.country) === -1"
+        }
+      ]
     }
   ],
   "config": {
-    "view": { "stroke": "transparent" }
+    "view": { "stroke": "transparent" },
+    "legend": {
+      "symbolDirection": "horizontal",
+      "gradientDirection": "horizontal"
+    }
   }
 }
