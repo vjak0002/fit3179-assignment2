@@ -1,0 +1,65 @@
+html{
+    background-color: #E8E8E8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.viz-grid{
+    display: grid;
+    grid-template-areas: 
+        'title title title'
+        'viz-1 middle viz-3'
+        '1-2-text middle middle'
+        'viz-2 3-4-text viz-4';
+    gap: 10px;
+    background-color: #E8E8E8;
+}
+
+.viz-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#viz-title{
+    grid-area: title;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#viz-1{
+    border: 1px solid black;
+    grid-area: viz-1;
+    width: auto;
+}
+
+#viz-1-2-text{
+    border: 1px solid black;
+    grid-area: 1-2-text;
+    width: auto;
+
+}
+
+#viz-2{
+    border: 1px solid black;
+    grid-area: viz-2;
+}
+
+#viz-3{
+    border: 1px solid black;
+    grid-area: viz-3;
+}
+
+#viz-3-4-text{
+    border: 1px solid black;
+    grid-area: 3-4-text;
+}
+
+#viz-4{
+    border: 1px solid black;
+    grid-area: viz-4;
+}
+
+#map-viz{
+    grid-area: middle;
+}
