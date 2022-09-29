@@ -28,6 +28,10 @@
     { "calculate": "datum.lat", "as": "Latitude" },
     { "calculate": "datum.long", "as": "Longitude" }
   ],
+  "encoding": {
+    "longitude": { "field": "Longitude", "type": "quantitative" },
+    "latitude": { "field": "Latitude", "type": "quantitative" }
+  },
   "layer": [
     {
       "mark": {
@@ -69,8 +73,6 @@
         "dy": -10
       },
       "encoding": {
-        "longitude": { "field": "Longitude", "type": "quantitative" },
-        "latitude": { "field": "Latitude", "type": "quantitative" },
         "text": {
           "field": "country",
           "type": "nominal"
@@ -92,14 +94,6 @@
         "fontWeight": "bold"
       },
       "encoding": {
-        "latitude": {
-          "field": "Latitude",
-          "type": "quantitative"
-        },
-        "longitude": {
-          "field": "Longitude",
-          "type": "quantitative"
-        },
         "text": {
           "field": "Score",
           "type": "quantitative",
@@ -125,14 +119,6 @@
         "dy": 15
       },
       "encoding": {
-        "latitude": {
-          "field": "Latitude",
-          "type": "quantitative"
-        },
-        "longitude": {
-          "field": "Longitude",
-          "type": "quantitative"
-        },
         "text": {
           "field": "Score",
           "type": "quantitative",
@@ -154,14 +140,6 @@
         "dy": 2
       },
       "encoding": {
-        "latitude": {
-          "field": "Latitude",
-          "type": "quantitative"
-        },
-        "longitude": {
-          "field": "Longitude",
-          "type": "quantitative"
-        },
         "text": {
           "field": "country",
           "type": "nominal"
