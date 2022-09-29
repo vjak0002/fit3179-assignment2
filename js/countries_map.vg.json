@@ -73,12 +73,7 @@
         "latitude": { "field": "Latitude", "type": "quantitative" },
         "text": {
           "field": "country",
-          "type": "nominal",
-          "format": {
-            "labels": {
-              "labelOverlap": "parity"
-            }
-          }
+          "type": "nominal"
         },
         "color": { "value": "black" }
       },
@@ -92,7 +87,7 @@
       "mark": {
         "type": "text",
         "fontSize": 10,
-        "dy": 5,
+        "dy": 3,
         "align": "center",
         "fontWeight": "bold"
       },
@@ -117,7 +112,64 @@
       },
       "transform": [
         {
-          "filter": "indexof(['Mongolia','Sri Lanka','Chile','Madagascar','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Czechia','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Costa Rica','Panama','Honduras','Nicaragua','El Salvador','Guatemala'], datum.country) === -1"
+          "filter": "indexof(['Mongolia','Vietnam','Cambodia','Lithuania','Uganda','Estonia','Taiwan','Greece','Japan','Bulgaria','Croatia','Denmark','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','United Kingdom','Ireland','Iceland','Jamaica'], datum.country) === -1"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "dx": 25,
+        "dy": 15
+      },
+      "encoding": {
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Score",
+          "type": "quantitative",
+          "format": ".2f"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Japan'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "dx": 28,
+        "dy": 2
+      },
+      "encoding": {
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        },
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "country",
+          "type": "nominal"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Japan'"
         }
       ]
     }
