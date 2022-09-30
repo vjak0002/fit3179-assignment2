@@ -1,15 +1,20 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Least and Most Happy Countries in the World - 2019",
-  "width": 1300,
+  "width": 1380,
   "height": 800,
   "background": "#E8E8E8",
+  "autosize": { "type": "fit", "resize": true },
   "projection": {
     "type": "equalEarth"
   },
   "data": {
     "url": "../data/ne_110m_countries.topojson",
     "format": { "type": "topojson", "feature": "ne_110m_countries" }
+  },
+  "encoding": {
+    "longitude": { "field": "Longitude", "type": "quantitative" },
+    "latitude": { "field": "Latitude", "type": "quantitative" }
   },
   "transform": [
     {
@@ -27,21 +32,17 @@
     { "calculate": "datum.long", "as": "Longitude" },
     { "calculate": "upper(datum.country)", "as": "Country" }
   ],
-  "encoding": {
-    "longitude": { "field": "Longitude", "type": "quantitative" },
-    "latitude": { "field": "Latitude", "type": "quantitative" }
-  },
   "layer": [
     {
       "mark": {
         "type": "geoshape",
         "fill": "#E6E6E3",
-        "strokeWidth": 1.5,
+        "strokeWidth": 2,
         "stroke": "black"
       }
     },
     {
-      "mark": { "type": "geoshape", "stroke": "black", "strokeWidth": 0.75 },
+      "mark": { "type": "geoshape", "stroke": "black", "strokeWidth": 1 },
       "encoding": {
         "color": {
           "field": "Score",
@@ -165,14 +166,31 @@
       },
       "transform": [
         {
-          "filter": "datum.country === 'United Kingdom'"
+          "filter": "datum.country === 'UK'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "dx": 15,
+        "dy": 10
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'New Zealand'"
         }
       ]
     }
   ],
   "config": {
     "view": { "stroke": "transparent" },
-    "title": { "fontWeight": "bold", "fontSize": 30 },
+    "title": { "fontWeight": "bold", "fontSize": 25 },
     "legend": {
       "symbolDirection": "horizontal",
       "gradientDirection": "horizontal",
