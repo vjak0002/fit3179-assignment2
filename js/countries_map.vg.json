@@ -48,7 +48,8 @@
           "field": "Score",
           "type": "quantitative",
           "scale": {
-            "scheme": "lighttealblue"
+            "scheme": "lighttealblue",
+            "domain": [3, 8]
           }
         },
         "tooltip": [
@@ -64,7 +65,7 @@
     {
       "mark": {
         "type": "text",
-        "fontSize": 15,
+        "fontSize": 12,
         "fontWeight": "bold",
         "dy": -12
       },
@@ -121,7 +122,7 @@
         "type": "text",
         "fontSize": 13,
         "fontWeight": "bold",
-        "dx": 35,
+        "dx": 37,
         "dy": 2
       },
       "encoding": {
@@ -202,6 +203,23 @@
       "transform": [
         {
           "filter": "datum.country === 'Ireland'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "dx": -10,
+        "dy": 60
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Chile'"
         }
       ]
     }

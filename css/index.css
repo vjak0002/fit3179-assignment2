@@ -73,22 +73,33 @@ html{
 
 /* CANADA */
 #na-annotations-img{
-    top: 185px;
+    top: 191px;
     left: 280px;
 }
 
 #na-annotations-text{
     top: 200px;
-    left: 35px;
-}   
-
-/* NEW ZEALAND */
-#aus-annotations-img{
-    top: 760px;
-    left: 1001px;
+    left: 42px;
 }
 
-#aus-annotations-text{
-    top: 870px;
-    left: 951px;
+/* UKRAINE */
+#ua-annotations-img{
+    top: 191px;
+    left: 810px;
+}
+
+#ua-annotations-text{
+    top: 205px;
+    left: 1115px;
+}
+
+/* NEW ZEALAND */
+#nz-annotations-img{
+    top: 810px;
+    left: 1101px;
+}
+
+#nz-annotations-text{
+    top: 900px;
+    left: 1031px;
 }
