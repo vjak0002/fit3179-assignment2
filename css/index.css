@@ -37,13 +37,13 @@ html{
     border: 1px solid black;
     grid-area: 1-2-text;
     width: auto;
-
 }
 
 #viz-2{
     border: 1px solid black;
     grid-area: viz-2;
 }
+
 
 #viz-3{
     border: 1px solid black;
@@ -62,4 +62,33 @@ html{
 
 #map-viz{
     grid-area: middle;
+}
+
+/* Annotations styling -------------------------------------------------- */
+.viz-annotations{ 
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+}
+
+/* CANADA */
+#na-annotations-img{
+    top: 185px;
+    left: 280px;
+}
+
+#na-annotations-text{
+    top: 200px;
+    left: 35px;
+}   
+
+/* NEW ZEALAND */
+#aus-annotations-img{
+    top: 760px;
+    left: 1001px;
+}
+
+#aus-annotations-text{
+    top: 870px;
+    left: 951px;
 }

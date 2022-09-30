@@ -82,7 +82,8 @@
       "mark": {
         "type": "text",
         "fontSize": 11,
-        "align": "center"
+        "align": "center",
+        "dy": 3
       },
       "encoding": {
         "text": {
@@ -94,7 +95,7 @@
       },
       "transform": [
         {
-          "filter": "indexof(['Philippines','Namibia','Mongolia','Vietnam','Cambodia','Lithuania','Uganda','Estonia','Taiwan','Greece','Japan','Bulgaria','Croatia','Denmark','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','United Kingdom','Ireland','Iceland','Jamaica'], datum.country) === -1"
+          "filter": "indexof(['Philippines','Namibia','Mongolia','Vietnam','Cambodia','Lithuania','Uganda','Estonia','Taiwan','Greece','Japan','Bulgaria','Croatia','Denmark','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica'], datum.country) === -1"
         }
       ]
     },
@@ -118,9 +119,9 @@
     {
       "mark": {
         "type": "text",
-        "fontSize": 10,
+        "fontSize": 13,
         "fontWeight": "bold",
-        "dx": 28,
+        "dx": 35,
         "dy": 2
       },
       "encoding": {
@@ -137,8 +138,8 @@
         "type": "text",
         "fontSize": 10,
         "fontWeight": "bold",
-        "dx": -25,
-        "dy": 15
+        "dx": -10,
+        "dy": -20
       },
       "encoding": {
         "text": {
@@ -149,17 +150,17 @@
       },
       "transform": [
         {
-          "filter": "datum.country === 'United Kingdom'"
+          "filter": "datum.country === 'UK'"
         }
       ]
     },
     {
       "mark": {
         "type": "text",
-        "fontSize": 10,
+        "fontSize": 13,
         "fontWeight": "bold",
-        "dx": -35,
-        "dy": -5
+        "dx": -10,
+        "dy": -30
       },
       "encoding": {
         "text": { "field": "Country", "type": "nominal" }
@@ -184,6 +185,23 @@
       "transform": [
         {
           "filter": "datum.country === 'New Zealand'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "dx": -20,
+        "dy": 5
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Ireland'"
         }
       ]
     }
