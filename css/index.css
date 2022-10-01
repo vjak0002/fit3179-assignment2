@@ -1,23 +1,42 @@
 html{
-    background-color: #E8E8E8;
+    background-color: #C2C2C2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .viz-grid{
     display: grid;
     grid-template-areas: 
         'title title title'
+        'intro intro intro'
         'viz-1 middle viz-3'
         '1-2-text middle middle'
         'viz-2 3-4-text viz-4';
-    gap: 10px;
-    background-color: #E8E8E8;
+    gap: 15px;
+    background-color: #C2C2C2;
 }
 
 .viz-row{
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: #E8E8E8;
+    padding: 15px;
+
+    border-radius: 10px;
+}
+
+#viz-intro-row, #map-viz{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
 }
 
 #viz-title{
@@ -25,6 +44,20 @@ html{
     text-align: center;
     width: 100%;
     font-size: 1.5em;
+
+    margin-bottom: -30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#viz-intro{
+    grid-area: intro;
+    text-align: center;
+    width: 80%;
+    font-size: 1em;
 }
 
 #viz-1{
@@ -73,7 +106,7 @@ html{
 
 /* CANADA */
 #na-annotations-img{
-    top: 191px;
+    top: 201px;
     left: 280px;
 }
 
@@ -84,7 +117,7 @@ html{
 
 /* UKRAINE */
 #ua-annotations-img{
-    top: 191px;
+    top: 201px;
     left: 810px;
 }
 
@@ -95,7 +128,7 @@ html{
 
 /* NEW ZEALAND */
 #nz-annotations-img{
-    top: 810px;
+    top: 827px;
     left: 1101px;
 }
 

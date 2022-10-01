@@ -1,10 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Least and Most Happy Countries in the World - 2019",
+  "title": "HAPPIEST AND UNHAPPIEST COUNTRIES IN THE WORLD - 2019",
   "width": 1380,
-  "height": 800,
+  "height": 850,
   "background": "#E8E8E8",
   "autosize": { "type": "fit", "resize": true },
+  "padding": { "left": -65, "bottom": 20 },
   "projection": {
     "type": "equalEarth"
   },
@@ -48,7 +49,7 @@
           "field": "Score",
           "type": "quantitative",
           "scale": {
-            "scheme": "lighttealblue",
+            "scheme": "plasma",
             "domain": [3, 8]
           }
         },
@@ -96,7 +97,7 @@
       },
       "transform": [
         {
-          "filter": "indexof(['Philippines','Namibia','Mongolia','Vietnam','Cambodia','Lithuania','Uganda','Estonia','Taiwan','Greece','Japan','Bulgaria','Croatia','Denmark','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica'], datum.country) === -1"
+          "filter": "indexof(['Philippines','Namibia','Mongolia','Vietnam','Cambodia','Lithuania','Uganda','Estonia','Taiwan','Greece','Japan','Bulgaria','Croatia','Denmark','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
         }
       ]
     },
@@ -226,16 +227,24 @@
   ],
   "config": {
     "view": { "stroke": "transparent" },
-    "title": { "fontWeight": "bold", "fontSize": 25 },
+    "title": {
+      "fontWeight": "bold",
+      "fontSize": 23,
+      "anchor": "start",
+      "offset": 70,
+      "dx": 150
+    },
     "legend": {
       "symbolDirection": "horizontal",
       "gradientDirection": "horizontal",
-      "orient": "bottom",
+      "orient": "none",
       "labelFontSize": 18,
       "gradientLength": 300,
       "titleAnchor": "middle",
       "titlePadding": 10,
-      "titleFontSize": 15
+      "titleFontSize": 15,
+      "legendX": 610,
+      "legendY": 690
     }
   }
 }
