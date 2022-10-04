@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
+    <div id="page-loader"></div>
+
     <div class="viz-grid">
       <div class="viz-row">
         <div id="viz-title">
@@ -63,9 +65,9 @@
       </div>
 
       <div class="viz-row">
-        <div id="viz-1">viz 1 here</div>
+        <div id="viz-1"></div>
         <div id="viz-1-2-text">middle text here</div>
-        <div id="viz-2">viz 2 here</div>
+        <div id="viz-2"></div>
       </div>
 
       <div class="viz-row">
@@ -76,8 +78,21 @@
     </div>
 
     <script type="text/javascript">
-      let view = "js/countries_map.vg.json";
-      vegaEmbed("#map-viz", view)
+      document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+          document.getElementById("page-loader").style.display = "none";
+        }, 50);
+      });
+
+      vegaEmbed("#map-viz", "js/countries_map.vg.json")
+        .then(function (result) {})
+        .catch(console.error);
+
+      vegaEmbed("#viz-1", "js/stacked-top-10.vg.json")
+        .then(function (result) {})
+        .catch(console.error);
+
+      vegaEmbed("#viz-2", "js/stacked-bottom-10.vg.json")
         .then(function (result) {})
         .catch(console.error);
     </script>

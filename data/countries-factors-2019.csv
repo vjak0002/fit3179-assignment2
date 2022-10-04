@@ -1,0 +1,121 @@
+rank,region,country,lat,long,score,Factor,Factor Score
+1,Europe,Finland,61.92411,25.748151,7.769,GDP per capita,1.340,
+1,Europe,Finland,61.92411,25.748151,7.769,Social support,1.587,
+1,Europe,Finland,61.92411,25.748151,7.769,Healthy life expectancy,0.986,
+1,Europe,Finland,61.92411,25.748151,7.769,Freedom to make life choices,0.596
+1,Europe,Finland,61.92411,25.748151,7.769,Generosity,0.153
+1,Europe,Finland,61.92411,25.748151,7.769,Perceptions of corruption,0.393
+2,Europe,Denmark,56.26392,9.501785,7.600,GDP per capita,1.383
+2,Europe,Denmark,56.26392,9.501785,7.600,Social support,1.573
+2,Europe,Denmark,56.26392,9.501785,7.600,Healthy life expectancy,0.996
+2,Europe,Denmark,56.26392,9.501785,7.600,Freedom to make life choices,0.592,
+2,Europe,Denmark,56.26392,9.501785,7.600,Generosity,0.252
+2,Europe,Denmark,56.26392,9.501785,7.600,Perceptions of corruption,0.410
+3,Europe,Norway,60.472024,8.468946,7.554,GDP per capita,1.488
+3,Europe,Norway,60.472024,8.468946,7.554,Social support,1.582
+3,Europe,Norway,60.472024,8.468946,7.554,Healthy life expectancy,1.028
+3,Europe,Norway,60.472024,8.468946,7.554,Freedom to make life choices,0.603
+3,Europe,Norway,60.472024,8.468946,7.554,Generosity,0.271
+3,Europe,Norway,60.472024,8.468946,7.554,Perceptions of corruption,0.341
+4,Europe,Iceland,64.963051,-19.020835,7.494,GDP per capita,1.380
+4,Europe,Iceland,64.963051,-19.020835,7.494,Social support,1.624
+4,Europe,Iceland,64.963051,-19.020835,7.494,Healthy life expectancy,1.026
+4,Europe,Iceland,64.963051,-19.020835,7.494,Freedom to make life choices,0.591
+4,Europe,Iceland,64.963051,-19.020835,7.494,Generosity,0.354
+4,Europe,Iceland,64.963051,-19.020835,7.494,Perceptions of corruption,0.118
+5,Europe,Netherlands,52.132633,5.291266,7.488,GDP per capita,1.396
+5,Europe,Netherlands,52.132633,5.291266,7.488,Social support,1.522
+5,Europe,Netherlands,52.132633,5.291266,7.488,Healthy life expectancy,0.999
+5,Europe,Netherlands,52.132633,5.291266,7.488,Freedom to make life choices,0.557
+5,Europe,Netherlands,52.132633,5.291266,7.488,Generosity,0.322
+5,Europe,Netherlands,52.132633,5.291266,7.488,Perceptions of corruption,0.298
+6,Europe,Switzerland,46.818188,8.227512,7.480,GDP per capita,1.452
+6,Europe,Switzerland,46.818188,8.227512,7.480,Social support,1.526
+6,Europe,Switzerland,46.818188,8.227512,7.480,Healthy life expectancy,1.052
+6,Europe,Switzerland,46.818188,8.227512,7.480,Freedom to make life choices,0.572
+6,Europe,Switzerland,46.818188,8.227512,7.480,Generosity,0.263
+6,Europe,Switzerland,46.818188,8.227512,7.480,Perceptions of corruption,0.343
+7,Europe,Sweden,60.128161,18.643501,7.343,GDP per capita,1.387
+7,Europe,Sweden,60.128161,18.643501,7.343,Social support,1.487
+7,Europe,Sweden,60.128161,18.643501,7.343,Healthy life expectancy,1.009
+7,Europe,Sweden,60.128161,18.643501,7.343,Freedom to make life choices,0.574
+7,Europe,Sweden,60.128161,18.643501,7.343,Generosity,0.267
+7,Europe,Sweden,60.128161,18.643501,7.343,Perceptions of corruption,0.373
+8,Oceania,New Zealand,-40.900557,174.885971,7.307,GDP per capita,1.303
+8,Oceania,New Zealand,-40.900557,174.885971,7.307,Social support,1.557
+8,Oceania,New Zealand,-40.900557,174.885971,7.307,Healthy life expectancy,1.026
+8,Oceania,New Zealand,-40.900557,174.885971,7.307,Freedom to make life choices,0.585
+8,Oceania,New Zealand,-40.900557,174.885971,7.307,Generosity,0.330
+8,Oceania,New Zealand,-40.900557,174.885971,7.307,Perceptions of corruption,0.380
+9,North America,Canada,56.130366,-106.346771,7.278,GDP per capita,1.365
+9,North America,Canada,56.130366,-106.346771,7.278,Social support,1.505
+9,North America,Canada,56.130366,-106.346771,7.278,Healthy life expectancy,1.039
+9,North America,Canada,56.130366,-106.346771,7.278,Freedom to make life choices,0.584
+9,North America,Canada,56.130366,-106.346771,7.278,Generosity,0.285
+9,North America,Canada,56.130366,-106.346771,7.278,Perceptions of corruption,0.308
+10,Europe,Austria,47.516231,14.550072,7.246,GDP per capita,1.376
+10,Europe,Austria,47.516231,14.550072,7.246,Social support,1.475
+10,Europe,Austria,47.516231,14.550072,7.246,Healthy life expectancy,1.016
+10,Europe,Austria,47.516231,14.550072,7.246,Freedom to make life choices,0.532
+10,Europe,Austria,47.516231,14.550072,7.246,Generosity,0.244
+10,Europe,Austria,47.516231,14.550072,7.246,Perceptions of corruption,0.226
+147,North America,Haiti,18.971187,-72.285215,3.597,GDP per capita,0.323
+147,North America,Haiti,18.971187,-72.285215,3.597,Social support,0.688
+147,North America,Haiti,18.971187,-72.285215,3.597,Healthy life expectancy,0.449
+147,North America,Haiti,18.971187,-72.285215,3.597,Freedom to make life choices,0.026
+147,North America,Haiti,18.971187,-72.285215,3.597,Generosity,0.419
+147,North America,Haiti,18.971187,-72.285215,3.597,Perceptions of corruption,0.110
+148,Africa,Botswana,-22.328474,24.684866,3.488,GDP per capita,1.041
+148,Africa,Botswana,-22.328474,24.684866,3.488,Social support,1.145
+148,Africa,Botswana,-22.328474,24.684866,3.488,Healthy life expectancy,0.538
+148,Africa,Botswana,-22.328474,24.684866,3.488,Freedom to make life choices,0.455
+148,Africa,Botswana,-22.328474,24.684866,3.488,Generosity,0.025
+148,Africa,Botswana,-22.328474,24.684866,3.488,Perceptions of corruption,0.100
+149,Asia,Syria,34.802075,38.996815,3.462,GDP per capita,0.619
+149,Asia,Syria,34.802075,38.996815,3.462,Social support,,0.378
+149,Asia,Syria,34.802075,38.996815,3.462,Healthy life expectancy,0.440
+149,Asia,Syria,34.802075,38.996815,3.462,Freedom to make life choices,0.013
+149,Asia,Syria,34.802075,38.996815,3.462,Generosity,0.331
+149,Asia,Syria,34.802075,38.996815,3.462,Perceptions of corruption,0.141
+150,Africa,Malawi,-13.254308,34.301525,3.410,GDP per capita,0.191
+150,Africa,Malawi,-13.254308,34.301525,3.410,Social support,0.560
+150,Africa,Malawi,-13.254308,34.301525,3.410,Healthy life expectancy,0.495
+150,Africa,Malawi,-13.254308,34.301525,3.410,Freedom to make life choices,0.443
+150,Africa,Malawi,-13.254308,34.301525,3.410,Generosity,0.218
+150,Africa,Malawi,-13.254308,34.301525,3.410,Perceptions of corruption,0.089
+151,Asia,Yemen,15.552727,48.516388,3.380,GDP per capita,0.287
+151,Asia,Yemen,15.552727,48.516388,3.380,Social support,1.163
+151,Asia,Yemen,15.552727,48.516388,3.380,Healthy life expectancy,0.463
+151,Asia,Yemen,15.552727,48.516388,3.380,Freedom to make life choices,0.143
+151,Asia,Yemen,15.552727,48.516388,3.380,Generosity,0.108
+151,Asia,Yemen,15.552727,48.516388,3.380,Perceptions of corruption,0.077
+152,Africa,Rwanda,-1.940278,29.873888,3.334,GDP per capita,0.359
+152,Africa,Rwanda,-1.940278,29.873888,3.334,Social support,0.711
+152,Africa,Rwanda,-1.940278,29.873888,3.334,Healthy life expectancy,0.614
+152,Africa,Rwanda,-1.940278,29.873888,3.334,Freedom to make life choices,0.555
+152,Africa,Rwanda,-1.940278,29.873888,3.334,Generosity,0.217
+152,Africa,Rwanda,-1.940278,29.873888,3.334,Perceptions of corruption,0.411
+153,Africa,Tanzania,-6.369028,34.888822,3.231,GDP per capita,0.476
+153,Africa,Tanzania,-6.369028,34.888822,3.231,Social support,0.885
+153,Africa,Tanzania,-6.369028,34.888822,3.231,Healthy life expectancy,0.499
+153,Africa,Tanzania,-6.369028,34.888822,3.231,Freedom to make life choices,0.417
+153,Africa,Tanzania,-6.369028,34.888822,3.231,Generosity,0.276
+153,Africa,Tanzania,-6.369028,34.888822,3.231,Perceptions of corruption,0.147
+154,Asia,Afghanistan,33.93911,67.709953,3.203,GDP per capita,0.350
+154,Asia,Afghanistan,33.93911,67.709953,3.203,Social support,0.517
+154,Asia,Afghanistan,33.93911,67.709953,3.203,Healthy life expectancy,0.361
+154,Asia,Afghanistan,33.93911,67.709953,3.203,Freedom to make life choices,0.000
+154,Asia,Afghanistan,33.93911,67.709953,3.203,Generosity,0.158
+154,Asia,Afghanistan,33.93911,67.709953,3.203,Perceptions of corruption,0.025
+155,Africa,Central African Republic,6.611111,20.939444,3.083,GDP per capita,0.026
+155,Africa,Central African Republic,6.611111,20.939444,3.083,Social support,0.000
+155,Africa,Central African Republic,6.611111,20.939444,3.083,Healthy life expectancy,0.105
+155,Africa,Central African Republic,6.611111,20.939444,3.083,Freedom to make life choices,0.225
+155,Africa,Central African Republic,6.611111,20.939444,3.083,Generosity,0.235
+155,Africa,Central African Republic,6.611111,20.939444,3.083,Perceptions of corruption,0.035
+156,Africa,South Sudan,6.8770,31.3070,2.853,GDP per capita,0.306
+156,Africa,South Sudan,6.8770,31.3070,2.853,Social support,0.575
+156,Africa,South Sudan,6.8770,31.3070,2.853,Healthy life expectancy,0.295
+156,Africa,South Sudan,6.8770,31.3070,2.853,Freedom to make life choices,0.010
+156,Africa,South Sudan,6.8770,31.3070,2.853,Generosity,0.202
+156,Africa,South Sudan,6.8770,31.3070,2.853,Perceptions of corruption,0.091

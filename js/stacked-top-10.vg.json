@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "A simple bar chart with embedded data.",
+  "width": 300,
+  "height": 350,
+  "background": "#E8E8E8",
+  "data": {
+    "url": "../data/countries-factors-2022.csv",
+    "format": { "type": "csv" }
+  },
+  "transform": [
+    {
+      "filter": {
+        "field": "country",
+        "oneOf": [
+          "Finland",
+          "Denmark",
+          "Iceland",
+          "Switzerland",
+          "Netherlands",
+          "Luxembourg",
+          "Sweden",
+          "Norway",
+          "Israel",
+          "New Zealand"
+        ]
+      }
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Factor Score",
+      "type": "quantitative",
+      "title": "Happiness Index"
+    },
+    "y": {
+      "field": "country",
+      "type": "nominal",
+      "title": "Country",
+      "sort": {
+        "field": "datum.rank",
+        "order": "ascending"
+      }
+    },
+    "color": {
+      "field": "Factor",
+      "type": "nominal",
+      "title": "Explained by",
+      "scale": {
+        "domain": [
+          "Dystopia (1.83) + residual",
+          "Freedom to make life choices",
+          "GDP per capita",
+          "Generosity",
+          "Healthy life expectancy",
+          "Perceptions of corruption",
+          "Social support"
+        ],
+        "range": [
+          "#1f77b4",
+          "#ff7f0e",
+          "#2ca02c",
+          "#d62728",
+          "#9467bd",
+          "#8c564b",
+          "#000000"
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "Factor",
+        "type": "nominal",
+        "title": "Explained by"
+      },
+      {
+        "field": "Factor Score",
+        "type": "quantitative",
+        "title": "Happiness Index"
+      }
+    ]
+  },
+  "config": {
+    "view": { "stroke": "transparent" }
+  }
+}

@@ -22,7 +22,8 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "../data/countries-happiness-2019.csv"
+          "url": "../data/countries-happiness-2019.csv",
+          "format": { "type": "csv" }
         },
         "key": "country",
         "fields": ["score", "lat", "long", "country"]
