@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "HAPPIEST AND UNHAPPIEST COUNTRIES IN THE WORLD - 2019",
-  "width": 1380,
+  "width": 1350,
   "height": 850,
   "background": "#E8E8E8",
   "autosize": { "type": "fit", "resize": true },
@@ -22,7 +22,7 @@
       "lookup": "properties.NAME",
       "from": {
         "data": {
-          "url": "../data/countries-happiness-2019.csv",
+          "url": "../data/countries-happiness-2022.csv",
           "format": { "type": "csv" }
         },
         "key": "country",

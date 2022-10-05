@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "A simple bar chart with embedded data.",
+  "title": "TOP 10 HAPPIEST COUNTRIES",
   "width": 300,
   "height": 350,
   "background": "#E8E8E8",
@@ -82,6 +82,9 @@
     ]
   },
   "config": {
-    "view": { "stroke": "transparent" }
+    "view": { "stroke": "transparent" },
+    "title": {
+      "offset": 20
+    }
   }
 }

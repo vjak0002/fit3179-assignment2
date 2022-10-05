@@ -2,6 +2,8 @@ html{
     background-color: #C2C2C2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow-x: hidden;
+    padding: 10px 25px 10px 25px;
+
 }
 
 body{
@@ -59,7 +61,6 @@ body{
 .viz-row{
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: center;
     align-content: center;
     background-color: #E8E8E8;
@@ -71,14 +72,12 @@ body{
 #viz-intro-row, #map-viz{
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: center;
 }
 
 #viz-title{
     grid-area: title;
     text-align: center;
-    width: 100%;
     font-size: 1.5em;
 
     margin-bottom: -30px;
@@ -93,12 +92,12 @@ body{
     grid-area: intro;
     text-align: center;
     width: 80%;
-    font-size: 1em;
+    font-size: 1.15em;
 }
 
 #viz-1{
     grid-area: viz-1;
-    width: auto;
+    width: 80%;
 }
 
 #viz-1-2-text{
@@ -108,6 +107,7 @@ body{
 
     display: flex;
     align-items: center;
+    text-align: center;
 }
 
 #viz-2{
