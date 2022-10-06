@@ -1,0 +1,175 @@
+html{
+    background-color: #C2C2C2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+    padding: 10px 25px 10px 25px;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#page-loader {
+    position:fixed;
+    width:100%;
+    left:0;right:0;top:0;bottom:0;
+    background-color: #C2C2C2;
+    z-index:9999;
+    display:block;
+}
+
+@-webkit-keyframes spin {
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(360deg);}
+}
+
+@keyframes spin {
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
+
+#page-loader::after {
+    content:'';
+    display:block;
+    position:absolute;
+    left: 44vw;
+    top: 40%;
+    width: 12vw;
+    height: 12vw;
+    border-style:solid;
+    border-color:black;
+    border-top-color:transparent;
+    border-width: 4px;
+    border-radius:50%;
+    -webkit-animation: spin .5s linear infinite;
+    animation: spin .5s linear infinite;
+}
+
+.viz-grid{
+    display: grid;
+    grid-template-areas: 
+        'title title title'
+        'intro intro intro'
+        'viz-1 middle viz-3'
+        '1-2-text middle middle'
+        'viz-2 3-4-text viz-4';
+    gap: 15px;
+    background-color: #C2C2C2;
+}
+
+.viz-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #E8E8E8;
+    padding: 15px;
+
+    border-radius: 10px;
+}
+
+#viz-intro-row, #map-viz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#viz-title{
+    grid-area: title;
+    text-align: center;
+    font-size: 1.5em;
+
+    margin-bottom: -30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#viz-intro{
+    grid-area: intro;
+    text-align: center;
+    width: 80%;
+    font-size: 1.15em;
+}
+
+#viz-1{
+    grid-area: viz-1;
+    width: 80%;
+}
+
+#viz-1-2-text{
+    grid-area: 1-2-text;
+    width: auto;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#viz-2{
+    grid-area: viz-2;
+}
+
+
+#viz-3{
+    border: 1px solid black;
+    grid-area: viz-3;
+}
+
+#viz-3-4-text{
+    border: 1px solid black;
+    grid-area: 3-4-text;
+}
+
+#viz-4{
+    border: 1px solid black;
+    grid-area: viz-4;
+}
+
+#map-viz{
+    grid-area: middle;
+}
+
+/* Annotations styling -------------------------------------------------- */
+.viz-annotations{ 
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+}
+
+/* CANADA */
+#na-annotations-img{
+    top: 201px;
+    left: 280px;
+}
+
+#na-annotations-text{
+    top: 200px;
+    left: 42px;
+}
+
+/* UKRAINE */
+#ua-annotations-img{
+    top: 201px;
+    left: 810px;
+}
+
+#ua-annotations-text{
+    top: 205px;
+    left: 1115px;
+}
+
+/* NEW ZEALAND */
+#nz-annotations-img{
+    top: 827px;
+    left: 1101px;
+}
+
+#nz-annotations-text{
+    top: 900px;
+    left: 1031px;
+}

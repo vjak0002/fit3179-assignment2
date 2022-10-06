@@ -5,8 +5,109 @@
     <title>FIT3179 Visualisation 2</title>
 
     <link rel="stylesheet" href="" />
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-tooltip@0.28.0"></script>
+
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <h1>Visualisation 2</h1>
+    <div id="page-loader"></div>
+
+    <div class="viz-grid">
+      <div class="viz-row">
+        <div id="viz-title">
+          <h1>World Happiness Report</h1>
+        </div>
+      </div>
+
+      <div class="viz-row" id="viz-intro-row">
+        <div id="viz-intro">
+          <p>
+            Happiness is measured in the form of a Happiness Index which is
+            calculated based on several factors like GDP per capita of a
+            country, life expectancy, social support, freedom, etc.
+            <b>Happiness Index</b> ranges from 0 to 10,
+            <b>10 being the happiest</b> and <b>0 being the unhappiest</b>. The
+            visualisation contains a <b>World Happiness Report</b> assessing
+            lives in 156 countries.
+          </p>
+        </div>
+      </div>
+
+      <div class="viz-row">
+        <div id="map-viz"></div>
+
+        <!-- <div class="viz-annotations" id="na-annotations-img">
+          <img src="./assets/na-annotation.png" alt="" />
+        </div>
+        <div class="viz-annotations" id="na-annotations-text">
+          <b>CANADA</b> is the happiest <br />
+          country in <b>NORTH AMERICA</b>
+          higher than global average
+        </div>
+
+        <div class="viz-annotations" id="ua-annotations-img">
+          <img src="./assets/ua-annotation.png" alt="" />
+        </div>
+        <div class="viz-annotations" id="ua-annotations-text">
+          <b>UKRAINE</b> is the unhappiest <br />
+          country in <b>EUROPE</b>
+        </div>
+
+        <div class="viz-annotations" id="nz-annotations-img">
+          <img src="./assets/nz-annotation.png" alt="" />
+        </div>
+        <div class="viz-annotations" id="nz-annotations-text">
+          <b>NEW ZEALAND</b> is the happiest<br />
+          country in <b>OCEANIA</b>
+        </div> -->
+      </div>
+
+      <div class="viz-row">
+        <div id="viz-1"></div>
+        <div id="viz-1-2-text">
+          The bar chart on the left shows the top 10 happiest countries and
+          compares various factors which contribute to the happiness index.<br />
+          ----------------- <br />The bar chart on the right shows the top 10
+          unhappiest countries and compares various factors which contribute to
+          the happiness index.
+        </div>
+        <div id="viz-2"></div>
+      </div>
+
+      <div class="viz-row">
+        <div id="viz-3">viz 3 here</div>
+        <div id="viz-3-4-text">middle text here</div>
+        <div id="viz-4">viz 4 here</div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+          document.getElementById("page-loader").style.display = "none";
+        }, 50);
+      });
+
+      let tooltipOptions = {
+        theme: "dark",
+      };
+
+      vegaEmbed("#map-viz", "js/countries_map.vg.json", {
+        tooltip: tooltipOptions,
+      })
+        .then(function (result) {})
+        .catch(console.error);
+
+      vegaEmbed("#viz-1", "js/stacked-top-10.vg.json")
+        .then(function (result) {})
+        .catch(console.error);
+
+      vegaEmbed("#viz-2", "js/stacked-bottom-10.vg.json")
+        .then(function (result) {})
+        .catch(console.error);
+    </script>
   </body>
 </html>
