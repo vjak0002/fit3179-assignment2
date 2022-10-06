@@ -25,19 +25,22 @@
       <div class="viz-row" id="viz-intro-row">
         <div id="viz-intro">
           <p>
-            Happiness is measured in the form of a Happiness Index which is
-            calculated based on several factors like GDP per capita of a
-            country, life expectancy, social support, freedom, etc.
-            <b>Happiness Index</b> ranges from 0 to 10,
-            <b>10 being the happiest</b> and <b>0 being the unhappiest</b>. The
-            visualisation contains a <b>World Happiness Report</b> assessing
-            lives in 156 countries.
+            World Happiness Report is a survey of the state of global happiness
+            that ranks 146 countries by how happy their citizens perceive
+            themselves to be. The Happiness Index is a score between 0 and 10,
+            with 10 being the happiest.
           </p>
         </div>
       </div>
 
-      <div class="viz-row">
+      <div class="viz-row" id="map-box">
         <div id="map-viz"></div>
+
+        <div id="map-viz-footer">
+          <span id="country-rank"></span>
+          <span id="country-name"></span>
+          <span id="country-score"></span>
+        </div>
 
         <!-- <div class="viz-annotations" id="na-annotations-img">
           <img src="./assets/na-annotation.png" alt="" />
@@ -65,6 +68,16 @@
         </div> -->
       </div>
 
+      <div class="viz-row" id="viz-text-row">
+        <div class="viz-text">
+          <b>Dystopia</b> is a combination of two Greek words 'dys' meaning
+          <b>bad</b> and 'topos' meaning <b>place</b>. In this context, Dystopia
+          refers to an <b>imaginary country</b> that has the
+          <b>unhappiest people</b> in the world. <b>Residual</b> is the
+          <b>unexplained</b> variance in the Happiness Index.
+        </div>
+      </div>
+
       <div class="viz-row">
         <div id="viz-1"></div>
         <div id="viz-1-2-text">
@@ -75,6 +88,18 @@
           the happiness index.
         </div>
         <div id="viz-2"></div>
+      </div>
+
+      <div class="viz-row" id="viz-text-row">
+        <div class="viz-text">
+          As seen from above, the top 10 happiest countries have a higher
+          <b>social support</b> and <b>freedom</b> than the top 10 unhappiest
+          countries. <br />
+
+          <br />
+          <b>Generosity</b> and <b>Corruption</b> are the two factors that
+          contribute the least to the happiness index.
+        </div>
       </div>
 
       <div class="viz-row">
@@ -91,15 +116,32 @@
         }, 50);
       });
 
-      let tooltipOptions = {
-        theme: "dark",
-      };
-
       vegaEmbed("#map-viz", "js/countries_map.vg.json", {
-        tooltip: tooltipOptions,
+        tooltip: {
+          theme: "dark",
+        },
       })
-        .then(function (result) {})
+        .then(function (result) {
+          result.view.addEventListener("mouseover", function (event, item) {
+            console.log("CLICK", item.datum);
+            if (item.datum.country != null) {
+              document.getElementById("map-viz-footer").style.display = "block";
+            } else {
+              document.getElementById("map-viz-footer").style.display = "none";
+            }
+            document.getElementById("country-rank").innerHTML =
+              "<b>Rank</b>: " + item.datum.rank;
+            document.getElementById("country-name").innerHTML =
+              "<b>Name</b>: " + item.datum.country;
+            document.getElementById("country-score").innerHTML =
+              "<b>Happiness Index</b>: " + item.datum.score;
+          });
+        })
         .catch(console.error);
+
+      // vega.expressionFunction("customFormat", function (datum, params) {
+      //   return "<b>datum</b>";
+      // });
 
       vegaEmbed("#viz-1", "js/stacked-top-10.vg.json")
         .then(function (result) {})
