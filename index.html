@@ -43,12 +43,13 @@
           </div>
           <div id="country-details-hover">
             <span id="country-rank" class="map-viz-footer-item"></span>
+            <span id="continent-name" class="map-viz-footer-item"></span>
             <span id="country-name" class="map-viz-footer-item"></span>
             <span id="country-score" class="map-viz-footer-item"></span>
           </div>
         </div>
 
-        <div class="viz-annotations" id="na-annotations-img">
+        <!-- <div class="viz-annotations" id="na-annotations-img">
           <img src="./assets/na-annotation.png" alt="" />
         </div>
         <div class="viz-annotations" id="na-annotations-text">
@@ -56,7 +57,7 @@
             >HAPPIEST: NORTH AMERICA <br
           /></span>
           <span class="annotations-country-name">CANADA</span>
-        </div>
+        </div> -->
         <!-- 
         <div class="viz-annotations" id="ua-annotations-img">
           <img src="./assets/ua-annotation.png" alt="" />
@@ -66,7 +67,7 @@
           country in <b>EUROPE</b>
         </div>-->
 
-        <div class="viz-annotations" id="nz-annotations-img">
+        <!-- <div class="viz-annotations" id="nz-annotations-img">
           <img src="./assets/nz-annotation.png" alt="" />
         </div>
         <div class="viz-annotations" id="nz-annotations-text">
@@ -74,7 +75,7 @@
             >HAPPIEST: OCEANIA & EAST ASIA <br
           /></span>
           <span class="annotations-country-name">NEW ZEALAND</span>
-        </div>
+        </div> -->
       </div>
 
       <div class="viz-row" id="viz-text-row">
@@ -148,6 +149,8 @@
             }
             document.getElementById("country-rank").innerHTML =
               "<b>Rank</b>: " + item.datum.rank;
+            document.getElementById("continent-name").innerHTML =
+              "<b>Continent</b>: " + item.datum.properties.CONTINENT;
             document.getElementById("country-name").innerHTML =
               "<b>Name</b>: " + item.datum.country;
             document.getElementById("country-score").innerHTML =
