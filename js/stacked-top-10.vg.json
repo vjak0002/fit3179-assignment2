@@ -98,7 +98,7 @@
   },
   "config": {
     "view": { "stroke": "transparent" },
-    "title": { "offset": 20, "font": "Gill Sans" },
+    "title": { "offset": 20, "anchor": "start", "font": "Gill Sans" },
     "customFormatTypes": true
   }
 }
