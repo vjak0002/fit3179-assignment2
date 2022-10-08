@@ -179,13 +179,13 @@ body{
 
 /* CANADA */
 #na-annotations-img{
-    top: 377px;
-    left: 320px;
+    top: 46%;
+    left: 22%;
 }
 
 #na-annotations-text{
-    top: 385px;
-    left: 395px;
+    top: 47%;
+    left: 27.5%;
 }
 
 /* UKRAINE */
@@ -201,11 +201,11 @@ body{
 
 /* NEW ZEALAND */
 #nz-annotations-img{
-    top: 910px;
-    left: 1170px;
+    top: 111%;
+    left: 81.5%;
 }
 
 #nz-annotations-text{
-    top: 1010px;
-    left: 1090px;
+    top: 123.5%;
+    left: 76%;
 }
