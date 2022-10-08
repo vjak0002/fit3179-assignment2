@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "TOP 10 HAPPIEST COUNTRIES",
+  "title": "TOP 10 HAPPIEST COUNTRIES - 2022",
   "width": 300,
   "height": 350,
   "background": "#E8E8E8",
@@ -25,6 +25,10 @@
           "New Zealand"
         ]
       }
+    },
+    {
+      "calculate": "join([datum.rank,'. ',datum.country,' (',datum.score,')'], '')",
+      "as": "y-axis labels"
     }
   ],
   "mark": "bar",
@@ -32,15 +36,25 @@
     "x": {
       "field": "Factor Score",
       "type": "quantitative",
-      "title": "Happiness Index"
+      "title": "Happiness Index",
+      "axis": {
+        "labelFont": "Gill Sans",
+        "titleFont": "Gill Sans"
+      }
     },
     "y": {
-      "field": "country",
+      "field": "y-axis labels",
       "type": "nominal",
-      "title": "Country",
+      "title": "",
       "sort": {
         "field": "datum.rank",
         "order": "ascending"
+      },
+      "axis": {
+        "labelAlign": "left",
+        "labelPadding": 100,
+        "ticks": false,
+        "labelFont": "Gill Sans"
       }
     },
     "color": {
@@ -66,7 +80,8 @@
           "#8c564b",
           "#000000"
         ]
-      }
+      },
+      "legend": null
     },
     "tooltip": [
       {
@@ -83,8 +98,7 @@
   },
   "config": {
     "view": { "stroke": "transparent" },
-    "title": {
-      "offset": 20
-    }
+    "title": { "offset": 20, "font": "Gill Sans" },
+    "customFormatTypes": true
   }
 }

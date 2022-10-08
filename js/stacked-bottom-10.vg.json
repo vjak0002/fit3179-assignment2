@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "TOP 10 UNHAPPIEST COUNTRIES",
+  "title": "TOP 10 UNHAPPIEST COUNTRIES - 2022",
   "width": 300,
   "height": 350,
   "background": "#E8E8E8",
@@ -25,6 +25,10 @@
           "Afghanistan"
         ]
       }
+    },
+    {
+      "calculate": "join([datum.rank,'. ',datum.country,' (',datum.score,')'], '')",
+      "as": "y-axis labels"
     }
   ],
   "mark": "bar",
@@ -33,15 +37,24 @@
       "field": "Factor Score",
       "type": "quantitative",
       "title": "Happiness Index",
-      "scale": { "domain": [0, 8], "reverse": true }
+      "scale": { "domain": [0, 8], "reverse": true },
+      "axis": {
+        "labelFont": "Gill Sans",
+        "titleFont": "Gill Sans"
+      }
     },
     "y": {
-      "field": "country",
+      "field": "y-axis labels",
       "type": "nominal",
-      "title": "Country",
+      "title": "",
       "sort": {
-        "field": "datum.rank",
-        "order": "descending"
+        "field": "datum.score",
+        "order": "ascending"
+      },
+      "axis": {
+        "labelPadding": 10,
+        "ticks": false,
+        "labelFont": "Gill Sans"
       }
     },
     "color": {
@@ -67,7 +80,8 @@
           "#8c564b",
           "#000000"
         ]
-      }
+      },
+      "legend": null
     },
     "tooltip": [
       {
@@ -85,7 +99,8 @@
   "config": {
     "view": { "stroke": "transparent" },
     "title": {
-      "offset": 20
+      "offset": 20,
+      "font": "Gill Sans"
     },
     "axisY": {
       "orient": "right"

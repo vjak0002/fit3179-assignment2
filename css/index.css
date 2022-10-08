@@ -1,8 +1,8 @@
 html{
     background-color: #C2C2C2;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
-    padding: 10px 25px 10px 25px;
+    padding: 10px 100px 10px 100px;
 
 }
 
@@ -52,7 +52,9 @@ body{
         'title title title'
         'intro intro intro'
         'viz-1 middle viz-3'
+        'text text text'
         '1-2-text middle middle'
+        'text text text'
         'viz-2 3-4-text viz-4';
     gap: 15px;
     background-color: #C2C2C2;
@@ -67,9 +69,10 @@ body{
     padding: 15px;
 
     border-radius: 10px;
+    box-shadow: 0 10px 6px -6px #d0d0d0;
 }
 
-#viz-intro-row, #map-viz{
+#viz-intro-row, #map-viz, #viz-text-row{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -88,7 +91,7 @@ body{
     height: 100%;
 }
 
-#viz-intro{
+#viz-intro, .viz-text{
     grid-area: intro;
     text-align: center;
     width: 80%;
@@ -114,24 +117,46 @@ body{
     grid-area: viz-2;
 }
 
-
 #viz-3{
-    border: 1px solid black;
     grid-area: viz-3;
 }
 
 #viz-3-4-text{
-    border: 1px solid black;
     grid-area: 3-4-text;
+    width: auto;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 #viz-4{
-    border: 1px solid black;
     grid-area: viz-4;
 }
 
 #map-viz{
     grid-area: middle;
+}
+
+#map-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#map-viz-footer {
+    width: 100%;
+    border-top: 1px solid black;
+    padding: 11px;
+    flex-direction: row;
+    justify-content: space-around;
+    display: none;
+}
+
+.map-viz-footer-item{
+    font-size: 1.1em;
+    margin-right: 15px;
 }
 
 /* Annotations styling -------------------------------------------------- */

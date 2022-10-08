@@ -1,0 +1,144 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "How happy has Australia been over the years?",
+  "background": "#E8E8E8",
+  "width": 450,
+  "height": 450,
+  "data": {
+    "values": [
+      { "label": "2015", "rank": 10 },
+      { "label": "2016", "rank": -1 },
+      { "label": "2017", "rank": 1 },
+      { "label": "2018", "rank": 0 },
+      { "label": "2019", "rank": 1 },
+      { "label": "2020", "rank": 1 },
+      { "label": "2021", "rank": -1 },
+      { "label": "2022", "rank": 1 },
+      { "label": " ", "rank": 0 }
+    ]
+  },
+  "transform": [
+    { "window": [{ "op": "sum", "field": "rank", "as": "sum" }] },
+    { "window": [{ "op": "lead", "field": "label", "as": "lead" }] },
+    {
+      "calculate": "datum.lead === null ? datum.label : datum.lead",
+      "as": "lead"
+    },
+    {
+      "calculate": "datum.label === ' ' ? 0 : datum.sum - datum.rank",
+      "as": "previous_sum"
+    },
+    {
+      "calculate": "datum.label === ' ' ? datum.sum - datum.previous_sum : datum.rank",
+      "as": "rank"
+    },
+    {
+      "calculate": "(datum.label !== '2015' && datum.label !== ' ' && datum.rank > 0 ? '+' : '') + datum.rank",
+      "as": "text_rank"
+    },
+    { "calculate": "(datum.sum + datum.previous_sum) / 2", "as": "center" },
+    {
+      "calculate": "datum.sum < datum.previous_sum ? datum.sum : ''",
+      "as": "sum_dec"
+    },
+    {
+      "calculate": "datum.sum > datum.previous_sum ? datum.sum : ''",
+      "as": "sum_inc"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "label",
+      "type": "ordinal",
+      "sort": null,
+      "axis": {
+        "labelAngle": 0,
+        "title": "Year",
+        "labelFont": "Gill Sans",
+        "titleFont": "Gill Sans"
+      }
+    }
+  },
+  "layer": [
+    {
+      "mark": { "type": "bar", "size": 45 },
+      "encoding": {
+        "y": {
+          "field": "previous_sum",
+          "type": "quantitative",
+          "title": "Rank",
+          "scale": { "domain": [0, 14] },
+          "axis": {
+            "labelFont": "Gill Sans",
+            "titleFont": "Gill Sans"
+          }
+        },
+        "y2": { "field": "sum" },
+        "color": {
+          "condition": [
+            {
+              "test": "datum.label === '2015' || datum.label === ' '",
+              "value": "#C2C2C2"
+            },
+            { "test": "datum.sum < datum.previous_sum", "value": "#B3598A" }
+          ],
+          "value": "#9BBF85"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#404040",
+        "opacity": 1,
+        "strokeWidth": 2,
+        "xOffset": -22.5,
+        "x2Offset": 22.5
+      },
+      "encoding": {
+        "x2": { "field": "lead" },
+        "y": { "field": "sum", "type": "quantitative" }
+      }
+    },
+    {
+      "mark": { "type": "text", "dy": -4, "baseline": "bottom" },
+      "encoding": {
+        "y": { "field": "sum_inc", "type": "quantitative" },
+        "text": { "field": "sum_inc", "type": "nominal" }
+      }
+    },
+    {
+      "mark": { "type": "text", "dy": 4, "baseline": "top" },
+      "encoding": {
+        "y": { "field": "sum_dec", "type": "quantitative" },
+        "text": { "field": "sum_dec", "type": "nominal" }
+      }
+    },
+    {
+      "mark": { "type": "text", "fontWeight": "bold", "baseline": "middle" },
+      "encoding": {
+        "y": { "field": "center", "type": "quantitative" },
+        "text": { "field": "text_rank", "type": "nominal" },
+        "color": {
+          "condition": [
+            {
+              "test": "datum.label === '2015' || datum.label === ' '",
+              "value": "#725a30"
+            }
+          ],
+          "value": "black"
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": { "stroke": "transparent" },
+    "text": { "fontWeight": "bold", "color": "#404040", "font": "Gill Sans" },
+    "title": {
+      "anchor": "start",
+      "fontSize": 15,
+      "font": "Gill Sans",
+      "offset": 20
+    }
+  }
+}
