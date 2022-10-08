@@ -38,9 +38,14 @@
         <div id="map-viz"></div>
 
         <div id="map-viz-footer">
-          <span id="country-rank" class="map-viz-footer-item"></span>
-          <span id="country-name" class="map-viz-footer-item"></span>
-          <span id="country-score" class="map-viz-footer-item"></span>
+          <div id="country-details-instruction">
+            Hover over a country to view more details!
+          </div>
+          <div id="country-details-hover">
+            <span id="country-rank" class="map-viz-footer-item"></span>
+            <span id="country-name" class="map-viz-footer-item"></span>
+            <span id="country-score" class="map-viz-footer-item"></span>
+          </div>
         </div>
 
         <div class="viz-annotations" id="na-annotations-img">
@@ -129,9 +134,17 @@
           result.view.addEventListener("mouseover", function (event, item) {
             console.log("CLICK", item.datum);
             if (item.datum.country != null) {
-              document.getElementById("map-viz-footer").style.display = "block";
+              document.getElementById(
+                "country-details-instruction"
+              ).style.display = "none";
+              document.getElementById("country-details-hover").style.display =
+                "block";
             } else {
-              document.getElementById("map-viz-footer").style.display = "none";
+              document.getElementById(
+                "country-details-instruction"
+              ).style.display = "block";
+              document.getElementById("country-details-hover").style.display =
+                "none";
             }
             document.getElementById("country-rank").innerHTML =
               "<b>Rank</b>: " + item.datum.rank;

@@ -2,7 +2,7 @@ html{
     background-color: #C2C2C2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
-    padding: 10px 100px 10px 100px;
+    padding: 0.7% 7% 0.7% 7%;
 
 }
 
@@ -137,12 +137,15 @@ body{
 
 #map-viz{
     grid-area: middle;
+    width: 100%;
+    position: relative;
 }
 
 #map-box {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 #map-viz-footer {
@@ -151,6 +154,13 @@ body{
     padding: 11px;
     flex-direction: row;
     justify-content: space-around;
+}
+
+#country-details-instruction{
+    font-size: 1.1em;
+}
+
+#country-details-hover{
     display: none;
 }
 
@@ -179,13 +189,13 @@ body{
 
 /* CANADA */
 #na-annotations-img{
-    top: 46%;
-    left: 22%;
+    top: 10.75%;
+    left: 17.5%;
 }
 
 #na-annotations-text{
-    top: 47%;
-    left: 27.5%;
+    top: 11.5%;
+    left: 24%;
 }
 
 /* UKRAINE */
@@ -201,11 +211,11 @@ body{
 
 /* NEW ZEALAND */
 #nz-annotations-img{
-    top: 111%;
-    left: 81.5%;
+    top: 67.5%;
+    left: 87%;
 }
 
 #nz-annotations-text{
-    top: 123.5%;
-    left: 76%;
+    top: 78.5%;
+    left: 80%;
 }
