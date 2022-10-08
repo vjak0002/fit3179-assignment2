@@ -163,18 +163,29 @@ body{
 .viz-annotations{ 
     z-index: 10;
     position: absolute;
-    text-align: center;
+    text-align: left;
+}
+
+.annotations-region-name{
+    font-size: 0.9em;
+    letter-spacing: 0.75px;
+}
+
+.annotations-country-name{ 
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 /* CANADA */
 #na-annotations-img{
-    top: 201px;
-    left: 280px;
+    top: 377px;
+    left: 320px;
 }
 
 #na-annotations-text{
-    top: 200px;
-    left: 42px;
+    top: 385px;
+    left: 395px;
 }
 
 /* UKRAINE */
@@ -190,11 +201,11 @@ body{
 
 /* NEW ZEALAND */
 #nz-annotations-img{
-    top: 827px;
-    left: 1101px;
+    top: 910px;
+    left: 1170px;
 }
 
 #nz-annotations-text{
-    top: 900px;
-    left: 1031px;
+    top: 1010px;
+    left: 1090px;
 }
