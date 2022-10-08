@@ -5,7 +5,7 @@
   "height": 350,
   "background": "#E8E8E8",
   "data": {
-    "url": "https://raw.githubusercontent.com/vjak0002/fit3179-assignment2/viz-branch/data/countries-factors-2022.csv",
+    "url": "https://raw.githubusercontent.com/vjak0002/fit3179-assignment2/viz-branch/main/countries-factors-2022.csv",
     "format": { "type": "csv" }
   },
   "transform": [
