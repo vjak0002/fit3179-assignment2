@@ -1,16 +1,15 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "HAPPIEST AND UNHAPPIEST COUNTRIES IN THE WORLD - 2022",
-  "width": 1350,
+  "width": 1145,
   "height": 850,
   "background": "#E8E8E8",
   "autosize": { "type": "fit", "resize": true },
-  "padding": { "left": -65, "bottom": 20 },
   "projection": {
     "type": "equalEarth"
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/vjak0002/fit3179-assignment2/viz-branch/data/ne_110m_countries.topojson",
+    "url": "../data/ne_110m_countries.topojson",
     "format": { "type": "topojson", "feature": "ne_110m_countries" }
   },
   "encoding": {
@@ -36,10 +35,31 @@
   ],
   "layer": [
     {
+      "data": {
+        "url": "../data/oceans.topojson",
+        "format": { "type": "topojson", "feature": "oceans" }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "skyblue"
+      }
+    },
+    {
+      "data": {
+        "url": "../data/ne_110m_countries.topojson",
+        "format": { "type": "topojson", "feature": "ne_110m_graticules_30" }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": null,
+        "stroke": "#E8E8E8"
+      }
+    },
+    {
       "mark": {
         "type": "geoshape",
         "fill": "#E6E6E3",
-        "strokeWidth": 2,
+        "strokeWidth": 1.5,
         "stroke": "black"
       }
     },
@@ -47,7 +67,7 @@
       "mark": {
         "type": "geoshape",
         "stroke": "black",
-        "strokeWidth": 1
+        "strokeWidth": 1.5
       },
       "encoding": {
         "color": {
@@ -56,6 +76,9 @@
           "scale": {
             "scheme": "plasma",
             "domain": [3, 8]
+          },
+          "legend": {
+            "title": "Happiness Index"
           }
         },
         "tooltip": [
@@ -102,7 +125,7 @@
       },
       "transform": [
         {
-          "filter": "indexof(['Philippines','Namibia','Mongolia','Vietnam','Cambodia','Lithuania','Uganda','Estonia','Taiwan','Greece','Japan','Bulgaria','Croatia','Denmark','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
+          "filter": "indexof(['Philippines','Congo','Cameroon','Namibia','Mongolia','Vietnam','Cambodia','Lithuania','Uganda','Estonia','Taiwan','Greece','Japan','Bulgaria','Croatia','Denmark','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
         }
       ]
     },
@@ -145,8 +168,8 @@
         "type": "text",
         "fontSize": 10,
         "fontWeight": "bold",
-        "dx": -10,
-        "dy": -20
+        "dx": -5,
+        "dy": -15
       },
       "encoding": {
         "text": {
@@ -166,8 +189,8 @@
         "type": "text",
         "fontSize": 13,
         "fontWeight": "bold",
-        "dx": -10,
-        "dy": -30
+        "dx": -5,
+        "dy": -25
       },
       "encoding": {
         "text": { "field": "Country", "type": "nominal" }
@@ -183,8 +206,8 @@
         "type": "text",
         "fontSize": 10,
         "fontWeight": "bold",
-        "dx": 15,
-        "dy": 10
+        "dx": -40,
+        "dy": 30
       },
       "encoding": {
         "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
@@ -231,25 +254,29 @@
     }
   ],
   "config": {
-    "view": { "stroke": "transparent" },
     "title": {
       "fontWeight": "bold",
-      "fontSize": 23,
+      "fontSize": 21,
       "anchor": "start",
-      "offset": 70,
-      "dx": 150
+      "dx": 120,
+      "font": "Gill Sans"
+    },
+    "text": {
+      "font": "Gill Sans"
     },
     "legend": {
       "symbolDirection": "horizontal",
       "gradientDirection": "horizontal",
       "orient": "none",
-      "labelFontSize": 18,
+      "labelFontSize": 15,
       "gradientLength": 300,
+      "titleFont": "Gill Sans",
+      "labelFont": "Gill Sans",
       "titleAnchor": "middle",
       "titlePadding": 10,
       "titleFontSize": 15,
-      "legendX": 610,
-      "legendY": 690
+      "legendX": 440,
+      "legendY": 760
     }
   }
 }

@@ -36,7 +36,11 @@
     "x": {
       "field": "Factor Score",
       "type": "quantitative",
-      "title": "Happiness Index"
+      "title": "Happiness Index",
+      "axis": {
+        "labelFont": "Gill Sans",
+        "titleFont": "Gill Sans"
+      }
     },
     "y": {
       "field": "y-axis labels",
@@ -49,7 +53,8 @@
       "axis": {
         "labelAlign": "left",
         "labelPadding": 100,
-        "ticks": false
+        "ticks": false,
+        "labelFont": "Gill Sans"
       }
     },
     "color": {
@@ -93,7 +98,7 @@
   },
   "config": {
     "view": { "stroke": "transparent" },
-    "title": { "offset": 20 },
+    "title": { "offset": 20, "font": "Gill Sans" },
     "customFormatTypes": true
   }
 }

@@ -37,9 +37,9 @@
         <div id="map-viz"></div>
 
         <div id="map-viz-footer">
-          <span id="country-rank"></span>
-          <span id="country-name"></span>
-          <span id="country-score"></span>
+          <span id="country-rank" class="map-viz-footer-item"></span>
+          <span id="country-name" class="map-viz-footer-item"></span>
+          <span id="country-score" class="map-viz-footer-item"></span>
         </div>
 
         <!-- <div class="viz-annotations" id="na-annotations-img">
@@ -139,15 +139,19 @@
         })
         .catch(console.error);
 
-      // vega.expressionFunction("customFormat", function (datum, params) {
-      //   return "<b>datum</b>";
-      // });
-
       vegaEmbed("#viz-1", "js/stacked-top-10.vg.json")
         .then(function (result) {})
         .catch(console.error);
 
       vegaEmbed("#viz-2", "js/stacked-bottom-10.vg.json")
+        .then(function (result) {})
+        .catch(console.error);
+
+      // vegaEmbed("#viz-3", "js/bump-chart.vg.json")
+      //   .then(function (result) {})
+      //   .catch(console.error);
+
+      vegaEmbed("#viz-4", "js/waterfall-chart.vg.json")
         .then(function (result) {})
         .catch(console.error);
     </script>
