@@ -19,7 +19,7 @@
     <div class="viz-grid">
       <div class="viz-row">
         <div id="viz-title">
-          <h1>World Happiness Report</h1>
+          <h1>&#x263A World Happiness Report &#x263A</h1>
         </div>
       </div>
 
@@ -48,34 +48,6 @@
             <span id="country-score" class="map-viz-footer-item"></span>
           </div>
         </div>
-
-        <!-- <div class="viz-annotations" id="na-annotations-img">
-          <img src="./assets/na-annotation.png" alt="" />
-        </div>
-        <div class="viz-annotations" id="na-annotations-text">
-          <span class="annotations-region-name"
-            >HAPPIEST: NORTH AMERICA <br
-          /></span>
-          <span class="annotations-country-name">CANADA</span>
-        </div> -->
-        <!-- 
-        <div class="viz-annotations" id="ua-annotations-img">
-          <img src="./assets/ua-annotation.png" alt="" />
-        </div>
-        <div class="viz-annotations" id="ua-annotations-text">
-          <b>UKRAINE</b> is the unhappiest <br />
-          country in <b>EUROPE</b>
-        </div>-->
-
-        <!-- <div class="viz-annotations" id="nz-annotations-img">
-          <img src="./assets/nz-annotation.png" alt="" />
-        </div>
-        <div class="viz-annotations" id="nz-annotations-text">
-          <span class="annotations-region-name"
-            >HAPPIEST: OCEANIA & EAST ASIA <br
-          /></span>
-          <span class="annotations-country-name">NEW ZEALAND</span>
-        </div> -->
       </div>
 
       <div class="viz-row" id="viz-text-row">
@@ -133,7 +105,7 @@
       })
         .then(function (result) {
           result.view.addEventListener("mouseover", function (event, item) {
-            console.log("CLICK", item.datum);
+
             if (item.datum.country != null) {
               document.getElementById(
                 "country-details-instruction"

@@ -125,7 +125,7 @@
       },
       "transform": [
         {
-          "filter": "indexof(['Philippines','Yemen','Congo','North Macedonia','Romania','Cameroon','Venezuela','Namibia','Vietnam','Cambodia','Belarus','Lithuania','Uganda','Estonia','Ukraine','Uruguay','Greece','Japan','Bulgaria','Croatia','Denmark','Poland','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
+          "filter": "indexof(['Philippines','Yemen','Congo','North Macedonia','Romania','Cameroon','Venezuela','Namibia','Vietnam','Cambodia','Belarus','Lithuania','Uganda','Estonia','Ukraine','Uruguay','Greece','Taiwan','Japan','Bulgaria','Croatia','Denmark','Poland','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
         }
       ]
     },
@@ -207,7 +207,7 @@
         "fontSize": 10,
         "fontWeight": "bold",
         "dx": -40,
-        "dy": 30
+        "dy": 27
       },
       "encoding": {
         "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
@@ -240,7 +240,7 @@
         "type": "text",
         "fontSize": 10,
         "fontWeight": "bold",
-        "dx": -10,
+        "dx": -3,
         "dy": 60
       },
       "encoding": {
@@ -270,6 +270,23 @@
       ]
     },
     {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "dx": 13,
+        "dy": 9
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Taiwan'"
+        }
+      ]
+    },
+    {
       "data": {
         "values": [
           {
@@ -291,6 +308,11 @@
             "x": 40.8,
             "y": 33.2,
             "img": "assets/uy-annotation.png"
+          },
+          {
+            "x": 86.8,
+            "y": 61.5,
+            "img": "assets/tw-annotation.png"
           }
         ]
       },
@@ -323,7 +345,7 @@
       "data": {
         "values": [
           {
-            "x": 32.5,
+            "x": 29.5,
             "y": 90,
             "info": "HAPPIEST: NORTH AMERICA"
           },
@@ -338,12 +360,12 @@
             "info": "HAPPIEST: OCEANIA"
           },
           {
-            "x": 96.9,
+            "x": 99,
             "y": 14,
             "info": "N E W  Z E A L A N D"
           },
           {
-            "x": 65,
+            "x": 62.8,
             "y": 90,
             "info": "HAPPIEST: EUROPE"
           },
@@ -353,7 +375,7 @@
             "info": "F I N L A N D"
           },
           {
-            "x": 48,
+            "x": 45,
             "y": 27.5,
             "info": "HAPPIEST: SOUTH AMERICA"
           },
@@ -361,13 +383,27 @@
             "x": 43.3,
             "y": 25.5,
             "info": "U R U G U A Y"
+          },
+          {
+            "x": 89.8,
+            "y": 56.5,
+            "info": "HAPPIEST: ASIA"
+          },
+          {
+            "x": 90.2,
+            "y": 54.5,
+            "info": "T A I W A N"
           }
         ]
       },
       "mark": {
         "type": "text",
-        "fontWeight": "bold",
-        "fontSize": 13
+        "fontWeight": {
+          "expr": "indexof(['C A N A D A','T A I W A N','F I N L A N D','T A I W A N','U R U G U A Y','N E W  Z E A L A N D'], datum.info) != -1 ? 'bold' : 'normal'"
+        },
+        "fontSize": {
+          "expr": "indexof(['C A N A D A','T A I W A N','F I N L A N D','T A I W A N','U R U G U A Y','N E W  Z E A L A N D'], datum.info) != -1 ? 13 : 11"
+        }
       },
       "encoding": {
         "x": {
