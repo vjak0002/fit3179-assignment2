@@ -125,7 +125,7 @@
       },
       "transform": [
         {
-          "filter": "indexof(['Philippines','Yemen','Congo','North Macedonia','Romania','Cameroon','Venezuela','Namibia','Vietnam','Cambodia','Belarus','Lithuania','Uganda','Estonia','Ukraine','Uruguay','Greece','Taiwan','Japan','Bulgaria','Croatia','Denmark','Poland','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
+          "filter": "indexof(['Philippines','Yemen','Congo','North Macedonia','Romania','Cameroon','Venezuela','Namibia','Vietnam','Cambodia','Belarus','Lithuania','Uganda','Estonia','Ukraine','Uruguay','Greece','Taiwan','Japan','Bulgaria','Croatia','Denmark','Poland','Moldova','Montenegro','Kosovo','Argentina','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
         }
       ]
     },
@@ -134,8 +134,8 @@
         "type": "text",
         "fontSize": 10,
         "fontWeight": "bold",
-        "dx": 25,
-        "dy": 15
+        "dx": 24,
+        "dy": 2
       },
       "encoding": {
         "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
@@ -151,8 +151,8 @@
         "type": "text",
         "fontSize": 13,
         "fontWeight": "bold",
-        "dx": 37,
-        "dy": 2
+        "dx": 36,
+        "dy": -12
       },
       "encoding": {
         "text": { "field": "Country", "type": "nominal" }
@@ -287,16 +287,33 @@
       ]
     },
     {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "dx": 15,
+        "dy": 23
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Argentina'"
+        }
+      ]
+    },
+    {
       "data": {
         "values": [
           {
             "x": 96.8,
-            "y": 24,
+            "y": 24.4,
             "img": "assets/nz-annotation.png"
           },
           {
             "x": 21,
-            "y": 86.2,
+            "y": 85.6,
             "img": "assets/na-annotation.png"
           },
           {
@@ -346,12 +363,12 @@
         "values": [
           {
             "x": 29.5,
-            "y": 90,
+            "y": 89,
             "info": "HAPPIEST: NORTH AMERICA"
           },
           {
             "x": 26.9,
-            "y": 88,
+            "y": 87,
             "info": "C A N A D A"
           },
           {
