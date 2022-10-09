@@ -125,7 +125,7 @@
       },
       "transform": [
         {
-          "filter": "indexof(['Philippines','Congo','Cameroon','Venezuela','Namibia','Vietnam','Cambodia','Lithuania','Uganda','Estonia','Taiwan','Greece','Japan','Bulgaria','Croatia','Denmark','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
+          "filter": "indexof(['Philippines','Yemen','Congo','North Macedonia','Romania','Cameroon','Venezuela','Namibia','Vietnam','Cambodia','Belarus','Lithuania','Uganda','Estonia','Ukraine','Uruguay','Greece','Japan','Bulgaria','Croatia','Denmark','Poland','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
         }
       ]
     },
@@ -253,6 +253,23 @@
       ]
     },
     {
+      "mark": {
+        "type": "text",
+        "fontSize": 10,
+        "fontWeight": "bold",
+        "dx": 14,
+        "dy": 15
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Uruguay'"
+        }
+      ]
+    },
+    {
       "data": {
         "values": [
           {
@@ -264,6 +281,16 @@
             "x": 21,
             "y": 86.2,
             "img": "../assets/na-annotation.png"
+          },
+          {
+            "x": 55,
+            "y": 86,
+            "img": "../assets/eu-annotation.png"
+          },
+          {
+            "x": 40.8,
+            "y": 33.2,
+            "img": "../assets/uy-annotation.png"
           }
         ]
       },
@@ -301,9 +328,9 @@
             "info": "HAPPIEST: NORTH AMERICA"
           },
           {
-            "x": 26.25,
+            "x": 26.9,
             "y": 88,
-            "info": "CANADA"
+            "info": "C A N A D A"
           },
           {
             "x": 97,
@@ -311,9 +338,29 @@
             "info": "HAPPIEST: OCEANIA"
           },
           {
-            "x": 95.35,
+            "x": 96.9,
             "y": 14,
-            "info": "NEW ZEALAND"
+            "info": "N E W  Z E A L A N D"
+          },
+          {
+            "x": 65,
+            "y": 90,
+            "info": "HAPPIEST: EUROPE"
+          },
+          {
+            "x": 62.8,
+            "y": 88,
+            "info": "F I N L A N D"
+          },
+          {
+            "x": 48,
+            "y": 27.5,
+            "info": "HAPPIEST: SOUTH AMERICA"
+          },
+          {
+            "x": 43.3,
+            "y": 25.5,
+            "info": "U R U G U A Y"
           }
         ]
       },
@@ -370,7 +417,7 @@
       "titlePadding": 10,
       "titleFontSize": 15,
       "legendX": 440,
-      "legendY": 760
+      "legendY": 735
     }
   }
 }
