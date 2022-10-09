@@ -275,22 +275,22 @@
           {
             "x": 96.8,
             "y": 24,
-            "img": "../assets/nz-annotation.png"
+            "img": "assets/nz-annotation.png"
           },
           {
             "x": 21,
             "y": 86.2,
-            "img": "../assets/na-annotation.png"
+            "img": "assets/na-annotation.png"
           },
           {
             "x": 55,
             "y": 86,
-            "img": "../assets/eu-annotation.png"
+            "img": "assets/eu-annotation.png"
           },
           {
             "x": 40.8,
             "y": 33.2,
-            "img": "../assets/uy-annotation.png"
+            "img": "assets/uy-annotation.png"
           }
         ]
       },
