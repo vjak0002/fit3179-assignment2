@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "TOP 10 HAPPIEST COUNTRIES - 2022",
+  "title": "What makes a country happy? - 2022",
   "width": 300,
   "height": 350,
   "background": "#E8E8E8",

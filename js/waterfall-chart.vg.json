@@ -82,7 +82,7 @@
             },
             { "test": "datum.sum < datum.previous_sum", "value": "#B3598A" }
           ],
-          "value": "#9BBF85"
+          "value": "skyblue"
         }
       }
     },
