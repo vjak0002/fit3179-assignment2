@@ -100,7 +100,10 @@
       },
       "encoding": {
         "text": { "field": "Country", "type": "nominal" },
-        "color": { "value": "black" }
+        "color": {
+          "condition": { "test": "datum.score < 5", "value": "white" },
+          "value": "black"
+        }
       },
       "transform": [
         {
@@ -125,17 +128,16 @@
       },
       "transform": [
         {
-          "filter": "indexof(['Philippines','Yemen','Congo','North Macedonia','Romania','Cameroon','Venezuela','Namibia','Vietnam','Cambodia','Belarus','Lithuania','Uganda','Estonia','Ukraine','Uruguay','Greece','Taiwan','Japan','Bulgaria','Croatia','Denmark','Poland','Moldova','Montenegro','Kosovo','South Korea','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
+          "filter": "indexof(['Philippines','Mali','Iraq','Mauritania','Yemen','Congo','North Macedonia','Colombia','Kenya','Ethiopia','Romania','Argentina','Cameroon','Venezuela','Morocco','Namibia','Vietnam','Cambodia','Belarus','Lithuania','Uganda','Estonia','Ukraine','Uruguay','Greece','Taiwan','Japan','Bulgaria','Peru','Croatia','Pakistan','Indonesia','Denmark','Poland','Moldova','Montenegro','Kosovo','South Korea','Spain','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Thailand','Myanmar','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
         }
       ]
     },
     {
       "mark": {
         "type": "text",
-        "fontSize": 10,
-        "fontWeight": "bold",
-        "dx": 25,
-        "dy": 15
+        "fontSize": 11,
+        "dx": 23,
+        "dy": -5
       },
       "encoding": {
         "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
@@ -151,8 +153,8 @@
         "type": "text",
         "fontSize": 13,
         "fontWeight": "bold",
-        "dx": 37,
-        "dy": 2
+        "dx": 35,
+        "dy": -20
       },
       "encoding": {
         "text": { "field": "Country", "type": "nominal" }
@@ -166,17 +168,12 @@
     {
       "mark": {
         "type": "text",
-        "fontSize": 10,
-        "fontWeight": "bold",
+        "fontSize": 11,
         "dx": -5,
         "dy": -15
       },
       "encoding": {
-        "text": {
-          "field": "Score",
-          "type": "quantitative",
-          "format": ".2f"
-        }
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
       },
       "transform": [
         {
@@ -204,8 +201,7 @@
     {
       "mark": {
         "type": "text",
-        "fontSize": 10,
-        "fontWeight": "bold",
+        "fontSize": 11,
         "dx": -40,
         "dy": 27
       },
@@ -221,8 +217,7 @@
     {
       "mark": {
         "type": "text",
-        "fontSize": 10,
-        "fontWeight": "bold",
+        "fontSize": 11,
         "dx": -20,
         "dy": 5
       },
@@ -238,8 +233,38 @@
     {
       "mark": {
         "type": "text",
-        "fontSize": 10,
-        "fontWeight": "bold",
+        "fontSize": 11,
+        "dx": 8
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Mali'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": 3,
+        "dy": 5
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Mauritania'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
         "dx": -3,
         "dy": 60
       },
@@ -255,8 +280,7 @@
     {
       "mark": {
         "type": "text",
-        "fontSize": 10,
-        "fontWeight": "bold",
+        "fontSize": 11,
         "dx": 14,
         "dy": 15
       },
@@ -272,7 +296,7 @@
     {
       "mark": {
         "type": "text",
-        "fontSize": 10,
+        "fontSize": 11,
         "fontWeight": "bold",
         "dx": 13,
         "dy": 9
@@ -287,16 +311,96 @@
       ]
     },
     {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": -40,
+        "dy": 27
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Indonesia'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": 20,
+        "dy": 2
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Madagascar'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": 6,
+        "dy": -6
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Venezuela'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dy": -25,
+        "dx": -5
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Argentina'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": 3,
+        "dy": 1
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Colombia'"
+        }
+      ]
+    },
+    {
       "data": {
         "values": [
           {
             "x": 96.8,
-            "y": 24,
+            "y": 24.2,
             "img": "assets/nz-annotation.png"
           },
           {
             "x": 21,
-            "y": 86.2,
+            "y": 85.6,
             "img": "assets/na-annotation.png"
           },
           {
@@ -306,7 +410,7 @@
           },
           {
             "x": 40.8,
-            "y": 33.2,
+            "y": 33.5,
             "img": "assets/uy-annotation.png"
           },
           {
@@ -325,17 +429,13 @@
         "x": {
           "field": "x",
           "type": "quantitative",
-          "scale": {
-            "domain": [0, 100]
-          },
+          "scale": { "domain": [0, 100] },
           "axis": null
         },
         "y": {
           "field": "y",
           "type": "quantitative",
-          "scale": {
-            "domain": [0, 100]
-          },
+          "scale": { "domain": [0, 100] },
           "axis": null
         },
         "url": { "field": "img", "type": "nominal" }
@@ -409,23 +509,16 @@
         "x": {
           "field": "x",
           "type": "quantitative",
-          "scale": {
-            "domain": [0, 100]
-          },
+          "scale": { "domain": [0, 100] },
           "axis": null
         },
         "y": {
           "field": "y",
           "type": "quantitative",
-          "scale": {
-            "domain": [0, 100]
-          },
+          "scale": { "domain": [0, 100] },
           "axis": null
         },
-        "text": {
-          "field": "info",
-          "type": "nominal"
-        }
+        "text": { "field": "info", "type": "nominal" }
       }
     }
   ],
@@ -438,9 +531,7 @@
       "dx": 120,
       "font": "Gill Sans"
     },
-    "text": {
-      "font": "Gill Sans"
-    },
+    "text": { "font": "Gill Sans" },
     "legend": {
       "symbolDirection": "horizontal",
       "gradientDirection": "horizontal",
