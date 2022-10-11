@@ -1,0 +1,59 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "How many people are happy?",
+  "background": "#E8E8E8",
+  "width": 450,
+  "height": 340,
+  "data": {
+    "url": "data/share-of-people-who-say-they-are-happy.csv"
+  },
+  "params": [
+    {
+      "name": "country_select",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "United States",
+          "United Kingdom",
+          "Canada",
+          "Australia",
+          "New Zealand",
+          "Ireland"
+        ],
+        "labels": [
+          "All",
+          "United States",
+          "United Kingdom",
+          "Canada",
+          "Australia",
+          "New Zealand",
+          "Ireland"
+        ],
+        "name": "Choose Country: "
+      }
+    }
+  ],
+  "transform": [
+    { "filter": "country_select == null || datum.Country == country_select" }
+  ],
+  "mark": {
+    "type": "line",
+    "point": true
+  },
+  "encoding": {
+    "x": {
+      "timeUnit": "year",
+      "field": "Year",
+      "title": "Year",
+      "scale": { "domain": [1982, 2016] }
+    },
+    "y": {
+      "aggregate": "mean",
+      "field": "Share of people who are happy",
+      "type": "quantitative",
+      "title": "Share of people who are happy"
+    },
+    "color": { "field": "Country", "type": "nominal" }
+  }
+}

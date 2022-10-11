@@ -1,35 +1,22 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "What makes a country unhappy? - 2022",
+  "title": {
+    "text": "What makes a country unhappy?",
+    "subtitle": "Data from Year 2022"
+  },
   "width": 300,
-  "height": 350,
+  "height": 400,
   "background": "#E8E8E8",
   "data": {
-    "url": "https://raw.githubusercontent.com/vjak0002/fit3179-assignment2/main/data/countries-factors-2022.csv",
+    "url": "data/countries-factors-2022.csv",
     "format": { "type": "csv" }
   },
   "transform": [
     {
-      "filter": {
-        "field": "country",
-        "oneOf": [
-          "Zambia",
-          "Malawi",
-          "Tanzania",
-          "Sierra Leone",
-          "Lesotho",
-          "Botswana",
-          "Rwanda",
-          "Zimbabwe",
-          "Lebanon",
-          "Afghanistan"
-        ]
-      }
-    },
-    {
       "calculate": "join([datum.rank,'. ',datum.country,' (',datum.score,')'], '')",
       "as": "y-axis labels"
-    }
+    },
+    { "filter": "datum.rank >= 137" }
   ],
   "mark": "bar",
   "encoding": {
@@ -37,11 +24,11 @@
       "field": "Factor Score",
       "type": "quantitative",
       "title": "Happiness Index",
-      "scale": { "domain": [0, 8], "reverse": true },
       "axis": {
         "labelFont": "Gill Sans",
         "titleFont": "Gill Sans"
-      }
+      },
+      "scale": { "domain": [0, 10], "reverse": true }
     },
     "y": {
       "field": "y-axis labels",
@@ -54,7 +41,8 @@
       "axis": {
         "labelPadding": 10,
         "ticks": false,
-        "labelFont": "Gill Sans"
+        "labelFont": "Gill Sans",
+        "labelFontSize": 12
       }
     },
     "color": {
@@ -63,8 +51,8 @@
       "title": "Explained by",
       "scale": {
         "domain": [
-          "Dystopia (1.83) + residual",
-          "Freedom to make life choices",
+          "Dystopia + residual",
+          "Freedom - Life Choices",
           "GDP per capita",
           "Generosity",
           "Healthy life expectancy",
@@ -72,13 +60,13 @@
           "Social support"
         ],
         "range": [
-          "#1f77b4",
-          "#ff7f0e",
-          "#2ca02c",
-          "#d62728",
-          "#9467bd",
-          "#8c564b",
-          "#000000"
+          "#003f5c",
+          "#374c80",
+          "#7a5195",
+          "#bc5090",
+          "#ef5675",
+          "#ff764a",
+          "#ffa600"
         ]
       },
       "legend": null
@@ -100,7 +88,8 @@
     "view": { "stroke": "transparent" },
     "title": {
       "offset": 20,
-      "font": "Gill Sans"
+      "font": "Gill Sans",
+      "subtitleFont": "Gill Sans"
     },
     "axisY": {
       "orient": "right"
@@ -108,6 +97,9 @@
     "legend": {
       "orient": "left",
       "labelFontWeight": "bold"
+    },
+    "axis": {
+      "labelFontSize": 12
     }
   }
 }

@@ -2,7 +2,7 @@ html{
     background-color: #C2C2C2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow-x: hidden;
-    padding: 0.7% 7% 0.7% 7%;
+    padding: 0.7% 6% 0.7% 6%;
 
 }
 
@@ -96,6 +96,7 @@ body{
     text-align: center;
     width: 80%;
     font-size: 1.15em;
+    line-height: 1.25em;
 }
 
 #viz-1{

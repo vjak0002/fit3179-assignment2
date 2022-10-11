@@ -1,35 +1,22 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "What makes a country happy? - 2022",
+  "title": {
+    "text": "What makes a country happy?",
+    "subtitle": "Data for Year 2022"
+  },
   "width": 300,
-  "height": 350,
+  "height": 400,
   "background": "#E8E8E8",
   "data": {
-    "url": "https://raw.githubusercontent.com/vjak0002/fit3179-assignment2/main/data/countries-factors-2022.csv",
+    "url": "data/countries-factors-2022.csv",
     "format": { "type": "csv" }
   },
   "transform": [
     {
-      "filter": {
-        "field": "country",
-        "oneOf": [
-          "Finland",
-          "Denmark",
-          "Iceland",
-          "Switzerland",
-          "Netherlands",
-          "Luxembourg",
-          "Sweden",
-          "Norway",
-          "Israel",
-          "New Zealand"
-        ]
-      }
-    },
-    {
       "calculate": "join([datum.rank,'. ',datum.country,' (',datum.score,')'], '')",
       "as": "y-axis labels"
-    }
+    },
+    { "filter": "datum.rank <= 10" }
   ],
   "mark": "bar",
   "encoding": {
@@ -40,7 +27,8 @@
       "axis": {
         "labelFont": "Gill Sans",
         "titleFont": "Gill Sans"
-      }
+      },
+      "scale": { "domain": [0, 10] }
     },
     "y": {
       "field": "y-axis labels",
@@ -52,7 +40,7 @@
       },
       "axis": {
         "labelAlign": "left",
-        "labelPadding": 100,
+        "labelPadding": 120,
         "ticks": false,
         "labelFont": "Gill Sans"
       }
@@ -63,8 +51,8 @@
       "title": "Explained by",
       "scale": {
         "domain": [
-          "Dystopia (1.83) + residual",
-          "Freedom to make life choices",
+          "Dystopia + residual",
+          "Freedom - Life Choices",
           "GDP per capita",
           "Generosity",
           "Healthy life expectancy",
@@ -72,16 +60,15 @@
           "Social support"
         ],
         "range": [
-          "#1f77b4",
-          "#ff7f0e",
-          "#2ca02c",
-          "#d62728",
-          "#9467bd",
-          "#8c564b",
-          "#000000"
+          "#003f5c",
+          "#374c80",
+          "#7a5195",
+          "#bc5090",
+          "#ef5675",
+          "#ff764a",
+          "#ffa600"
         ]
-      },
-      "legend": null
+      }
     },
     "tooltip": [
       {
@@ -98,7 +85,23 @@
   },
   "config": {
     "view": { "stroke": "transparent" },
-    "title": { "offset": 20, "anchor": "start", "font": "Gill Sans" },
-    "customFormatTypes": true
+    "title": {
+      "offset": 20,
+      "anchor": "start",
+      "font": "Gill Sans",
+      "subtitleFont": "Gill Sans"
+    },
+    "legend": {
+      "orient": "none",
+      "legendX": 375,
+      "legendY": 125,
+      "labelFont": "Gill Sans",
+      "labelFontSize": 15,
+      "titleFont": "Gill Sans",
+      "titleFontSize": 14
+    },
+    "axis": {
+      "labelFontSize": 12
+    }
   }
 }

@@ -1,9 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "How happy has Australia been over the years?",
+  "title": {
+    "text": "How happy has Australia been over the years compared to the world?",
+    "subtitle": "Data from Year 2015 to 2022"
+  },
   "background": "#E8E8E8",
   "width": 450,
-  "height": 450,
+  "height": 340,
   "data": {
     "values": [
       { "label": "2015", "rank": 10 },
