@@ -96,7 +96,7 @@
       <div class="viz-text">
         As seen from above, the top 10 happiest countries have a higher
         <b>social support</b> and <b>freedom</b> than the top 10 unhappiest
-        countries. <br /> <br /> The top 10 happiest countries also have a
+        countries. <br /> The top 10 happiest countries also have a
         higher <b>life expectancy</b> and <b>generosity</b> than the top 10
         unhappiest countries. <br />
 
@@ -107,9 +107,9 @@
     </div>
 
     <div class="viz-row">
-      <div id="viz-3">viz 3 here</div>
-      <div id="viz-3-4-text">middle text here</div>
-      <div id="viz-4">viz 4 here</div>
+      <div id="viz-3"></div>
+      <div id="viz-3-4-text"></div>
+      <div id="viz-4"></div>
     </div>
   </div>
 
@@ -161,9 +161,9 @@
       .then(function (result) { })
       .catch(console.error);
 
-    // vegaEmbed("#viz-3", "js/line-chart.vg.json")
-    //   .then(function (result) { })
-    //   .catch(console.error);
+    vegaEmbed("#viz-3", "js/line-chart.vg.json")
+      .then(function (result) { })
+      .catch(console.error);
 
     vegaEmbed("#viz-4", "js/waterfall-chart.vg.json")
       .then(function (result) { })

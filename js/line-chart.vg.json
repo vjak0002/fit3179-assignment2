@@ -15,27 +15,61 @@
         "options": [
           null,
           "United States",
-          "United Kingdom",
-          "Canada",
           "Australia",
           "New Zealand",
-          "Ireland"
+          "Ireland",
+          "India",
+          "Japan",
+          "China",
+          "Mexico",
+          "Poland",
+          "Russia",
+          "South Africa",
+          "South Korea",
+          "Turkey"
         ],
         "labels": [
           "All",
           "United States",
-          "United Kingdom",
-          "Canada",
           "Australia",
           "New Zealand",
-          "Ireland"
+          "Ireland",
+          "India",
+          "Japan",
+          "China",
+          "Mexico",
+          "Poland",
+          "Russia",
+          "South Africa",
+          "South Korea",
+          "Turkey"
         ],
         "name": "Choose Country: "
       }
     }
   ],
   "transform": [
-    { "filter": "country_select == null || datum.Country == country_select" }
+    { "filter": "country_select == null || datum.Country == country_select" },
+    {
+      "filter": {
+        "field": "Country",
+        "oneOf": [
+          "United States",
+          "Australia",
+          "New Zealand",
+          "Ireland",
+          "India",
+          "Japan",
+          "China",
+          "Mexico",
+          "Poland",
+          "Russia",
+          "South Africa",
+          "South Korea",
+          "Turkey"
+        ]
+      }
+    }
   ],
   "mark": {
     "type": "line",
@@ -52,8 +86,28 @@
       "aggregate": "mean",
       "field": "Share of people who are happy",
       "type": "quantitative",
-      "title": "Share of people who are happy"
+      "title": "People who are happy (%)"
     },
-    "color": { "field": "Country", "type": "nominal" }
+    "color": { "field": "Country", "type": "nominal", "legend": null },
+    "tooltip": [
+      { "field": "Country", "type": "nominal" },
+      {
+        "field": "Share of people who are happy",
+        "type": "quantitative",
+        "format": ".2f",
+        "title": "People who are happy (%)"
+      }
+    ]
+  },
+  "config": {
+    "view": { "stroke": "transparent" },
+    "title": {
+      "font": "Gill Sans",
+      "anchor": "start"
+    },
+    "axis": {
+      "labelFont": "Gill Sans",
+      "titleFont": "Gill Sans"
+    }
   }
 }

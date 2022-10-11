@@ -141,7 +141,8 @@
       "anchor": "start",
       "fontSize": 15,
       "font": "Gill Sans",
-      "offset": 20
+      "offset": 20,
+      "subtitleFont": "Gill Sans"
     }
   }
 }
