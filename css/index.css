@@ -54,7 +54,8 @@ body{
         'text text text'
         '1-2-text middle middle'
         'text text text'
-        'viz-2 3-4-text viz-4';
+        'viz-2 3-4-text viz-4'
+        'text text text';
     gap: 15px;
     background-color: #C2C2C2;
 }
@@ -121,7 +122,7 @@ body{
 }
 
 #legend-subtitle {
-    font-size: 0.55em;
+    font-size: 0.6em;
     color: gray
 }
 

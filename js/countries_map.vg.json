@@ -459,7 +459,7 @@
       "data": {
         "values": [
           {
-            "x": 29.5,
+            "x": 30,
             "y": 89,
             "info": "HAPPIEST: NORTH AMERICA"
           },
@@ -469,7 +469,7 @@
             "info": "C A N A D A"
           },
           {
-            "x": 97,
+            "x": 97.5,
             "y": 16,
             "info": "HAPPIEST: OCEANIA"
           },
@@ -479,7 +479,7 @@
             "info": "N E W  Z E A L A N D"
           },
           {
-            "x": 62.8,
+            "x": 63,
             "y": 90,
             "info": "HAPPIEST: EUROPE"
           },
