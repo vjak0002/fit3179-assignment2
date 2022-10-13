@@ -4,8 +4,9 @@
     "text": "What makes a country unhappy?",
     "subtitle": "Data from Year 2022"
   },
-  "width": 300,
+  "width": 400,
   "height": 400,
+  "autosize": { "type": "fit", "resize": true },
   "background": "#E8E8E8",
   "data": {
     "url": "data/countries-factors-2022.csv",
@@ -25,8 +26,8 @@
       "type": "quantitative",
       "title": "Happiness Index",
       "axis": {
-        "labelFont": "Gill Sans",
-        "titleFont": "Gill Sans"
+        "labelFont": "Verdana",
+        "titleFont": "Verdana"
       },
       "scale": { "domain": [0, 10], "reverse": true }
     },
@@ -41,7 +42,7 @@
       "axis": {
         "labelPadding": 10,
         "ticks": false,
-        "labelFont": "Gill Sans",
+        "labelFont": "Verdana",
         "labelFontSize": 12
       }
     },
@@ -52,7 +53,7 @@
       "scale": {
         "domain": [
           "Dystopia + residual",
-          "Freedom - Life Choices",
+          "Freedom: Life Choices",
           "GDP per capita",
           "Generosity",
           "Healthy life expectancy",
@@ -88,8 +89,8 @@
     "view": { "stroke": "transparent" },
     "title": {
       "offset": 20,
-      "font": "Gill Sans",
-      "subtitleFont": "Gill Sans"
+      "font": "Verdana",
+      "subtitleFont": "Verdana"
     },
     "axisY": {
       "orient": "right"

@@ -1,6 +1,6 @@
 html{
     background-color: #C2C2C2;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Verdana', sans-serif;
     overflow-x: hidden;
     padding: 2% 6% 10% 6%;
 
@@ -106,12 +106,88 @@ body{
 
 #viz-1-2-text{
     grid-area: 1-2-text;
-    width: auto;
+    width: 100%;
     padding: 10px;
 
     display: flex;
-    align-items: center;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    margin-left: 3.5%;
+}
+
+#legend-title{
+    margin-bottom: 5px;
+}
+
+#legend-subtitle {
+    font-size: 0.55em;
+    color: gray
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: black;
+  color: #E8E8E8;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.legend-label{
+    font-size: 0.85em;
+}
+
+.legend-box{
+    float: left;
+    height: 15px;
+    width: 15px;
+    margin-bottom: 10px;
+    clear: both;
+    margin-right: 5px;
+}
+
+#dystopia{
+    background-color: #003f5c;
+}
+
+#freedom{
+    background-color: #374c80;
+}
+
+#gdp{
+    background-color: #7a5195;
+}
+
+#generosity{
+    background-color: #bc5090;
+}
+
+#life{
+    background-color: #ef5675;
+}
+
+#corruption{
+    background-color: #ff764a;
+}
+
+#social{
+    background-color: #ffa600;
 }
 
 #viz-2{

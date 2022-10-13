@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
-    "text": "How happy has Australia been over the years compared to the world?",
+    "text": "How has Australia's ranking happiness ranking been?",
     "subtitle": "Data from Year 2015 to 2022"
   },
   "background": "#E8E8E8",
@@ -57,8 +57,8 @@
       "axis": {
         "labelAngle": 0,
         "title": "Year",
-        "labelFont": "Gill Sans",
-        "titleFont": "Gill Sans"
+        "labelFont": "Verdana",
+        "titleFont": "Verdana"
       }
     }
   },
@@ -72,8 +72,8 @@
           "title": "Rank",
           "scale": { "domain": [0, 14] },
           "axis": {
-            "labelFont": "Gill Sans",
-            "titleFont": "Gill Sans"
+            "labelFont": "Verdana",
+            "titleFont": "Verdana"
           }
         },
         "y2": { "field": "sum" },
@@ -136,13 +136,13 @@
   ],
   "config": {
     "view": { "stroke": "transparent" },
-    "text": { "fontWeight": "bold", "color": "#404040", "font": "Gill Sans" },
+    "text": { "fontWeight": "bold", "color": "#404040", "font": "Verdana" },
     "title": {
       "anchor": "start",
       "fontSize": 15,
-      "font": "Gill Sans",
+      "font": "Verdana",
       "offset": 20,
-      "subtitleFont": "Gill Sans"
+      "subtitleFont": "Verdana"
     }
   }
 }

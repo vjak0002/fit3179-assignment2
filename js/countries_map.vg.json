@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "HAPPIEST AND UNHAPPIEST COUNTRIES IN THE WORLD - 2022",
-  "width": 1145,
+  "width": 1150,
   "height": 840,
   "background": "#E8E8E8",
   "autosize": { "type": "fit", "resize": true },
@@ -31,7 +31,11 @@
     { "calculate": "datum.score", "as": "Score" },
     { "calculate": "datum.lat", "as": "Latitude" },
     { "calculate": "datum.long", "as": "Longitude" },
-    { "calculate": "upper(datum.country)", "as": "Country" }
+    { "calculate": "upper(datum.country)", "as": "Country" },
+    {
+      "calculate": "'No data for ' + datum.properties.NAME + '!'",
+      "as": "note"
+    }
   ],
   "layer": [
     {
@@ -61,6 +65,9 @@
         "fill": "#E6E6E3",
         "strokeWidth": 1.5,
         "stroke": "black"
+      },
+      "encoding": {
+        "tooltip": { "field": "note" }
       }
     },
     {
@@ -536,17 +543,17 @@
       "fontSize": 23,
       "anchor": "start",
       "dx": 120,
-      "font": "Gill Sans"
+      "font": "Verdana"
     },
-    "text": { "font": "Gill Sans" },
+    "text": { "font": "Verdana" },
     "legend": {
       "symbolDirection": "horizontal",
       "gradientDirection": "horizontal",
       "orient": "none",
       "labelFontSize": 15,
       "gradientLength": 300,
-      "titleFont": "Gill Sans",
-      "labelFont": "Gill Sans",
+      "titleFont": "Verdana",
+      "labelFont": "Verdana",
       "titleAnchor": "middle",
       "titlePadding": 10,
       "titleFontSize": 15,

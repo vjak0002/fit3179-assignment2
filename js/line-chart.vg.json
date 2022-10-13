@@ -102,12 +102,12 @@
   "config": {
     "view": { "stroke": "transparent" },
     "title": {
-      "font": "Gill Sans",
+      "font": "Verdana",
       "anchor": "start"
     },
     "axis": {
-      "labelFont": "Gill Sans",
-      "titleFont": "Gill Sans"
+      "labelFont": "Verdana",
+      "titleFont": "Verdana"
     }
   }
 }

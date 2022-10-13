@@ -1,1021 +1,1021 @@
 ﻿country,rank,score,Whisker-high,Whisker-low,Factor,Factor Score
 Finland,1,7.821,7.886,7.756,Dystopia + residual,2.518
-Finland,1,7.821,7.886,7.756,Freedom - Life Choices,0.736
+Finland,1,7.821,7.886,7.756,Freedom: Life Choices,0.736
 Finland,1,7.821,7.886,7.756,GDP per capita,1.892
 Finland,1,7.821,7.886,7.756,Generosity,0.109
 Finland,1,7.821,7.886,7.756,Healthy life expectancy,0.775
 Finland,1,7.821,7.886,7.756,Perceptions of corruption,0.534
 Finland,1,7.821,7.886,7.756,Social support,1.258
 Denmark,2,7.636,7.71,7.563,Dystopia + residual,2.226
-Denmark,2,7.636,7.71,7.563,Freedom - Life Choices,0.719
+Denmark,2,7.636,7.71,7.563,Freedom: Life Choices,0.719
 Denmark,2,7.636,7.71,7.563,GDP per capita,1.953
 Denmark,2,7.636,7.71,7.563,Generosity,0.188
 Denmark,2,7.636,7.71,7.563,Healthy life expectancy,0.777
 Denmark,2,7.636,7.71,7.563,Perceptions of corruption,0.532
 Denmark,2,7.636,7.71,7.563,Social support,1.243
 Iceland,3,7.557,7.651,7.464,Dystopia + residual,2.32
-Iceland,3,7.557,7.651,7.464,Freedom - Life Choices,0.718
+Iceland,3,7.557,7.651,7.464,Freedom: Life Choices,0.718
 Iceland,3,7.557,7.651,7.464,GDP per capita,1.936
 Iceland,3,7.557,7.651,7.464,Generosity,0.27
 Iceland,3,7.557,7.651,7.464,Healthy life expectancy,0.803
 Iceland,3,7.557,7.651,7.464,Perceptions of corruption,0.191
 Iceland,3,7.557,7.651,7.464,Social support,1.32
 Switzerland,4,7.512,7.586,7.437,Dystopia + residual,2.153
-Switzerland,4,7.512,7.586,7.437,Freedom - Life Choices,0.677
+Switzerland,4,7.512,7.586,7.437,Freedom: Life Choices,0.677
 Switzerland,4,7.512,7.586,7.437,GDP per capita,2.026
 Switzerland,4,7.512,7.586,7.437,Generosity,0.147
 Switzerland,4,7.512,7.586,7.437,Healthy life expectancy,0.822
 Switzerland,4,7.512,7.586,7.437,Perceptions of corruption,0.461
 Switzerland,4,7.512,7.586,7.437,Social support,1.226
 Netherlands,5,7.415,7.471,7.359,Dystopia + residual,2.137
-Netherlands,5,7.415,7.471,7.359,Freedom - Life Choices,0.651
+Netherlands,5,7.415,7.471,7.359,Freedom: Life Choices,0.651
 Netherlands,5,7.415,7.471,7.359,GDP per capita,1.945
 Netherlands,5,7.415,7.471,7.359,Generosity,0.271
 Netherlands,5,7.415,7.471,7.359,Healthy life expectancy,0.787
 Netherlands,5,7.415,7.471,7.359,Perceptions of corruption,0.419
 Netherlands,5,7.415,7.471,7.359,Social support,1.206
 Luxembourg,6,7.404,7.501,7.307,Dystopia + residual,2.042
-Luxembourg,6,7.404,7.501,7.307,Freedom - Life Choices,0.7
+Luxembourg,6,7.404,7.501,7.307,Freedom: Life Choices,0.7
 Luxembourg,6,7.404,7.501,7.307,GDP per capita,2.209
 Luxembourg,6,7.404,7.501,7.307,Generosity,0.12
 Luxembourg,6,7.404,7.501,7.307,Healthy life expectancy,0.79
 Luxembourg,6,7.404,7.501,7.307,Perceptions of corruption,0.388
 Luxembourg,6,7.404,7.501,7.307,Social support,1.155
 Sweden,7,7.384,7.454,7.315,Dystopia + residual,2.003
-Sweden,7,7.384,7.454,7.315,Freedom - Life Choices,0.724
+Sweden,7,7.384,7.454,7.315,Freedom: Life Choices,0.724
 Sweden,7,7.384,7.454,7.315,GDP per capita,1.92
 Sweden,7,7.384,7.454,7.315,Generosity,0.218
 Sweden,7,7.384,7.454,7.315,Healthy life expectancy,0.803
 Sweden,7,7.384,7.454,7.315,Perceptions of corruption,0.512
 Sweden,7,7.384,7.454,7.315,Social support,1.204
 Norway,8,7.365,7.44,7.29,Dystopia + residual,1.925
-Norway,8,7.365,7.44,7.29,Freedom - Life Choices,0.728
+Norway,8,7.365,7.44,7.29,Freedom: Life Choices,0.728
 Norway,8,7.365,7.44,7.29,GDP per capita,1.997
 Norway,8,7.365,7.44,7.29,Generosity,0.217
 Norway,8,7.365,7.44,7.29,Healthy life expectancy,0.786
 Norway,8,7.365,7.44,7.29,Perceptions of corruption,0.474
 Norway,8,7.365,7.44,7.29,Social support,1.239
 Israel,9,7.364,7.426,7.301,Dystopia + residual,2.634
-Israel,9,7.364,7.426,7.301,Freedom - Life Choices,0.568
+Israel,9,7.364,7.426,7.301,Freedom: Life Choices,0.568
 Israel,9,7.364,7.426,7.301,GDP per capita,1.826
 Israel,9,7.364,7.426,7.301,Generosity,0.155
 Israel,9,7.364,7.426,7.301,Healthy life expectancy,0.818
 Israel,9,7.364,7.426,7.301,Perceptions of corruption,0.143
 Israel,9,7.364,7.426,7.301,Social support,1.221
 New Zealand,10,7.2,7.279,7.12,Dystopia + residual,1.954
-New Zealand,10,7.2,7.279,7.12,Freedom - Life Choices,0.68
+New Zealand,10,7.2,7.279,7.12,Freedom: Life Choices,0.68
 New Zealand,10,7.2,7.279,7.12,GDP per capita,1.852
 New Zealand,10,7.2,7.279,7.12,Generosity,0.245
 New Zealand,10,7.2,7.279,7.12,Healthy life expectancy,0.752
 New Zealand,10,7.2,7.279,7.12,Perceptions of corruption,0.483
 New Zealand,10,7.2,7.279,7.12,Social support,1.235
 Austria,11,7.163,7.237,7.089,Dystopia + residual,2.148
-Austria,11,7.163,7.237,7.089,Freedom - Life Choices,0.623
+Austria,11,7.163,7.237,7.089,Freedom: Life Choices,0.623
 Austria,11,7.163,7.237,7.089,GDP per capita,1.931
 Austria,11,7.163,7.237,7.089,Generosity,0.193
 Austria,11,7.163,7.237,7.089,Healthy life expectancy,0.774
 Austria,11,7.163,7.237,7.089,Perceptions of corruption,0.329
 Austria,11,7.163,7.237,7.089,Social support,1.165
 Australia,12,7.162,7.244,7.081,Dystopia + residual,2.011
-Australia,12,7.162,7.244,7.081,Freedom - Life Choices,0.676
+Australia,12,7.162,7.244,7.081,Freedom: Life Choices,0.676
 Australia,12,7.162,7.244,7.081,GDP per capita,1.9
 Australia,12,7.162,7.244,7.081,Generosity,0.258
 Australia,12,7.162,7.244,7.081,Healthy life expectancy,0.772
 Australia,12,7.162,7.244,7.081,Perceptions of corruption,0.341
 Australia,12,7.162,7.244,7.081,Social support,1.203
 Ireland,13,7.041,7.121,6.961,Dystopia + residual,1.743
-Ireland,13,7.041,7.121,6.961,Freedom - Life Choices,0.627
+Ireland,13,7.041,7.121,6.961,Freedom: Life Choices,0.627
 Ireland,13,7.041,7.121,6.961,GDP per capita,2.129
 Ireland,13,7.041,7.121,6.961,Generosity,0.19
 Ireland,13,7.041,7.121,6.961,Healthy life expectancy,0.779
 Ireland,13,7.041,7.121,6.961,Perceptions of corruption,0.408
 Ireland,13,7.041,7.121,6.961,Social support,1.166
 Germany,14,7.034,7.122,6.947,Dystopia + residual,2.142
-Germany,14,7.034,7.122,6.947,Freedom - Life Choices,0.585
+Germany,14,7.034,7.122,6.947,Freedom: Life Choices,0.585
 Germany,14,7.034,7.122,6.947,GDP per capita,1.924
 Germany,14,7.034,7.122,6.947,Generosity,0.163
 Germany,14,7.034,7.122,6.947,Healthy life expectancy,0.776
 Germany,14,7.034,7.122,6.947,Perceptions of corruption,0.358
 Germany,14,7.034,7.122,6.947,Social support,1.088
 Canada,15,7.025,7.107,6.943,Dystopia + residual,1.924
-Canada,15,7.025,7.107,6.943,Freedom - Life Choices,0.659
+Canada,15,7.025,7.107,6.943,Freedom: Life Choices,0.659
 Canada,15,7.025,7.107,6.943,GDP per capita,1.886
 Canada,15,7.025,7.107,6.943,Generosity,0.217
 Canada,15,7.025,7.107,6.943,Healthy life expectancy,0.783
 Canada,15,7.025,7.107,6.943,Perceptions of corruption,0.368
 Canada,15,7.025,7.107,6.943,Social support,1.188
 USA,16,6.977,7.065,6.888,Dystopia + residual,2.214
-USA,16,6.977,7.065,6.888,Freedom - Life Choices,0.574
+USA,16,6.977,7.065,6.888,Freedom: Life Choices,0.574
 USA,16,6.977,7.065,6.888,GDP per capita,1.982
 USA,16,6.977,7.065,6.888,Generosity,0.22
 USA,16,6.977,7.065,6.888,Healthy life expectancy,0.628
 USA,16,6.977,7.065,6.888,Perceptions of corruption,0.177
 USA,16,6.977,7.065,6.888,Social support,1.182
 UK,17,6.943,7.018,6.867,Dystopia + residual,1.967
-UK,17,6.943,7.018,6.867,Freedom - Life Choices,0.597
+UK,17,6.943,7.018,6.867,Freedom: Life Choices,0.597
 UK,17,6.943,7.018,6.867,GDP per capita,1.867
 UK,17,6.943,7.018,6.867,Generosity,0.289
 UK,17,6.943,7.018,6.867,Healthy life expectancy,0.75
 UK,17,6.943,7.018,6.867,Perceptions of corruption,0.329
 UK,17,6.943,7.018,6.867,Social support,1.143
 Czechia,18,6.92,7.029,6.811,Dystopia + residual,2.263
-Czechia,18,6.92,7.029,6.811,Freedom - Life Choices,0.66
+Czechia,18,6.92,7.029,6.811,Freedom: Life Choices,0.66
 Czechia,18,6.92,7.029,6.811,GDP per capita,1.815
 Czechia,18,6.92,7.029,6.811,Generosity,0.158
 Czechia,18,6.92,7.029,6.811,Healthy life expectancy,0.715
 Czechia,18,6.92,7.029,6.811,Perceptions of corruption,0.048
 Czechia,18,6.92,7.029,6.811,Social support,1.26
 Belgium,19,6.805,6.89,6.72,Dystopia + residual,2.283
-Belgium,19,6.805,6.89,6.72,Freedom - Life Choices,0.492
+Belgium,19,6.805,6.89,6.72,Freedom: Life Choices,0.492
 Belgium,19,6.805,6.89,6.72,GDP per capita,1.907
 Belgium,19,6.805,6.89,6.72,Generosity,0.049
 Belgium,19,6.805,6.89,6.72,Healthy life expectancy,0.764
 Belgium,19,6.805,6.89,6.72,Perceptions of corruption,0.204
 Belgium,19,6.805,6.89,6.72,Social support,1.106
 France,20,6.687,6.758,6.615,Dystopia + residual,1.895
-France,20,6.687,6.758,6.615,Freedom - Life Choices,0.567
+France,20,6.687,6.758,6.615,Freedom: Life Choices,0.567
 France,20,6.687,6.758,6.615,GDP per capita,1.863
 France,20,6.687,6.758,6.615,Generosity,0.07
 France,20,6.687,6.758,6.615,Healthy life expectancy,0.808
 France,20,6.687,6.758,6.615,Perceptions of corruption,0.266
 France,20,6.687,6.758,6.615,Social support,1.219
 Bahrain,21,6.647,6.779,6.514,Dystopia + residual,2.092
-Bahrain,21,6.647,6.779,6.514,Freedom - Life Choices,0.693
+Bahrain,21,6.647,6.779,6.514,Freedom: Life Choices,0.693
 Bahrain,21,6.647,6.779,6.514,GDP per capita,1.854
 Bahrain,21,6.647,6.779,6.514,Generosity,0.199
 Bahrain,21,6.647,6.779,6.514,Healthy life expectancy,0.625
 Bahrain,21,6.647,6.779,6.514,Perceptions of corruption,0.155
 Bahrain,21,6.647,6.779,6.514,Social support,1.029
 Slovenia,22,6.63,6.718,6.542,Dystopia + residual,1.885
-Slovenia,22,6.63,6.718,6.542,Freedom - Life Choices,0.685
+Slovenia,22,6.63,6.718,6.542,Freedom: Life Choices,0.685
 Slovenia,22,6.63,6.718,6.542,GDP per capita,1.81
 Slovenia,22,6.63,6.718,6.542,Generosity,0.118
 Slovenia,22,6.63,6.718,6.542,Healthy life expectancy,0.769
 Slovenia,22,6.63,6.718,6.542,Perceptions of corruption,0.115
 Slovenia,22,6.63,6.718,6.542,Social support,1.249
 Costa Rica,23,6.582,6.683,6.481,Dystopia + residual,2.346
-Costa Rica,23,6.582,6.683,6.481,Freedom - Life Choices,0.661
+Costa Rica,23,6.582,6.683,6.481,Freedom: Life Choices,0.661
 Costa Rica,23,6.582,6.683,6.481,GDP per capita,1.584
 Costa Rica,23,6.582,6.683,6.481,Generosity,0.089
 Costa Rica,23,6.582,6.683,6.481,Healthy life expectancy,0.744
 Costa Rica,23,6.582,6.683,6.481,Perceptions of corruption,0.102
 Costa Rica,23,6.582,6.683,6.481,Social support,1.054
 United Arab Emirates,24,6.576,6.66,6.492,Dystopia + residual,1.809
-United Arab Emirates,24,6.576,6.66,6.492,Freedom - Life Choices,0.702
+United Arab Emirates,24,6.576,6.66,6.492,Freedom: Life Choices,0.702
 United Arab Emirates,24,6.576,6.66,6.492,GDP per capita,1.998
 United Arab Emirates,24,6.576,6.66,6.492,Generosity,0.204
 United Arab Emirates,24,6.576,6.66,6.492,Healthy life expectancy,0.633
 United Arab Emirates,24,6.576,6.66,6.492,Perceptions of corruption,0.25
 United Arab Emirates,24,6.576,6.66,6.492,Social support,0.98
 Saudi Arabia,25,6.523,6.637,6.409,Dystopia + residual,2.075
-Saudi Arabia,25,6.523,6.637,6.409,Freedom - Life Choices,0.651
+Saudi Arabia,25,6.523,6.637,6.409,Freedom: Life Choices,0.651
 Saudi Arabia,25,6.523,6.637,6.409,GDP per capita,1.87
 Saudi Arabia,25,6.523,6.637,6.409,Generosity,0.078
 Saudi Arabia,25,6.523,6.637,6.409,Healthy life expectancy,0.577
 Saudi Arabia,25,6.523,6.637,6.409,Perceptions of corruption,0.18
 Saudi Arabia,25,6.523,6.637,6.409,Social support,1.092
 Taiwan Province of China,26,6.512,6.596,6.429,Dystopia + residual,2.002
-Taiwan Province of China,26,6.512,6.596,6.429,Freedom - Life Choices,0.542
+Taiwan Province of China,26,6.512,6.596,6.429,Freedom: Life Choices,0.542
 Taiwan Province of China,26,6.512,6.596,6.429,GDP per capita,1.897
 Taiwan Province of China,26,6.512,6.596,6.429,Generosity,0.075
 Taiwan Province of China,26,6.512,6.596,6.429,Healthy life expectancy,0.733
 Taiwan Province of China,26,6.512,6.596,6.429,Perceptions of corruption,0.168
 Taiwan Province of China,26,6.512,6.596,6.429,Social support,1.095
 Singapore,27,6.48,6.569,6.392,Dystopia + residual,0.932
-Singapore,27,6.48,6.569,6.392,Freedom - Life Choices,0.672
+Singapore,27,6.48,6.569,6.392,Freedom: Life Choices,0.672
 Singapore,27,6.48,6.569,6.392,GDP per capita,2.149
 Singapore,27,6.48,6.569,6.392,Generosity,0.163
 Singapore,27,6.48,6.569,6.392,Healthy life expectancy,0.851
 Singapore,27,6.48,6.569,6.392,Perceptions of corruption,0.587
 Singapore,27,6.48,6.569,6.392,Social support,1.127
 Romania,28,6.477,6.575,6.379,Dystopia + residual,2.446
-Romania,28,6.477,6.575,6.379,Freedom - Life Choices,0.605
+Romania,28,6.477,6.575,6.379,Freedom: Life Choices,0.605
 Romania,28,6.477,6.575,6.379,GDP per capita,1.719
 Romania,28,6.477,6.575,6.379,Generosity,0.039
 Romania,28,6.477,6.575,6.379,Healthy life expectancy,0.655
 Romania,28,6.477,6.575,6.379,Perceptions of corruption,0.006
 Romania,28,6.477,6.575,6.379,Social support,1.006
 Spain,29,6.476,6.56,6.392,Dystopia + residual,1.893
-Spain,29,6.476,6.56,6.392,Freedom - Life Choices,0.505
+Spain,29,6.476,6.56,6.392,Freedom: Life Choices,0.505
 Spain,29,6.476,6.56,6.392,GDP per capita,1.808
 Spain,29,6.476,6.56,6.392,Generosity,0.101
 Spain,29,6.476,6.56,6.392,Healthy life expectancy,0.808
 Spain,29,6.476,6.56,6.392,Perceptions of corruption,0.149
 Spain,29,6.476,6.56,6.392,Social support,1.211
 Uruguay,30,6.474,6.562,6.386,Dystopia + residual,1.974
-Uruguay,30,6.474,6.562,6.386,Freedom - Life Choices,0.665
+Uruguay,30,6.474,6.562,6.386,Freedom: Life Choices,0.665
 Uruguay,30,6.474,6.562,6.386,GDP per capita,1.615
 Uruguay,30,6.474,6.562,6.386,Generosity,0.103
 Uruguay,30,6.474,6.562,6.386,Healthy life expectancy,0.672
 Uruguay,30,6.474,6.562,6.386,Perceptions of corruption,0.265
 Uruguay,30,6.474,6.562,6.386,Social support,1.18
 Italy,31,6.467,6.57,6.363,Dystopia + residual,2.222
-Italy,31,6.467,6.57,6.363,Freedom - Life Choices,0.412
+Italy,31,6.467,6.57,6.363,Freedom: Life Choices,0.412
 Italy,31,6.467,6.57,6.363,GDP per capita,1.834
 Italy,31,6.467,6.57,6.363,Generosity,0.085
 Italy,31,6.467,6.57,6.363,Healthy life expectancy,0.801
 Italy,31,6.467,6.57,6.363,Perceptions of corruption,0.059
 Italy,31,6.467,6.57,6.363,Social support,1.052
 Kosovo,32,6.455,6.571,6.339,Dystopia + residual,2.631
-Kosovo,32,6.455,6.571,6.339,Freedom - Life Choices,0.599
+Kosovo,32,6.455,6.571,6.339,Freedom: Life Choices,0.599
 Kosovo,32,6.455,6.571,6.339,GDP per capita,1.362
 Kosovo,32,6.455,6.571,6.339,Generosity,0.309
 Kosovo,32,6.455,6.571,6.339,Healthy life expectancy,0.569
 Kosovo,32,6.455,6.571,6.339,Perceptions of corruption,0.035
 Kosovo,32,6.455,6.571,6.339,Social support,0.949
 Malta,33,6.447,6.535,6.359,Dystopia + residual,1.631
-Malta,33,6.447,6.535,6.359,Freedom - Life Choices,0.679
+Malta,33,6.447,6.535,6.359,Freedom: Life Choices,0.679
 Malta,33,6.447,6.535,6.359,GDP per capita,1.838
 Malta,33,6.447,6.535,6.359,Generosity,0.174
 Malta,33,6.447,6.535,6.359,Healthy life expectancy,0.789
 Malta,33,6.447,6.535,6.359,Perceptions of corruption,0.166
 Malta,33,6.447,6.535,6.359,Social support,1.169
 Lithuania,34,6.446,6.535,6.356,Dystopia + residual,2.153
-Lithuania,34,6.446,6.535,6.356,Freedom - Life Choices,0.496
+Lithuania,34,6.446,6.535,6.356,Freedom: Life Choices,0.496
 Lithuania,34,6.446,6.535,6.356,GDP per capita,1.804
 Lithuania,34,6.446,6.535,6.356,Generosity,0.053
 Lithuania,34,6.446,6.535,6.356,Healthy life expectancy,0.659
 Lithuania,34,6.446,6.535,6.356,Perceptions of corruption,0.077
 Lithuania,34,6.446,6.535,6.356,Social support,1.204
 Slovakia,35,6.391,6.475,6.306,Dystopia + residual,2.094
-Slovakia,35,6.391,6.475,6.306,Freedom - Life Choices,0.479
+Slovakia,35,6.391,6.475,6.306,Freedom: Life Choices,0.479
 Slovakia,35,6.391,6.475,6.306,GDP per capita,1.736
 Slovakia,35,6.391,6.475,6.306,Generosity,0.118
 Slovakia,35,6.391,6.475,6.306,Healthy life expectancy,0.707
 Slovakia,35,6.391,6.475,6.306,Perceptions of corruption,0.025
 Slovakia,35,6.391,6.475,6.306,Social support,1.232
 Estonia,36,6.341,6.415,6.266,Dystopia + residual,1.442
-Estonia,36,6.341,6.415,6.266,Freedom - Life Choices,0.689
+Estonia,36,6.341,6.415,6.266,Freedom: Life Choices,0.689
 Estonia,36,6.341,6.415,6.266,GDP per capita,1.793
 Estonia,36,6.341,6.415,6.266,Generosity,0.123
 Estonia,36,6.341,6.415,6.266,Healthy life expectancy,0.728
 Estonia,36,6.341,6.415,6.266,Perceptions of corruption,0.333
 Estonia,36,6.341,6.415,6.266,Social support,1.232
 Panama,37,6.309,6.464,6.154,Dystopia + residual,2.086
-Panama,37,6.309,6.464,6.154,Freedom - Life Choices,0.592
+Panama,37,6.309,6.464,6.154,Freedom: Life Choices,0.592
 Panama,37,6.309,6.464,6.154,GDP per capita,1.715
 Panama,37,6.309,6.464,6.154,Generosity,0.049
 Panama,37,6.309,6.464,6.154,Healthy life expectancy,0.709
 Panama,37,6.309,6.464,6.154,Perceptions of corruption,0.051
 Panama,37,6.309,6.464,6.154,Social support,1.107
 Brazil,38,6.293,6.384,6.202,Dystopia + residual,2.361
-Brazil,38,6.293,6.384,6.202,Freedom - Life Choices,0.546
+Brazil,38,6.293,6.384,6.202,Freedom: Life Choices,0.546
 Brazil,38,6.293,6.384,6.202,GDP per capita,1.462
 Brazil,38,6.293,6.384,6.202,Generosity,0.131
 Brazil,38,6.293,6.384,6.202,Healthy life expectancy,0.615
 Brazil,38,6.293,6.384,6.202,Perceptions of corruption,0.134
 Brazil,38,6.293,6.384,6.202,Social support,1.044
 Guatemala,39,6.262,6.46,6.064,Dystopia + residual,2.746
-Guatemala,39,6.262,6.46,6.064,Freedom - Life Choices,0.662
+Guatemala,39,6.262,6.46,6.064,Freedom: Life Choices,0.662
 Guatemala,39,6.262,6.46,6.064,GDP per capita,1.274
 Guatemala,39,6.262,6.46,6.064,Generosity,0.112
 Guatemala,39,6.262,6.46,6.064,Healthy life expectancy,0.522
 Guatemala,39,6.262,6.46,6.064,Perceptions of corruption,0.115
 Guatemala,39,6.262,6.46,6.064,Social support,0.831
 Kazakhstan,40,6.234,6.33,6.138,Dystopia + residual,1.86
-Kazakhstan,40,6.234,6.33,6.138,Freedom - Life Choices,0.584
+Kazakhstan,40,6.234,6.33,6.138,Freedom: Life Choices,0.584
 Kazakhstan,40,6.234,6.33,6.138,GDP per capita,1.668
 Kazakhstan,40,6.234,6.33,6.138,Generosity,0.134
 Kazakhstan,40,6.234,6.33,6.138,Healthy life expectancy,0.611
 Kazakhstan,40,6.234,6.33,6.138,Perceptions of corruption,0.157
 Kazakhstan,40,6.234,6.33,6.138,Social support,1.22
 Cyprus,41,6.221,6.32,6.122,Dystopia + residual,2.044
-Cyprus,41,6.221,6.32,6.122,Freedom - Life Choices,0.448
+Cyprus,41,6.221,6.32,6.122,Freedom: Life Choices,0.448
 Cyprus,41,6.221,6.32,6.122,GDP per capita,1.815
 Cyprus,41,6.221,6.32,6.122,Generosity,0.123
 Cyprus,41,6.221,6.32,6.122,Healthy life expectancy,0.819
 Cyprus,41,6.221,6.32,6.122,Perceptions of corruption,0.062
 Cyprus,41,6.221,6.32,6.122,Social support,0.909
 Latvia,42,6.18,6.255,6.106,Dystopia + residual,1.923
-Latvia,42,6.18,6.255,6.106,Freedom - Life Choices,0.502
+Latvia,42,6.18,6.255,6.106,Freedom: Life Choices,0.502
 Latvia,42,6.18,6.255,6.106,GDP per capita,1.732
 Latvia,42,6.18,6.255,6.106,Generosity,0.075
 Latvia,42,6.18,6.255,6.106,Healthy life expectancy,0.637
 Latvia,42,6.18,6.255,6.106,Perceptions of corruption,0.09
 Latvia,42,6.18,6.255,6.106,Social support,1.221
 Serbia,43,6.178,6.294,6.062,Dystopia + residual,2.031
-Serbia,43,6.178,6.294,6.062,Freedom - Life Choices,0.546
+Serbia,43,6.178,6.294,6.062,Freedom: Life Choices,0.546
 Serbia,43,6.178,6.294,6.062,GDP per capita,1.55
 Serbia,43,6.178,6.294,6.062,Generosity,0.219
 Serbia,43,6.178,6.294,6.062,Healthy life expectancy,0.658
 Serbia,43,6.178,6.294,6.062,Perceptions of corruption,0.088
 Serbia,43,6.178,6.294,6.062,Social support,1.086
 Chile,44,6.172,6.262,6.082,Dystopia + residual,2.04
-Chile,44,6.172,6.262,6.082,Freedom - Life Choices,0.46
+Chile,44,6.172,6.262,6.082,Freedom: Life Choices,0.46
 Chile,44,6.172,6.262,6.082,GDP per capita,1.651
 Chile,44,6.172,6.262,6.082,Generosity,0.124
 Chile,44,6.172,6.262,6.082,Healthy life expectancy,0.748
 Chile,44,6.172,6.262,6.082,Perceptions of corruption,0.069
 Chile,44,6.172,6.262,6.082,Social support,1.08
 Nicaragua,45,6.165,6.312,6.017,Dystopia + residual,2.418
-Nicaragua,45,6.165,6.312,6.017,Freedom - Life Choices,0.617
+Nicaragua,45,6.165,6.312,6.017,Freedom: Life Choices,0.617
 Nicaragua,45,6.165,6.312,6.017,GDP per capita,1.105
 Nicaragua,45,6.165,6.312,6.017,Generosity,0.168
 Nicaragua,45,6.165,6.312,6.017,Healthy life expectancy,0.617
 Nicaragua,45,6.165,6.312,6.017,Perceptions of corruption,0.212
 Nicaragua,45,6.165,6.312,6.017,Social support,1.029
 Mexico,46,6.128,6.238,6.017,Dystopia + residual,2.239
-Mexico,46,6.128,6.238,6.017,Freedom - Life Choices,0.621
+Mexico,46,6.128,6.238,6.017,Freedom: Life Choices,0.621
 Mexico,46,6.128,6.238,6.017,GDP per capita,1.552
 Mexico,46,6.128,6.238,6.017,Generosity,0.092
 Mexico,46,6.128,6.238,6.017,Healthy life expectancy,0.623
 Mexico,46,6.128,6.238,6.017,Perceptions of corruption,0.115
 Mexico,46,6.128,6.238,6.017,Social support,0.886
 Croatia,47,6.125,6.229,6.022,Dystopia + residual,1.884
-Croatia,47,6.125,6.229,6.022,Freedom - Life Choices,0.535
+Croatia,47,6.125,6.229,6.022,Freedom: Life Choices,0.535
 Croatia,47,6.125,6.229,6.022,GDP per capita,1.705
 Croatia,47,6.125,6.229,6.022,Generosity,0.109
 Croatia,47,6.125,6.229,6.022,Healthy life expectancy,0.709
 Croatia,47,6.125,6.229,6.022,Perceptions of corruption,0
 Croatia,47,6.125,6.229,6.022,Social support,1.183
 Poland,48,6.123,6.205,6.04,Dystopia + residual,1.693
-Poland,48,6.123,6.205,6.04,Freedom - Life Choices,0.523
+Poland,48,6.123,6.205,6.04,Freedom: Life Choices,0.523
 Poland,48,6.123,6.205,6.04,GDP per capita,1.758
 Poland,48,6.123,6.205,6.04,Generosity,0.124
 Poland,48,6.123,6.205,6.04,Healthy life expectancy,0.712
 Poland,48,6.123,6.205,6.04,Perceptions of corruption,0.14
 Poland,48,6.123,6.205,6.04,Social support,1.174
 El Salvador,49,6.12,6.25,5.99,Dystopia + residual,2.514
-El Salvador,49,6.12,6.25,5.99,Freedom - Life Choices,0.666
+El Salvador,49,6.12,6.25,5.99,Freedom: Life Choices,0.666
 El Salvador,49,6.12,6.25,5.99,GDP per capita,1.265
 El Salvador,49,6.12,6.25,5.99,Generosity,0.089
 El Salvador,49,6.12,6.25,5.99,Healthy life expectancy,0.607
 El Salvador,49,6.12,6.25,5.99,Perceptions of corruption,0.212
 El Salvador,49,6.12,6.25,5.99,Social support,0.768
 Kuwait,50,6.106,6.235,5.977,Dystopia + residual,1.621
-Kuwait,50,6.106,6.235,5.977,Freedom - Life Choices,0.617
+Kuwait,50,6.106,6.235,5.977,Freedom: Life Choices,0.617
 Kuwait,50,6.106,6.235,5.977,GDP per capita,1.904
 Kuwait,50,6.106,6.235,5.977,Generosity,0.087
 Kuwait,50,6.106,6.235,5.977,Healthy life expectancy,0.747
 Kuwait,50,6.106,6.235,5.977,Perceptions of corruption,0.147
 Kuwait,50,6.106,6.235,5.977,Social support,0.983
 Hungary,51,6.086,6.187,5.985,Dystopia + residual,1.812
-Hungary,51,6.086,6.187,5.985,Freedom - Life Choices,0.485
+Hungary,51,6.086,6.187,5.985,Freedom: Life Choices,0.485
 Hungary,51,6.086,6.187,5.985,GDP per capita,1.748
 Hungary,51,6.086,6.187,5.985,Generosity,0.078
 Hungary,51,6.086,6.187,5.985,Healthy life expectancy,0.668
 Hungary,51,6.086,6.187,5.985,Perceptions of corruption,0.064
 Hungary,51,6.086,6.187,5.985,Social support,1.233
 Mauritius,52,6.071,6.184,5.958,Dystopia + residual,1.969
-Mauritius,52,6.071,6.184,5.958,Freedom - Life Choices,0.589
+Mauritius,52,6.071,6.184,5.958,Freedom: Life Choices,0.589
 Mauritius,52,6.071,6.184,5.958,GDP per capita,1.591
 Mauritius,52,6.071,6.184,5.958,Generosity,0.131
 Mauritius,52,6.071,6.184,5.958,Healthy life expectancy,0.568
 Mauritius,52,6.071,6.184,5.958,Perceptions of corruption,0.107
 Mauritius,52,6.071,6.184,5.958,Social support,1.116
 Uzbekistan,53,6.063,6.178,5.948,Dystopia + residual,1.913
-Uzbekistan,53,6.063,6.178,5.948,Freedom - Life Choices,0.716
+Uzbekistan,53,6.063,6.178,5.948,Freedom: Life Choices,0.716
 Uzbekistan,53,6.063,6.178,5.948,GDP per capita,1.219
 Uzbekistan,53,6.063,6.178,5.948,Generosity,0.283
 Uzbekistan,53,6.063,6.178,5.948,Healthy life expectancy,0.6
 Uzbekistan,53,6.063,6.178,5.948,Perceptions of corruption,0.24
 Uzbekistan,53,6.063,6.178,5.948,Social support,1.092
 Japan,54,6.039,6.119,5.959,Dystopia + residual,1.487
-Japan,54,6.039,6.119,5.959,Freedom - Life Choices,0.537
+Japan,54,6.039,6.119,5.959,Freedom: Life Choices,0.537
 Japan,54,6.039,6.119,5.959,GDP per capita,1.835
 Japan,54,6.039,6.119,5.959,Generosity,0.007
 Japan,54,6.039,6.119,5.959,Healthy life expectancy,0.866
 Japan,54,6.039,6.119,5.959,Perceptions of corruption,0.218
 Japan,54,6.039,6.119,5.959,Social support,1.089
 Honduras,55,6.022,6.189,5.855,Dystopia + residual,2.611
-Honduras,55,6.022,6.189,5.855,Freedom - Life Choices,0.582
+Honduras,55,6.022,6.189,5.855,Freedom: Life Choices,0.582
 Honduras,55,6.022,6.189,5.855,GDP per capita,1.111
 Honduras,55,6.022,6.189,5.855,Generosity,0.202
 Honduras,55,6.022,6.189,5.855,Healthy life expectancy,0.555
 Honduras,55,6.022,6.189,5.855,Perceptions of corruption,0.076
 Honduras,55,6.022,6.189,5.855,Social support,0.885
 Portugal,56,6.016,6.122,5.911,Dystopia + residual,1.691
-Portugal,56,6.016,6.122,5.911,Freedom - Life Choices,0.655
+Portugal,56,6.016,6.122,5.911,Freedom: Life Choices,0.655
 Portugal,56,6.016,6.122,5.911,GDP per capita,1.76
 Portugal,56,6.016,6.122,5.911,Generosity,0.016
 Portugal,56,6.016,6.122,5.911,Healthy life expectancy,0.777
 Portugal,56,6.016,6.122,5.911,Perceptions of corruption,0.039
 Portugal,56,6.016,6.122,5.911,Social support,1.078
 Argentina,57,5.967,6.09,5.844,Dystopia + residual,1.891
-Argentina,57,5.967,6.09,5.844,Freedom - Life Choices,0.555
+Argentina,57,5.967,6.09,5.844,Freedom: Life Choices,0.555
 Argentina,57,5.967,6.09,5.844,GDP per capita,1.592
 Argentina,57,5.967,6.09,5.844,Generosity,0.081
 Argentina,57,5.967,6.09,5.844,Healthy life expectancy,0.662
 Argentina,57,5.967,6.09,5.844,Perceptions of corruption,0.085
 Argentina,57,5.967,6.09,5.844,Social support,1.102
 Greece,58,5.948,6.043,5.853,Dystopia + residual,2.119
-Greece,58,5.948,6.043,5.853,Freedom - Life Choices,0.249
+Greece,58,5.948,6.043,5.853,Freedom: Life Choices,0.249
 Greece,58,5.948,6.043,5.853,GDP per capita,1.703
 Greece,58,5.948,6.043,5.853,Generosity,0.015
 Greece,58,5.948,6.043,5.853,Healthy life expectancy,0.774
 Greece,58,5.948,6.043,5.853,Perceptions of corruption,0.108
 Greece,58,5.948,6.043,5.853,Social support,0.98
 South Korea,59,5.935,6.021,5.849,Dystopia + residual,1.656
-South Korea,59,5.935,6.021,5.849,Freedom - Life Choices,0.414
+South Korea,59,5.935,6.021,5.849,Freedom: Life Choices,0.414
 South Korea,59,5.935,6.021,5.849,GDP per capita,1.851
 South Korea,59,5.935,6.021,5.849,Generosity,0.111
 South Korea,59,5.935,6.021,5.849,Healthy life expectancy,0.841
 South Korea,59,5.935,6.021,5.849,Perceptions of corruption,0.176
 South Korea,59,5.935,6.021,5.849,Social support,0.886
 Philippines,60,5.904,6.007,5.8,Dystopia + residual,2.283
-Philippines,60,5.904,6.007,5.8,Freedom - Life Choices,0.678
+Philippines,60,5.904,6.007,5.8,Freedom: Life Choices,0.678
 Philippines,60,5.904,6.007,5.8,GDP per capita,1.268
 Philippines,60,5.904,6.007,5.8,Generosity,0.107
 Philippines,60,5.904,6.007,5.8,Healthy life expectancy,0.514
 Philippines,60,5.904,6.007,5.8,Perceptions of corruption,0.142
 Philippines,60,5.904,6.007,5.8,Social support,0.912
 Thailand,61,5.891,5.994,5.788,Dystopia + residual,1.6
-Thailand,61,5.891,5.994,5.788,Freedom - Life Choices,0.617
+Thailand,61,5.891,5.994,5.788,Freedom: Life Choices,0.617
 Thailand,61,5.891,5.994,5.788,GDP per capita,1.535
 Thailand,61,5.891,5.994,5.788,Generosity,0.321
 Thailand,61,5.891,5.994,5.788,Healthy life expectancy,0.697
 Thailand,61,5.891,5.994,5.788,Perceptions of corruption,0.026
 Thailand,61,5.891,5.994,5.788,Social support,1.096
 Moldova,62,5.857,5.948,5.766,Dystopia + residual,2.142
-Moldova,62,5.857,5.948,5.766,Freedom - Life Choices,0.561
+Moldova,62,5.857,5.948,5.766,Freedom: Life Choices,0.561
 Moldova,62,5.857,5.948,5.766,GDP per capita,1.417
 Moldova,62,5.857,5.948,5.766,Generosity,0.102
 Moldova,62,5.857,5.948,5.766,Healthy life expectancy,0.597
 Moldova,62,5.857,5.948,5.766,Perceptions of corruption,0.028
 Moldova,62,5.857,5.948,5.766,Social support,1.008
 Jamaica,63,5.85,6.023,5.676,Dystopia + residual,2.164
-Jamaica,63,5.85,6.023,5.676,Freedom - Life Choices,0.567
+Jamaica,63,5.85,6.023,5.676,Freedom: Life Choices,0.567
 Jamaica,63,5.85,6.023,5.676,GDP per capita,1.296
 Jamaica,63,5.85,6.023,5.676,Generosity,0.08
 Jamaica,63,5.85,6.023,5.676,Healthy life expectancy,0.646
 Jamaica,63,5.85,6.023,5.676,Perceptions of corruption,0.053
 Jamaica,63,5.85,6.023,5.676,Social support,1.045
 Kyrgyzstan,64,5.828,5.916,5.741,Dystopia + residual,2.087
-Kyrgyzstan,64,5.828,5.916,5.741,Freedom - Life Choices,0.693
+Kyrgyzstan,64,5.828,5.916,5.741,Freedom: Life Choices,0.693
 Kyrgyzstan,64,5.828,5.916,5.741,GDP per capita,1.069
 Kyrgyzstan,64,5.828,5.916,5.741,Generosity,0.208
 Kyrgyzstan,64,5.828,5.916,5.741,Healthy life expectancy,0.638
 Kyrgyzstan,64,5.828,5.916,5.741,Perceptions of corruption,0.025
 Kyrgyzstan,64,5.828,5.916,5.741,Social support,1.109
 Belarus,65,5.821,5.95,5.693,Dystopia + residual,1.811
-Belarus,65,5.821,5.95,5.693,Freedom - Life Choices,0.342
+Belarus,65,5.821,5.95,5.693,Freedom: Life Choices,0.342
 Belarus,65,5.821,5.95,5.693,GDP per capita,1.562
 Belarus,65,5.821,5.95,5.693,Generosity,0.04
 Belarus,65,5.821,5.95,5.693,Healthy life expectancy,0.629
 Belarus,65,5.821,5.95,5.693,Perceptions of corruption,0.282
 Belarus,65,5.821,5.95,5.693,Social support,1.157
 Colombia,66,5.781,5.903,5.659,Dystopia + residual,1.971
-Colombia,66,5.781,5.903,5.659,Freedom - Life Choices,0.545
+Colombia,66,5.781,5.903,5.659,Freedom: Life Choices,0.545
 Colombia,66,5.781,5.903,5.659,GDP per capita,1.452
 Colombia,66,5.781,5.903,5.659,Generosity,0.087
 Colombia,66,5.781,5.903,5.659,Healthy life expectancy,0.72
 Colombia,66,5.781,5.903,5.659,Perceptions of corruption,0.077
 Colombia,66,5.781,5.903,5.659,Social support,0.929
 Bosnia and Herzegovina,67,5.768,5.877,5.659,Dystopia + residual,1.869
-Bosnia and Herzegovina,67,5.768,5.877,5.659,Freedom - Life Choices,0.448
+Bosnia and Herzegovina,67,5.768,5.877,5.659,Freedom: Life Choices,0.448
 Bosnia and Herzegovina,67,5.768,5.877,5.659,GDP per capita,1.468
 Bosnia and Herzegovina,67,5.768,5.877,5.659,Generosity,0.244
 Bosnia and Herzegovina,67,5.768,5.877,5.659,Healthy life expectancy,0.665
 Bosnia and Herzegovina,67,5.768,5.877,5.659,Perceptions of corruption,0.006
 Bosnia and Herzegovina,67,5.768,5.877,5.659,Social support,1.068
 Mongolia,68,5.761,5.845,5.676,Dystopia + residual,1.999
-Mongolia,68,5.761,5.845,5.676,Freedom - Life Choices,0.398
+Mongolia,68,5.761,5.845,5.676,Freedom: Life Choices,0.398
 Mongolia,68,5.761,5.845,5.676,GDP per capita,1.393
 Mongolia,68,5.761,5.845,5.676,Generosity,0.247
 Mongolia,68,5.761,5.845,5.676,Healthy life expectancy,0.467
 Mongolia,68,5.761,5.845,5.676,Perceptions of corruption,0.059
 Mongolia,68,5.761,5.845,5.676,Social support,1.197
 Dominican Republic,69,5.737,5.873,5.601,Dystopia + residual,1.751
-Dominican Republic,69,5.737,5.873,5.601,Freedom - Life Choices,0.606
+Dominican Republic,69,5.737,5.873,5.601,Freedom: Life Choices,0.606
 Dominican Republic,69,5.737,5.873,5.601,GDP per capita,1.538
 Dominican Republic,69,5.737,5.873,5.601,Generosity,0.084
 Dominican Republic,69,5.737,5.873,5.601,Healthy life expectancy,0.577
 Dominican Republic,69,5.737,5.873,5.601,Perceptions of corruption,0.179
 Dominican Republic,69,5.737,5.873,5.601,Social support,1.003
 Malaysia,70,5.711,5.845,5.578,Dystopia + residual,1.471
-Malaysia,70,5.711,5.845,5.578,Freedom - Life Choices,0.654
+Malaysia,70,5.711,5.845,5.578,Freedom: Life Choices,0.654
 Malaysia,70,5.711,5.845,5.578,GDP per capita,1.689
 Malaysia,70,5.711,5.845,5.578,Generosity,0.213
 Malaysia,70,5.711,5.845,5.578,Healthy life expectancy,0.62
 Malaysia,70,5.711,5.845,5.578,Perceptions of corruption,0.126
 Malaysia,70,5.711,5.845,5.578,Social support,0.938
 Bolivia,71,5.6,5.709,5.491,Dystopia + residual,2.107
-Bolivia,71,5.6,5.709,5.491,Freedom - Life Choices,0.627
+Bolivia,71,5.6,5.709,5.491,Freedom: Life Choices,0.627
 Bolivia,71,5.6,5.709,5.491,GDP per capita,1.256
 Bolivia,71,5.6,5.709,5.491,Generosity,0.112
 Bolivia,71,5.6,5.709,5.491,Healthy life expectancy,0.555
 Bolivia,71,5.6,5.709,5.491,Perceptions of corruption,0.064
 Bolivia,71,5.6,5.709,5.491,Social support,0.88
 China,72,5.585,5.65,5.52,Dystopia + residual,1.516
-China,72,5.585,5.65,5.52,Freedom - Life Choices,0.656
+China,72,5.585,5.65,5.52,Freedom: Life Choices,0.656
 China,72,5.585,5.65,5.52,GDP per capita,1.508
 China,72,5.585,5.65,5.52,Generosity,0.099
 China,72,5.585,5.65,5.52,Healthy life expectancy,0.705
 China,72,5.585,5.65,5.52,Perceptions of corruption,0.142
 China,72,5.585,5.65,5.52,Social support,0.958
 Paraguay,73,5.578,5.689,5.467,Dystopia + residual,1.555
-Paraguay,73,5.578,5.689,5.467,Freedom - Life Choices,0.629
+Paraguay,73,5.578,5.689,5.467,Freedom: Life Choices,0.629
 Paraguay,73,5.578,5.689,5.467,GDP per capita,1.409
 Paraguay,73,5.578,5.689,5.467,Generosity,0.171
 Paraguay,73,5.578,5.689,5.467,Healthy life expectancy,0.624
 Paraguay,73,5.578,5.689,5.467,Perceptions of corruption,0.059
 Paraguay,73,5.578,5.689,5.467,Social support,1.13
 Peru,74,5.559,5.679,5.439,Dystopia + residual,1.89
-Peru,74,5.559,5.679,5.439,Freedom - Life Choices,0.545
+Peru,74,5.559,5.679,5.439,Freedom: Life Choices,0.545
 Peru,74,5.559,5.679,5.439,GDP per capita,1.397
 Peru,74,5.559,5.679,5.439,Generosity,0.09
 Peru,74,5.559,5.679,5.439,Healthy life expectancy,0.735
 Peru,74,5.559,5.679,5.439,Perceptions of corruption,0.037
 Peru,74,5.559,5.679,5.439,Social support,0.865
 Montenegro,75,5.547,5.681,5.413,Dystopia + residual,1.619
-Montenegro,75,5.547,5.681,5.413,Freedom - Life Choices,0.46
+Montenegro,75,5.547,5.681,5.413,Freedom: Life Choices,0.46
 Montenegro,75,5.547,5.681,5.413,GDP per capita,1.573
 Montenegro,75,5.547,5.681,5.413,Generosity,0.135
 Montenegro,75,5.547,5.681,5.413,Healthy life expectancy,0.659
 Montenegro,75,5.547,5.681,5.413,Perceptions of corruption,0.077
 Montenegro,75,5.547,5.681,5.413,Social support,1.023
 Ecuador,76,5.533,5.653,5.414,Dystopia + residual,1.866
-Ecuador,76,5.533,5.653,5.414,Freedom - Life Choices,0.565
+Ecuador,76,5.533,5.653,5.414,Freedom: Life Choices,0.565
 Ecuador,76,5.533,5.653,5.414,GDP per capita,1.352
 Ecuador,76,5.533,5.653,5.414,Generosity,0.08
 Ecuador,76,5.533,5.653,5.414,Healthy life expectancy,0.708
 Ecuador,76,5.533,5.653,5.414,Perceptions of corruption,0.083
 Ecuador,76,5.533,5.653,5.414,Social support,0.879
 Vietnam,77,5.485,5.57,5.4,Dystopia + residual,1.735
-Vietnam,77,5.485,5.57,5.4,Freedom - Life Choices,0.707
+Vietnam,77,5.485,5.57,5.4,Freedom: Life Choices,0.707
 Vietnam,77,5.485,5.57,5.4,GDP per capita,1.252
 Vietnam,77,5.485,5.57,5.4,Generosity,0.143
 Vietnam,77,5.485,5.57,5.4,Healthy life expectancy,0.611
 Vietnam,77,5.485,5.57,5.4,Perceptions of corruption,0.105
 Vietnam,77,5.485,5.57,5.4,Social support,0.932
 Turkmenistan*,78,5.474,5.578,5.371,Dystopia + residual,1.16
-Turkmenistan*,78,5.474,5.578,5.371,Freedom - Life Choices,0.649
+Turkmenistan*,78,5.474,5.578,5.371,Freedom: Life Choices,0.649
 Turkmenistan*,78,5.474,5.578,5.371,GDP per capita,1.484
 Turkmenistan*,78,5.474,5.578,5.371,Generosity,0.314
 Turkmenistan*,78,5.474,5.578,5.371,Healthy life expectancy,0.516
 Turkmenistan*,78,5.474,5.578,5.371,Perceptions of corruption,0.032
 Turkmenistan*,78,5.474,5.578,5.371,Social support,1.319
 North Cyprus*,79,5.467,5.609,5.325,Dystopia + residual,1.078
-North Cyprus*,79,5.467,5.609,5.325,Freedom - Life Choices,0.523
+North Cyprus*,79,5.467,5.609,5.325,Freedom: Life Choices,0.523
 North Cyprus*,79,5.467,5.609,5.325,GDP per capita,1.815
 North Cyprus*,79,5.467,5.609,5.325,Generosity,0.13
 North Cyprus*,79,5.467,5.609,5.325,Healthy life expectancy,0.819
 North Cyprus*,79,5.467,5.609,5.325,Perceptions of corruption,0.213
 North Cyprus*,79,5.467,5.609,5.325,Social support,0.888
 Russia,80,5.459,5.525,5.392,Dystopia + residual,1.494
-Russia,80,5.459,5.525,5.392,Freedom - Life Choices,0.401
+Russia,80,5.459,5.525,5.392,Freedom: Life Choices,0.401
 Russia,80,5.459,5.525,5.392,GDP per capita,1.685
 Russia,80,5.459,5.525,5.392,Generosity,0.117
 Russia,80,5.459,5.525,5.392,Healthy life expectancy,0.586
 Russia,80,5.459,5.525,5.392,Perceptions of corruption,0.08
 Russia,80,5.459,5.525,5.392,Social support,1.095
 Hong Kong S.A.R. of China,81,5.425,5.501,5.348,Dystopia + residual,0.642
-Hong Kong S.A.R. of China,81,5.425,5.501,5.348,Freedom - Life Choices,0.4
+Hong Kong S.A.R. of China,81,5.425,5.501,5.348,Freedom: Life Choices,0.4
 Hong Kong S.A.R. of China,81,5.425,5.501,5.348,GDP per capita,1.957
 Hong Kong S.A.R. of China,81,5.425,5.501,5.348,Generosity,0.147
 Hong Kong S.A.R. of China,81,5.425,5.501,5.348,Healthy life expectancy,0.942
 Hong Kong S.A.R. of China,81,5.425,5.501,5.348,Perceptions of corruption,0.383
 Hong Kong S.A.R. of China,81,5.425,5.501,5.348,Social support,0.954
 Armenia,82,5.399,5.519,5.278,Dystopia + residual,1.654
-Armenia,82,5.399,5.519,5.278,Freedom - Life Choices,0.558
+Armenia,82,5.399,5.519,5.278,Freedom: Life Choices,0.558
 Armenia,82,5.399,5.519,5.278,GDP per capita,1.434
 Armenia,82,5.399,5.519,5.278,Generosity,0.054
 Armenia,82,5.399,5.519,5.278,Healthy life expectancy,0.668
 Armenia,82,5.399,5.519,5.278,Perceptions of corruption,0.21
 Armenia,82,5.399,5.519,5.278,Social support,0.82
 Tajikistan,83,5.377,5.468,5.287,Dystopia + residual,1.895
-Tajikistan,83,5.377,5.468,5.287,Freedom - Life Choices,0.572
+Tajikistan,83,5.377,5.468,5.287,Freedom: Life Choices,0.572
 Tajikistan,83,5.377,5.468,5.287,GDP per capita,0.966
 Tajikistan,83,5.377,5.468,5.287,Generosity,0.118
 Tajikistan,83,5.377,5.468,5.287,Healthy life expectancy,0.518
 Tajikistan,83,5.377,5.468,5.287,Perceptions of corruption,0.304
 Tajikistan,83,5.377,5.468,5.287,Social support,1.005
 Nepal,84,5.377,5.502,5.251,Dystopia + residual,2.224
-Nepal,84,5.377,5.502,5.251,Freedom - Life Choices,0.519
+Nepal,84,5.377,5.502,5.251,Freedom: Life Choices,0.519
 Nepal,84,5.377,5.502,5.251,GDP per capita,0.984
 Nepal,84,5.377,5.502,5.251,Generosity,0.237
 Nepal,84,5.377,5.502,5.251,Healthy life expectancy,0.499
 Nepal,84,5.377,5.502,5.251,Perceptions of corruption,0.13
 Nepal,84,5.377,5.502,5.251,Social support,0.784
 Bulgaria,85,5.371,5.485,5.257,Dystopia + residual,1.235
-Bulgaria,85,5.371,5.485,5.257,Freedom - Life Choices,0.563
+Bulgaria,85,5.371,5.485,5.257,Freedom: Life Choices,0.563
 Bulgaria,85,5.371,5.485,5.257,GDP per capita,1.625
 Bulgaria,85,5.371,5.485,5.257,Generosity,0.123
 Bulgaria,85,5.371,5.485,5.257,Healthy life expectancy,0.64
 Bulgaria,85,5.371,5.485,5.257,Perceptions of corruption,0.021
 Bulgaria,85,5.371,5.485,5.257,Social support,1.163
 Libya*,86,5.33,5.543,5.118,Dystopia + residual,1.544
-Libya*,86,5.33,5.543,5.118,Freedom - Life Choices,0.477
+Libya*,86,5.33,5.543,5.118,Freedom: Life Choices,0.477
 Libya*,86,5.33,5.543,5.118,GDP per capita,1.476
 Libya*,86,5.33,5.543,5.118,Generosity,0.106
 Libya*,86,5.33,5.543,5.118,Healthy life expectancy,0.606
 Libya*,86,5.33,5.543,5.118,Perceptions of corruption,0.179
 Libya*,86,5.33,5.543,5.118,Social support,0.943
 Indonesia,87,5.24,5.341,5.139,Dystopia + residual,1.3
-Indonesia,87,5.24,5.341,5.139,Freedom - Life Choices,0.62
+Indonesia,87,5.24,5.341,5.139,Freedom: Life Choices,0.62
 Indonesia,87,5.24,5.341,5.139,GDP per capita,1.382
 Indonesia,87,5.24,5.341,5.139,Generosity,0.468
 Indonesia,87,5.24,5.341,5.139,Healthy life expectancy,0.539
 Indonesia,87,5.24,5.341,5.139,Perceptions of corruption,0.047
 Indonesia,87,5.24,5.341,5.139,Social support,0.883
 Ivory Coast,88,5.235,5.384,5.085,Dystopia + residual,2.652
-Ivory Coast,88,5.235,5.384,5.085,Freedom - Life Choices,0.451
+Ivory Coast,88,5.235,5.384,5.085,Freedom: Life Choices,0.451
 Ivory Coast,88,5.235,5.384,5.085,GDP per capita,1.094
 Ivory Coast,88,5.235,5.384,5.085,Generosity,0.149
 Ivory Coast,88,5.235,5.384,5.085,Healthy life expectancy,0.322
 Ivory Coast,88,5.235,5.384,5.085,Perceptions of corruption,0.124
 Ivory Coast,88,5.235,5.384,5.085,Social support,0.442
 North Macedonia,89,5.199,5.303,5.095,Dystopia + residual,1.461
-North Macedonia,89,5.199,5.303,5.095,Freedom - Life Choices,0.488
+North Macedonia,89,5.199,5.303,5.095,Freedom: Life Choices,0.488
 North Macedonia,89,5.199,5.303,5.095,GDP per capita,1.505
 North Macedonia,89,5.199,5.303,5.095,Generosity,0.215
 North Macedonia,89,5.199,5.303,5.095,Healthy life expectancy,0.637
 North Macedonia,89,5.199,5.303,5.095,Perceptions of corruption,0.031
 North Macedonia,89,5.199,5.303,5.095,Social support,0.863
 Albania,90,5.199,5.321,5.076,Dystopia + residual,1.718
-Albania,90,5.199,5.321,5.076,Freedom - Life Choices,0.511
+Albania,90,5.199,5.321,5.076,Freedom: Life Choices,0.511
 Albania,90,5.199,5.321,5.076,GDP per capita,1.439
 Albania,90,5.199,5.321,5.076,Generosity,0.138
 Albania,90,5.199,5.321,5.076,Healthy life expectancy,0.719
 Albania,90,5.199,5.321,5.076,Perceptions of corruption,0.028
 Albania,90,5.199,5.321,5.076,Social support,0.646
 South Africa,91,5.194,5.315,5.073,Dystopia + residual,1.742
-South Africa,91,5.194,5.315,5.073,Freedom - Life Choices,0.442
+South Africa,91,5.194,5.315,5.073,Freedom: Life Choices,0.442
 South Africa,91,5.194,5.315,5.073,GDP per capita,1.425
 South Africa,91,5.194,5.315,5.073,Generosity,0.089
 South Africa,91,5.194,5.315,5.073,Healthy life expectancy,0.361
 South Africa,91,5.194,5.315,5.073,Perceptions of corruption,0.046
 South Africa,91,5.194,5.315,5.073,Social support,1.088
 Azerbaijan,92,5.173,5.265,5.082,Dystopia + residual,1.098
-Azerbaijan,92,5.173,5.265,5.082,Freedom - Life Choices,0.601
+Azerbaijan,92,5.173,5.265,5.082,Freedom: Life Choices,0.601
 Azerbaijan,92,5.173,5.265,5.082,GDP per capita,1.458
 Azerbaijan,92,5.173,5.265,5.082,Generosity,0.023
 Azerbaijan,92,5.173,5.265,5.082,Healthy life expectancy,0.56
 Azerbaijan,92,5.173,5.265,5.082,Perceptions of corruption,0.341
 Azerbaijan,92,5.173,5.265,5.082,Social support,1.093
 Gambia,93,5.164,5.409,4.918,Dystopia + residual,2.531
-Gambia,93,5.164,5.409,4.918,Freedom - Life Choices,0.367
+Gambia,93,5.164,5.409,4.918,Freedom: Life Choices,0.367
 Gambia,93,5.164,5.409,4.918,GDP per capita,0.785
 Gambia,93,5.164,5.409,4.918,Generosity,0.388
 Gambia,93,5.164,5.409,4.918,Healthy life expectancy,0.369
 Gambia,93,5.164,5.409,4.918,Perceptions of corruption,0.103
 Gambia,93,5.164,5.409,4.918,Social support,0.621
 Bangladesh,94,5.155,5.262,5.049,Dystopia + residual,1.967
-Bangladesh,94,5.155,5.262,5.049,Freedom - Life Choices,0.622
+Bangladesh,94,5.155,5.262,5.049,Freedom: Life Choices,0.622
 Bangladesh,94,5.155,5.262,5.049,GDP per capita,1.06
 Bangladesh,94,5.155,5.262,5.049,Generosity,0.125
 Bangladesh,94,5.155,5.262,5.049,Healthy life expectancy,0.581
 Bangladesh,94,5.155,5.262,5.049,Perceptions of corruption,0.187
 Bangladesh,94,5.155,5.262,5.049,Social support,0.614
 Laos,95,5.14,5.263,5.018,Dystopia + residual,1.709
-Laos,95,5.14,5.263,5.018,Freedom - Life Choices,0.679
+Laos,95,5.14,5.263,5.018,Freedom: Life Choices,0.679
 Laos,95,5.14,5.263,5.018,GDP per capita,1.239
 Laos,95,5.14,5.263,5.018,Generosity,0.197
 Laos,95,5.14,5.263,5.018,Healthy life expectancy,0.479
 Laos,95,5.14,5.263,5.018,Perceptions of corruption,0.184
 Laos,95,5.14,5.263,5.018,Social support,0.654
 Algeria,96,5.122,5.215,5.03,Dystopia + residual,1.744
-Algeria,96,5.122,5.215,5.03,Freedom - Life Choices,0.146
+Algeria,96,5.122,5.215,5.03,Freedom: Life Choices,0.146
 Algeria,96,5.122,5.215,5.03,GDP per capita,1.363
 Algeria,96,5.122,5.215,5.03,Generosity,0.106
 Algeria,96,5.122,5.215,5.03,Healthy life expectancy,0.643
 Algeria,96,5.122,5.215,5.03,Perceptions of corruption,0.15
 Algeria,96,5.122,5.215,5.03,Social support,0.97
 Liberia*,97,5.122,5.428,4.815,Dystopia + residual,2.844
-Liberia*,97,5.122,5.428,4.815,Freedom - Life Choices,0.405
+Liberia*,97,5.122,5.428,4.815,Freedom: Life Choices,0.405
 Liberia*,97,5.122,5.428,4.815,GDP per capita,0.636
 Liberia*,97,5.122,5.428,4.815,Generosity,0.178
 Liberia*,97,5.122,5.428,4.815,Healthy life expectancy,0.309
 Liberia*,97,5.122,5.428,4.815,Perceptions of corruption,0.08
 Liberia*,97,5.122,5.428,4.815,Social support,0.67
 Ukraine,98,5.084,5.19,4.978,Dystopia + residual,1.331
-Ukraine,98,5.084,5.19,4.978,Freedom - Life Choices,0.473
+Ukraine,98,5.084,5.19,4.978,Freedom: Life Choices,0.473
 Ukraine,98,5.084,5.19,4.978,GDP per capita,1.411
 Ukraine,98,5.084,5.19,4.978,Generosity,0.188
 Ukraine,98,5.084,5.19,4.978,Healthy life expectancy,0.583
 Ukraine,98,5.084,5.19,4.978,Perceptions of corruption,0.017
 Ukraine,98,5.084,5.19,4.978,Social support,1.081
 Congo,99,5.075,5.235,4.915,Dystopia + residual,2.658
-Congo,99,5.075,5.235,4.915,Freedom - Life Choices,0.431
+Congo,99,5.075,5.235,4.915,Freedom: Life Choices,0.431
 Congo,99,5.075,5.235,4.915,GDP per capita,0.95
 Congo,99,5.075,5.235,4.915,Generosity,0.13
 Congo,99,5.075,5.235,4.915,Healthy life expectancy,0.355
 Congo,99,5.075,5.235,4.915,Perceptions of corruption,0.146
 Congo,99,5.075,5.235,4.915,Social support,0.405
 Morocco,100,5.06,5.181,4.938,Dystopia + residual,2.405
-Morocco,100,5.06,5.181,4.938,Freedom - Life Choices,0.492
+Morocco,100,5.06,5.181,4.938,Freedom: Life Choices,0.492
 Morocco,100,5.06,5.181,4.938,GDP per capita,1.208
 Morocco,100,5.06,5.181,4.938,Generosity,0.02
 Morocco,100,5.06,5.181,4.938,Healthy life expectancy,0.565
 Morocco,100,5.06,5.181,4.938,Perceptions of corruption,0.102
 Morocco,100,5.06,5.181,4.938,Social support,0.268
 Mozambique,101,5.048,5.273,4.823,Dystopia + residual,2.641
-Mozambique,101,5.048,5.273,4.823,Freedom - Life Choices,0.593
+Mozambique,101,5.048,5.273,4.823,Freedom: Life Choices,0.593
 Mozambique,101,5.048,5.273,4.823,GDP per capita,0.578
 Mozambique,101,5.048,5.273,4.823,Generosity,0.185
 Mozambique,101,5.048,5.273,4.823,Healthy life expectancy,0.191
 Mozambique,101,5.048,5.273,4.823,Perceptions of corruption,0.2
 Mozambique,101,5.048,5.273,4.823,Social support,0.66
 Cameroon,102,5.048,5.188,4.907,Dystopia + residual,2.469
-Cameroon,102,5.048,5.188,4.907,Freedom - Life Choices,0.397
+Cameroon,102,5.048,5.188,4.907,Freedom: Life Choices,0.397
 Cameroon,102,5.048,5.188,4.907,GDP per capita,0.968
 Cameroon,102,5.048,5.188,4.907,Generosity,0.152
 Cameroon,102,5.048,5.188,4.907,Healthy life expectancy,0.317
 Cameroon,102,5.048,5.188,4.907,Perceptions of corruption,0.074
 Cameroon,102,5.048,5.188,4.907,Social support,0.672
 Senegal,103,5.046,5.171,4.921,Dystopia + residual,2.419
-Senegal,103,5.046,5.171,4.921,Freedom - Life Choices,0.494
+Senegal,103,5.046,5.171,4.921,Freedom: Life Choices,0.494
 Senegal,103,5.046,5.171,4.921,GDP per capita,0.933
 Senegal,103,5.046,5.171,4.921,Generosity,0.143
 Senegal,103,5.046,5.171,4.921,Healthy life expectancy,0.447
 Senegal,103,5.046,5.171,4.921,Perceptions of corruption,0.081
 Senegal,103,5.046,5.171,4.921,Social support,0.53
 Niger,104,5.003,5.247,4.76,Dystopia + residual,2.667
-Niger,104,5.003,5.247,4.76,Freedom - Life Choices,0.571
+Niger,104,5.003,5.247,4.76,Freedom: Life Choices,0.571
 Niger,104,5.003,5.247,4.76,GDP per capita,0.57
 Niger,104,5.003,5.247,4.76,Generosity,0.165
 Niger,104,5.003,5.247,4.76,Healthy life expectancy,0.326
 Niger,104,5.003,5.247,4.76,Perceptions of corruption,0.145
 Niger,104,5.003,5.247,4.76,Social support,0.56
 Georgia,105,4.973,5.079,4.867,Dystopia + residual,1.583
-Georgia,105,4.973,5.079,4.867,Freedom - Life Choices,0.508
+Georgia,105,4.973,5.079,4.867,Freedom: Life Choices,0.508
 Georgia,105,4.973,5.079,4.867,GDP per capita,1.467
 Georgia,105,4.973,5.079,4.867,Generosity,0
 Georgia,105,4.973,5.079,4.867,Healthy life expectancy,0.595
 Georgia,105,4.973,5.079,4.867,Perceptions of corruption,0.208
 Georgia,105,4.973,5.079,4.867,Social support,0.612
 Gabon,106,4.958,5.091,4.826,Dystopia + residual,1.892
-Gabon,106,4.958,5.091,4.826,Freedom - Life Choices,0.343
+Gabon,106,4.958,5.091,4.826,Freedom: Life Choices,0.343
 Gabon,106,4.958,5.091,4.826,GDP per capita,1.459
 Gabon,106,4.958,5.091,4.826,Generosity,0.032
 Gabon,106,4.958,5.091,4.826,Healthy life expectancy,0.396
 Gabon,106,4.958,5.091,4.826,Perceptions of corruption,0.099
 Gabon,106,4.958,5.091,4.826,Social support,0.738
 Iraq,107,4.941,5.099,4.783,Dystopia + residual,1.894
-Iraq,107,4.941,5.099,4.783,Freedom - Life Choices,0.328
+Iraq,107,4.941,5.099,4.783,Freedom: Life Choices,0.328
 Iraq,107,4.941,5.099,4.783,GDP per capita,1.289
 Iraq,107,4.941,5.099,4.783,Generosity,0.147
 Iraq,107,4.941,5.099,4.783,Healthy life expectancy,0.554
 Iraq,107,4.941,5.099,4.783,Perceptions of corruption,0.046
 Iraq,107,4.941,5.099,4.783,Social support,0.682
 Venezuela,108,4.925,5.051,4.8,Dystopia + residual,2.79
-Venezuela,108,4.925,5.051,4.8,Freedom - Life Choices,0.283
+Venezuela,108,4.925,5.051,4.8,Freedom: Life Choices,0.283
 Venezuela,108,4.925,5.051,4.8,GDP per capita,0
 Venezuela,108,4.925,5.051,4.8,Generosity,0.225
 Venezuela,108,4.925,5.051,4.8,Healthy life expectancy,0.578
 Venezuela,108,4.925,5.051,4.8,Perceptions of corruption,0.082
 Venezuela,108,4.925,5.051,4.8,Social support,0.968
 Guinea,109,4.891,5.028,4.753,Dystopia + residual,2.538
-Guinea,109,4.891,5.028,4.753,Freedom - Life Choices,0.334
+Guinea,109,4.891,5.028,4.753,Freedom: Life Choices,0.334
 Guinea,109,4.891,5.028,4.753,GDP per capita,0.848
 Guinea,109,4.891,5.028,4.753,Generosity,0.214
 Guinea,109,4.891,5.028,4.753,Healthy life expectancy,0.275
 Guinea,109,4.891,5.028,4.753,Perceptions of corruption,0.116
 Guinea,109,4.891,5.028,4.753,Social support,0.566
 Iran,110,4.888,4.995,4.78,Dystopia + residual,1.427
-Iran,110,4.888,4.995,4.78,Freedom - Life Choices,0.281
+Iran,110,4.888,4.995,4.78,Freedom: Life Choices,0.281
 Iran,110,4.888,4.995,4.78,GDP per capita,1.41
 Iran,110,4.888,4.995,4.78,Generosity,0.241
 Iran,110,4.888,4.995,4.78,Healthy life expectancy,0.642
 Iran,110,4.888,4.995,4.78,Perceptions of corruption,0.146
 Iran,110,4.888,4.995,4.78,Social support,0.741
 Ghana,111,4.872,4.999,4.745,Dystopia + residual,1.972
-Ghana,111,4.872,4.999,4.745,Freedom - Life Choices,0.5
+Ghana,111,4.872,4.999,4.745,Freedom: Life Choices,0.5
 Ghana,111,4.872,4.999,4.745,GDP per capita,1.112
 Ghana,111,4.872,4.999,4.745,Generosity,0.23
 Ghana,111,4.872,4.999,4.745,Healthy life expectancy,0.409
 Ghana,111,4.872,4.999,4.745,Perceptions of corruption,0.056
 Ghana,111,4.872,4.999,4.745,Social support,0.595
 Turkey,112,4.744,4.845,4.644,Dystopia + residual,1.059
-Turkey,112,4.744,4.845,4.644,Freedom - Life Choices,0.209
+Turkey,112,4.744,4.845,4.644,Freedom: Life Choices,0.209
 Turkey,112,4.744,4.845,4.644,GDP per capita,1.707
 Turkey,112,4.744,4.845,4.644,Generosity,0.087
 Turkey,112,4.744,4.845,4.644,Healthy life expectancy,0.702
 Turkey,112,4.744,4.845,4.644,Perceptions of corruption,0.115
 Turkey,112,4.744,4.845,4.644,Social support,0.865
 Burkina Faso,113,4.67,4.814,4.527,Dystopia + residual,2.313
-Burkina Faso,113,4.67,4.814,4.527,Freedom - Life Choices,0.382
+Burkina Faso,113,4.67,4.814,4.527,Freedom: Life Choices,0.382
 Burkina Faso,113,4.67,4.814,4.527,GDP per capita,0.779
 Burkina Faso,113,4.67,4.814,4.527,Generosity,0.186
 Burkina Faso,113,4.67,4.814,4.527,Healthy life expectancy,0.32
 Burkina Faso,113,4.67,4.814,4.527,Perceptions of corruption,0.126
 Burkina Faso,113,4.67,4.814,4.527,Social support,0.565
 Cambodia,114,4.64,4.765,4.516,Dystopia + residual,1.41
-Cambodia,114,4.64,4.765,4.516,Freedom - Life Choices,0.74
+Cambodia,114,4.64,4.765,4.516,Freedom: Life Choices,0.74
 Cambodia,114,4.64,4.765,4.516,GDP per capita,1.019
 Cambodia,114,4.64,4.765,4.516,Generosity,0.166
 Cambodia,114,4.64,4.765,4.516,Healthy life expectancy,0.505
 Cambodia,114,4.64,4.765,4.516,Perceptions of corruption,0.068
 Cambodia,114,4.64,4.765,4.516,Social support,0.732
 Benin,115,4.623,4.754,4.492,Dystopia + residual,2.458
-Benin,115,4.623,4.754,4.492,Freedom - Life Choices,0.479
+Benin,115,4.623,4.754,4.492,Freedom: Life Choices,0.479
 Benin,115,4.623,4.754,4.492,GDP per capita,0.932
 Benin,115,4.623,4.754,4.492,Generosity,0.127
 Benin,115,4.623,4.754,4.492,Healthy life expectancy,0.335
 Benin,115,4.623,4.754,4.492,Perceptions of corruption,0.23
 Benin,115,4.623,4.754,4.492,Social support,0.064
 Comoros,116,4.609,4.849,4.368,Dystopia + residual,2.304
-Comoros,116,4.609,4.849,4.368,Freedom - Life Choices,0.185
+Comoros,116,4.609,4.849,4.368,Freedom: Life Choices,0.185
 Comoros,116,4.609,4.849,4.368,GDP per capita,0.899
 Comoros,116,4.609,4.849,4.368,Generosity,0.195
 Comoros,116,4.609,4.849,4.368,Healthy life expectancy,0.424
 Comoros,116,4.609,4.849,4.368,Perceptions of corruption,0.125
 Comoros,116,4.609,4.849,4.368,Social support,0.476
 Uganda,117,4.603,4.747,4.459,Dystopia + residual,1.842
-Uganda,117,4.603,4.747,4.459,Freedom - Life Choices,0.402
+Uganda,117,4.603,4.747,4.459,Freedom: Life Choices,0.402
 Uganda,117,4.603,4.747,4.459,GDP per capita,0.777
 Uganda,117,4.603,4.747,4.459,Generosity,0.222
 Uganda,117,4.603,4.747,4.459,Healthy life expectancy,0.418
 Uganda,117,4.603,4.747,4.459,Perceptions of corruption,0.066
 Uganda,117,4.603,4.747,4.459,Social support,0.875
 Nigeria,118,4.552,4.651,4.453,Dystopia + residual,1.784
-Nigeria,118,4.552,4.651,4.453,Freedom - Life Choices,0.444
+Nigeria,118,4.552,4.651,4.453,Freedom: Life Choices,0.444
 Nigeria,118,4.552,4.651,4.453,GDP per capita,1.079
 Nigeria,118,4.552,4.651,4.453,Generosity,0.175
 Nigeria,118,4.552,4.651,4.453,Healthy life expectancy,0.3
 Nigeria,118,4.552,4.651,4.453,Perceptions of corruption,0.038
 Nigeria,118,4.552,4.651,4.453,Social support,0.732
 Kenya,119,4.543,4.683,4.403,Dystopia + residual,1.661
-Kenya,119,4.543,4.683,4.403,Freedom - Life Choices,0.44
+Kenya,119,4.543,4.683,4.403,Freedom: Life Choices,0.44
 Kenya,119,4.543,4.683,4.403,GDP per capita,1.032
 Kenya,119,4.543,4.683,4.403,Generosity,0.322
 Kenya,119,4.543,4.683,4.403,Healthy life expectancy,0.401
 Kenya,119,4.543,4.683,4.403,Perceptions of corruption,0.082
 Kenya,119,4.543,4.683,4.403,Social support,0.605
 Tunisia,120,4.516,4.629,4.403,Dystopia + residual,1.54
-Tunisia,120,4.516,4.629,4.403,Freedom - Life Choices,0.316
+Tunisia,120,4.516,4.629,4.403,Freedom: Life Choices,0.316
 Tunisia,120,4.516,4.629,4.403,GDP per capita,1.35
 Tunisia,120,4.516,4.629,4.403,Generosity,0.029
 Tunisia,120,4.516,4.629,4.403,Healthy life expectancy,0.656
 Tunisia,120,4.516,4.629,4.403,Perceptions of corruption,0.029
 Tunisia,120,4.516,4.629,4.403,Social support,0.596
 Pakistan,121,4.516,4.634,4.397,Dystopia + residual,1.94
-Pakistan,121,4.516,4.634,4.397,Freedom - Life Choices,0.448
+Pakistan,121,4.516,4.634,4.397,Freedom: Life Choices,0.448
 Pakistan,121,4.516,4.634,4.397,GDP per capita,1.049
 Pakistan,121,4.516,4.634,4.397,Generosity,0.181
 Pakistan,121,4.516,4.634,4.397,Healthy life expectancy,0.374
 Pakistan,121,4.516,4.634,4.397,Perceptions of corruption,0.112
 Pakistan,121,4.516,4.634,4.397,Social support,0.413
 Palestinian Territories,122,4.483,4.665,4.3,Dystopia + residual,1.368
-Palestinian Territories,122,4.483,4.665,4.3,Freedom - Life Choices,0.336
+Palestinian Territories,122,4.483,4.665,4.3,Freedom: Life Choices,0.336
 Palestinian Territories,122,4.483,4.665,4.3,GDP per capita,1.148
 Palestinian Territories,122,4.483,4.665,4.3,Generosity,0.073
 Palestinian Territories,122,4.483,4.665,4.3,Healthy life expectancy,0.521
 Palestinian Territories,122,4.483,4.665,4.3,Perceptions of corruption,0.079
 Palestinian Territories,122,4.483,4.665,4.3,Social support,0.957
 Mali,123,4.479,4.611,4.347,Dystopia + residual,2.373
-Mali,123,4.479,4.611,4.347,Freedom - Life Choices,0.35
+Mali,123,4.479,4.611,4.347,Freedom: Life Choices,0.35
 Mali,123,4.479,4.611,4.347,GDP per capita,0.792
 Mali,123,4.479,4.611,4.347,Generosity,0.128
 Mali,123,4.479,4.611,4.347,Healthy life expectancy,0.311
 Mali,123,4.479,4.611,4.347,Perceptions of corruption,0.042
 Mali,123,4.479,4.611,4.347,Social support,0.483
 Namibia,124,4.459,4.593,4.326,Dystopia + residual,1.414
-Namibia,124,4.459,4.593,4.326,Freedom - Life Choices,0.384
+Namibia,124,4.459,4.593,4.326,Freedom: Life Choices,0.384
 Namibia,124,4.459,4.593,4.326,GDP per capita,1.292
 Namibia,124,4.459,4.593,4.326,Generosity,0.067
 Namibia,124,4.459,4.593,4.326,Healthy life expectancy,0.354
 Namibia,124,4.459,4.593,4.326,Perceptions of corruption,0.071
 Namibia,124,4.459,4.593,4.326,Social support,0.877
 Eswatini,125,4.396,4.607,4.185,Dystopia + residual,1.688
-Eswatini,125,4.396,4.607,4.185,Freedom - Life Choices,0.259
+Eswatini,125,4.396,4.607,4.185,Freedom: Life Choices,0.259
 Eswatini,125,4.396,4.607,4.185,GDP per capita,1.274
 Eswatini,125,4.396,4.607,4.185,Generosity,0.038
 Eswatini,125,4.396,4.607,4.185,Healthy life expectancy,0.197
 Eswatini,125,4.396,4.607,4.185,Perceptions of corruption,0.154
 Eswatini,125,4.396,4.607,4.185,Social support,0.786
 Myanmar,126,4.394,4.511,4.277,Dystopia + residual,0.877
-Myanmar,126,4.394,4.511,4.277,Freedom - Life Choices,0.513
+Myanmar,126,4.394,4.511,4.277,Freedom: Life Choices,0.513
 Myanmar,126,4.394,4.511,4.277,GDP per capita,1.038
 Myanmar,126,4.394,4.511,4.277,Generosity,0.452
 Myanmar,126,4.394,4.511,4.277,Healthy life expectancy,0.491
 Myanmar,126,4.394,4.511,4.277,Perceptions of corruption,0.194
 Myanmar,126,4.394,4.511,4.277,Social support,0.829
 Sri Lanka,127,4.362,4.487,4.237,Dystopia + residual,0.595
-Sri Lanka,127,4.362,4.487,4.237,Freedom - Life Choices,0.529
+Sri Lanka,127,4.362,4.487,4.237,Freedom: Life Choices,0.529
 Sri Lanka,127,4.362,4.487,4.237,GDP per capita,1.415
 Sri Lanka,127,4.362,4.487,4.237,Generosity,0.15
 Sri Lanka,127,4.362,4.487,4.237,Healthy life expectancy,0.66
 Sri Lanka,127,4.362,4.487,4.237,Perceptions of corruption,0.079
 Sri Lanka,127,4.362,4.487,4.237,Social support,0.934
 Madagascar*,128,4.339,4.53,4.148,Dystopia + residual,2.148
-Madagascar*,128,4.339,4.53,4.148,Freedom - Life Choices,0.202
+Madagascar*,128,4.339,4.53,4.148,Freedom: Life Choices,0.202
 Madagascar*,128,4.339,4.53,4.148,GDP per capita,0.67
 Madagascar*,128,4.339,4.53,4.148,Generosity,0.143
 Madagascar*,128,4.339,4.53,4.148,Healthy life expectancy,0.378
 Madagascar*,128,4.339,4.53,4.148,Perceptions of corruption,0.154
 Madagascar*,128,4.339,4.53,4.148,Social support,0.645
 Egypt,129,4.288,4.377,4.198,Dystopia + residual,0.856
-Egypt,129,4.288,4.377,4.198,Freedom - Life Choices,0.469
+Egypt,129,4.288,4.377,4.198,Freedom: Life Choices,0.469
 Egypt,129,4.288,4.377,4.198,GDP per capita,1.388
 Egypt,129,4.288,4.377,4.198,Generosity,0.041
 Egypt,129,4.288,4.377,4.198,Healthy life expectancy,0.548
 Egypt,129,4.288,4.377,4.198,Perceptions of corruption,0.254
 Egypt,129,4.288,4.377,4.198,Social support,0.732
 Chad,130,4.251,4.503,3.999,Dystopia + residual,2.419
-Chad,130,4.251,4.503,3.999,Freedom - Life Choices,0.18
+Chad,130,4.251,4.503,3.999,Freedom: Life Choices,0.18
 Chad,130,4.251,4.503,3.999,GDP per capita,0.662
 Chad,130,4.251,4.503,3.999,Generosity,0.182
 Chad,130,4.251,4.503,3.999,Healthy life expectancy,0.225
 Chad,130,4.251,4.503,3.999,Perceptions of corruption,0.077
 Chad,130,4.251,4.503,3.999,Social support,0.506
 Ethiopia,131,4.241,4.365,4.118,Dystopia + residual,1.375
-Ethiopia,131,4.241,4.365,4.118,Freedom - Life Choices,0.472
+Ethiopia,131,4.241,4.365,4.118,Freedom: Life Choices,0.472
 Ethiopia,131,4.241,4.365,4.118,GDP per capita,0.788
 Ethiopia,131,4.241,4.365,4.118,Generosity,0.205
 Ethiopia,131,4.241,4.365,4.118,Healthy life expectancy,0.457
 Ethiopia,131,4.241,4.365,4.118,Perceptions of corruption,0.136
 Ethiopia,131,4.241,4.365,4.118,Social support,0.809
 Yemen,132,4.197,4.384,4.01,Dystopia + residual,1.561
-Yemen,132,4.197,4.384,4.01,Freedom - Life Choices,0.33
+Yemen,132,4.197,4.384,4.01,Freedom: Life Choices,0.33
 Yemen,132,4.197,4.384,4.01,GDP per capita,0.691
 Yemen,132,4.197,4.384,4.01,Generosity,0.09
 Yemen,132,4.197,4.384,4.01,Healthy life expectancy,0.384
 Yemen,132,4.197,4.384,4.01,Perceptions of corruption,0.098
 Yemen,132,4.197,4.384,4.01,Social support,1.043
 Mauritania,133,4.153,4.356,3.95,Dystopia + residual,1.207
-Mauritania,133,4.153,4.356,3.95,Freedom - Life Choices,0.304
+Mauritania,133,4.153,4.356,3.95,Freedom: Life Choices,0.304
 Mauritania,133,4.153,4.356,3.95,GDP per capita,1.1
 Mauritania,133,4.153,4.356,3.95,Generosity,0.088
 Mauritania,133,4.153,4.356,3.95,Healthy life expectancy,0.45
 Mauritania,133,4.153,4.356,3.95,Perceptions of corruption,0.138
 Mauritania,133,4.153,4.356,3.95,Social support,0.865
 Jordan,134,4.152,4.276,4.029,Dystopia + residual,0.695
-Jordan,134,4.152,4.276,4.029,Freedom - Life Choices,0.476
+Jordan,134,4.152,4.276,4.029,Freedom: Life Choices,0.476
 Jordan,134,4.152,4.276,4.029,GDP per capita,1.324
 Jordan,134,4.152,4.276,4.029,Generosity,0.058
 Jordan,134,4.152,4.276,4.029,Healthy life expectancy,0.675
 Jordan,134,4.152,4.276,4.029,Perceptions of corruption,0.2
 Jordan,134,4.152,4.276,4.029,Social support,0.724
 Togo,135,4.112,4.272,3.953,Dystopia + residual,2.061
-Togo,135,4.112,4.272,3.953,Freedom - Life Choices,0.292
+Togo,135,4.112,4.272,3.953,Freedom: Life Choices,0.292
 Togo,135,4.112,4.272,3.953,GDP per capita,0.771
 Togo,135,4.112,4.272,3.953,Generosity,0.174
 Togo,135,4.112,4.272,3.953,Healthy life expectancy,0.36
 Togo,135,4.112,4.272,3.953,Perceptions of corruption,0.132
 Togo,135,4.112,4.272,3.953,Social support,0.322
 India,136,3.777,3.828,3.726,Dystopia + residual,0.795
-India,136,3.777,3.828,3.726,Freedom - Life Choices,0.647
+India,136,3.777,3.828,3.726,Freedom: Life Choices,0.647
 India,136,3.777,3.828,3.726,GDP per capita,1.167
 India,136,3.777,3.828,3.726,Generosity,0.198
 India,136,3.777,3.828,3.726,Healthy life expectancy,0.471
 India,136,3.777,3.828,3.726,Perceptions of corruption,0.123
 India,136,3.777,3.828,3.726,Social support,0.376
 Zambia,137,3.76,3.902,3.618,Dystopia + residual,1.135
-Zambia,137,3.76,3.902,3.618,Freedom - Life Choices,0.525
+Zambia,137,3.76,3.902,3.618,Freedom: Life Choices,0.525
 Zambia,137,3.76,3.902,3.618,GDP per capita,0.93
 Zambia,137,3.76,3.902,3.618,Generosity,0.203
 Zambia,137,3.76,3.902,3.618,Healthy life expectancy,0.306
 Zambia,137,3.76,3.902,3.618,Perceptions of corruption,0.083
 Zambia,137,3.76,3.902,3.618,Social support,0.577
 Malawi,138,3.75,3.941,3.56,Dystopia + residual,1.661
-Malawi,138,3.75,3.941,3.56,Freedom - Life Choices,0.477
+Malawi,138,3.75,3.941,3.56,Freedom: Life Choices,0.477
 Malawi,138,3.75,3.941,3.56,GDP per capita,0.648
 Malawi,138,3.75,3.941,3.56,Generosity,0.14
 Malawi,138,3.75,3.941,3.56,Healthy life expectancy,0.388
 Malawi,138,3.75,3.941,3.56,Perceptions of corruption,0.157
 Malawi,138,3.75,3.941,3.56,Social support,0.279
 Tanzania,139,3.702,3.847,3.558,Dystopia + residual,0.735
-Tanzania,139,3.702,3.847,3.558,Freedom - Life Choices,0.578
+Tanzania,139,3.702,3.847,3.558,Freedom: Life Choices,0.578
 Tanzania,139,3.702,3.847,3.558,GDP per capita,0.848
 Tanzania,139,3.702,3.847,3.558,Generosity,0.248
 Tanzania,139,3.702,3.847,3.558,Healthy life expectancy,0.425
 Tanzania,139,3.702,3.847,3.558,Perceptions of corruption,0.27
 Tanzania,139,3.702,3.847,3.558,Social support,0.597
 Sierra Leone,140,3.574,3.732,3.416,Dystopia + residual,1.556
-Sierra Leone,140,3.574,3.732,3.416,Freedom - Life Choices,0.387
+Sierra Leone,140,3.574,3.732,3.416,Freedom: Life Choices,0.387
 Sierra Leone,140,3.574,3.732,3.416,GDP per capita,0.686
 Sierra Leone,140,3.574,3.732,3.416,Generosity,0.202
 Sierra Leone,140,3.574,3.732,3.416,Healthy life expectancy,0.273
 Sierra Leone,140,3.574,3.732,3.416,Perceptions of corruption,0.055
 Sierra Leone,140,3.574,3.732,3.416,Social support,0.416
 Lesotho,141,3.512,3.748,3.276,Dystopia + residual,1.312
-Lesotho,141,3.512,3.748,3.276,Freedom - Life Choices,0.419
+Lesotho,141,3.512,3.748,3.276,Freedom: Life Choices,0.419
 Lesotho,141,3.512,3.748,3.276,GDP per capita,0.839
 Lesotho,141,3.512,3.748,3.276,Generosity,0.076
 Lesotho,141,3.512,3.748,3.276,Healthy life expectancy,0
 Lesotho,141,3.512,3.748,3.276,Perceptions of corruption,0.018
 Lesotho,141,3.512,3.748,3.276,Social support,0.848
 Botswana,142,3.471,3.667,3.275,Dystopia + residual,0.187
-Botswana,142,3.471,3.667,3.275,Freedom - Life Choices,0.571
+Botswana,142,3.471,3.667,3.275,Freedom: Life Choices,0.571
 Botswana,142,3.471,3.667,3.275,GDP per capita,1.503
 Botswana,142,3.471,3.667,3.275,Generosity,0.012
 Botswana,142,3.471,3.667,3.275,Healthy life expectancy,0.28
 Botswana,142,3.471,3.667,3.275,Perceptions of corruption,0.102
 Botswana,142,3.471,3.667,3.275,Social support,0.815
 Rwanda,143,3.268,3.462,3.074,Dystopia + residual,0.536
-Rwanda,143,3.268,3.462,3.074,Freedom - Life Choices,0.621
+Rwanda,143,3.268,3.462,3.074,Freedom: Life Choices,0.621
 Rwanda,143,3.268,3.462,3.074,GDP per capita,0.785
 Rwanda,143,3.268,3.462,3.074,Generosity,0.187
 Rwanda,143,3.268,3.462,3.074,Healthy life expectancy,0.462
 Rwanda,143,3.268,3.462,3.074,Perceptions of corruption,0.544
 Rwanda,143,3.268,3.462,3.074,Social support,0.133
 Zimbabwe,144,2.995,3.11,2.88,Dystopia + residual,0.548
-Zimbabwe,144,2.995,3.11,2.88,Freedom - Life Choices,0.329
+Zimbabwe,144,2.995,3.11,2.88,Freedom: Life Choices,0.329
 Zimbabwe,144,2.995,3.11,2.88,GDP per capita,0.947
 Zimbabwe,144,2.995,3.11,2.88,Generosity,0.106
 Zimbabwe,144,2.995,3.11,2.88,Healthy life expectancy,0.27
 Zimbabwe,144,2.995,3.11,2.88,Perceptions of corruption,0.105
 Zimbabwe,144,2.995,3.11,2.88,Social support,0.69
 Lebanon,145,2.955,3.049,2.862,Dystopia + residual,0.216
-Lebanon,145,2.955,3.049,2.862,Freedom - Life Choices,0.103
+Lebanon,145,2.955,3.049,2.862,Freedom: Life Choices,0.103
 Lebanon,145,2.955,3.049,2.862,GDP per capita,1.392
 Lebanon,145,2.955,3.049,2.862,Generosity,0.082
 Lebanon,145,2.955,3.049,2.862,Healthy life expectancy,0.631
 Lebanon,145,2.955,3.049,2.862,Perceptions of corruption,0.034
 Lebanon,145,2.955,3.049,2.862,Social support,0.498
 Afghanistan,146,2.404,2.469,2.339,Dystopia + residual,1.263
-Afghanistan,146,2.404,2.469,2.339,Freedom - Life Choices,0
+Afghanistan,146,2.404,2.469,2.339,Freedom: Life Choices,0
 Afghanistan,146,2.404,2.469,2.339,GDP per capita,0.758
 Afghanistan,146,2.404,2.469,2.339,Generosity,0.089
 Afghanistan,146,2.404,2.469,2.339,Healthy life expectancy,0.289
