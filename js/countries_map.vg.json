@@ -214,7 +214,7 @@
         "type": "text",
         "fontSize": 11,
         "dx": -40,
-        "dy": 27
+        "dy": 28
       },
       "encoding": {
         "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
@@ -359,7 +359,7 @@
       "mark": {
         "type": "text",
         "fontSize": 11,
-        "dx": -40,
+        "dx": -42,
         "dy": 27
       },
       "encoding": {
