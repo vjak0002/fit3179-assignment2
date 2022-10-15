@@ -5,7 +5,7 @@
     "subtitle": "Data from Year 2015 to 2022"
   },
   "background": "#E8E8E8",
-  "width": 450,
+  "width": 400,
   "height": 340,
   "data": {
     "values": [
@@ -139,10 +139,13 @@
     "text": { "fontWeight": "bold", "color": "#404040", "font": "Verdana" },
     "title": {
       "anchor": "start",
-      "fontSize": 15,
+      "fontSize": 18,
       "font": "Verdana",
       "offset": 20,
       "subtitleFont": "Verdana"
+    },
+    "axis": {
+      "grid": false
     }
   }
 }

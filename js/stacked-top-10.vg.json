@@ -19,7 +19,7 @@
     },
     { "filter": "datum.rank <= 10" }
   ],
-  "mark": "bar",
+  "mark": { "type": "bar", "stroke": "#E8E8E8", "strokeWidth": 0.75 },
   "encoding": {
     "x": {
       "field": "Factor Score",
@@ -91,7 +91,8 @@
       "offset": 20,
       "anchor": "start",
       "font": "Verdana",
-      "subtitleFont": "Verdana"
+      "subtitleFont": "Verdana",
+      "fontSize": 18
     },
     "axis": {
       "labelFontSize": 12

@@ -11,6 +11,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-tooltip@0.28.0"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
   <link rel="stylesheet" href="css/index.css" />
 </head>
@@ -153,13 +154,6 @@
         corrpution, income inequality, and overall peace levels.
         <br><br>
 
-        Developed countries are expected to retain their happiness levels if not improve it as the governments are
-        continuously investing in new technologies like AI, Renewable Energy, Electric Cars, etc. On the flip side, poor
-        and unhappy countries could get worse day by day as they have limited resources, poor infrastructure and lack of
-        education. Climate change could also show its effects very quickly in these countries.
-
-        <br><br>
-
         To conclude, <b>developed</b> and <b>happy countries</b> will most likely <b>retain</b> their <b>happiness
           levels</b> and <b>poor</b> and <b>unhappy</b> countries will most likely <b>get worse</b> or remain same due
         to their circumstances. <b>GDP</b> per capita is a <b>powerful</b> factor that that <b>contributes</b> to
@@ -223,6 +217,19 @@
     vegaEmbed("#viz-4", "js/waterfall-chart.vg.json")
       .then(function (result) { })
       .catch(console.error);
+
+
+    $(document).ready(function () {
+      $(".chart-wrapper").css({
+        "padding": "0",
+        "margin": "auto",
+        "display": "flex",
+        "justify-content": "center",
+        "align-content": "center",
+        "width": "100%",
+        "align-items": "center"
+      });
+    });
   </script>
 </body>
 
