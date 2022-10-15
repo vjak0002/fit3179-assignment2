@@ -5,7 +5,7 @@
     "subtitle": "Compared to 146 other countries"
   },
   "background": "#E8E8E8",
-  "width": 400,
+  "width": 500,
   "height": 340,
   "data": {
     "values": [
@@ -71,10 +71,7 @@
           "type": "quantitative",
           "title": "Rank",
           "scale": { "domain": [0, 14] },
-          "axis": {
-            "labelFont": "Verdana",
-            "titleFont": "Verdana"
-          }
+          "axis": null
         },
         "y2": { "field": "sum" },
         "color": {

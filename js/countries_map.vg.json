@@ -139,7 +139,7 @@
       },
       "transform": [
         {
-          "filter": "indexof(['Burkina Faso','Philippines','Mali','Iraq','Mauritania','Yemen','Congo','North Macedonia','Colombia','Kenya','Ethiopia','Romania','Argentina','Cameroon','Venezuela','Morocco','Namibia','Vietnam','Cambodia','Belarus','Lithuania','Uganda','Estonia','Ukraine','Uruguay','Greece','Taiwan','Japan','Bulgaria','Peru','Croatia','Pakistan','Indonesia','Denmark','Poland','Moldova','Montenegro','Kosovo','South Korea','Spain','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Thailand','Myanmar','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
+          "filter": "indexof(['Burkina Faso','Philippines','Niger','Mali','Iraq','Mauritania','Yemen','Congo','North Macedonia','Mexico','Bolivia','Colombia','Kenya','Ethiopia','Nigeria','Romania','Argentina','Cameroon','Venezuela','Morocco','Namibia','Vietnam','Cambodia','Belarus','Lithuania','Uganda','Estonia','Ukraine','Uruguay','Greece','Taiwan','Japan','Bulgaria','Peru','Croatia','Pakistan','Indonesia','Denmark','Poland','Moldova','Montenegro','Kosovo','South Korea','Spain','Nepal','Bangladesh','Bhutan','Laos','Liberia','Sierra Leone','Sri Lanka','Chile','Madagascar','Malaysia','New Zealand','Italy','Luxembourg','Serbia','Slovakia','Netherlands','Czechia','Slovenia','United Arab Emirates','Switzerland','Austria','Hungary','Albania','Tunisia','Mozambique','Ecuador','Georgia','Azerbaijan','Thailand','Myanmar','Costa Rica','Panama','Gabon','Honduras','Cyprus','Armenia','Nicaragua','El Salvador','Syria','Israel','Jordan','Guatemala','Portugal','Paraguay','Senegal','Guinea','Ghana','Qatar','Kuwait','Gambia','Togo','Turkey','Benin','Palestinian Territories','Lebanon','Tajikistan','Kyrgyzstan','Turkmenistan','Uzbekistan','Latvia','Belgium','Germany','UK','Ireland','Iceland','Jamaica','Sweden','Norway','Finland'], datum.country) === -1"
         }
       ]
     },
@@ -198,7 +198,7 @@
         "fontSize": 13,
         "fontWeight": "bold",
         "dx": -5,
-        "dy": -25
+        "dy": -27
       },
       "encoding": {
         "text": { "field": "Country", "type": "nominal" }
@@ -245,7 +245,8 @@
       "mark": {
         "type": "text",
         "fontSize": 11,
-        "dx": 8
+        "dx": 9,
+        "dy": 1
       },
       "encoding": {
         "text": { "field": "Score", "type": "quantitative", "format": ".2f" },
@@ -261,8 +262,8 @@
       "mark": {
         "type": "text",
         "fontSize": 11,
-        "dx": 3,
-        "dy": 5
+        "dx": -1,
+        "dy": 9
       },
       "encoding": {
         "text": { "field": "Score", "type": "quantitative", "format": ".2f" },
@@ -271,6 +272,38 @@
       "transform": [
         {
           "filter": "datum.country === 'Mauritania'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": 3,
+        "dy": 5
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Niger'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": 3,
+        "dy": 1
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Turkey'"
         }
       ]
     },
@@ -294,7 +327,7 @@
       "mark": {
         "type": "text",
         "fontSize": 11,
-        "dx": 14,
+        "dx": 15,
         "dy": 15
       },
       "encoding": {
@@ -310,9 +343,8 @@
       "mark": {
         "type": "text",
         "fontSize": 11,
-        "fontWeight": "bold",
-        "dx": 13,
-        "dy": 9
+        "dx": 16,
+        "dy": 10
       },
       "encoding": {
         "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
@@ -343,7 +375,7 @@
       "mark": {
         "type": "text",
         "fontSize": 11,
-        "dx": 20,
+        "dx": 22,
         "dy": 2
       },
       "encoding": {
@@ -359,7 +391,7 @@
       "mark": {
         "type": "text",
         "fontSize": 11,
-        "dx": 6,
+        "dx": 3,
         "dy": -6
       },
       "encoding": {
@@ -376,8 +408,8 @@
       "mark": {
         "type": "text",
         "fontSize": 11,
-        "dy": -25,
-        "dx": -5
+        "dx": -6,
+        "dy": -25
       },
       "encoding": {
         "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
@@ -392,7 +424,7 @@
       "mark": {
         "type": "text",
         "fontSize": 11,
-        "dx": 3,
+        "dx": 4.5,
         "dy": 1
       },
       "encoding": {
@@ -401,6 +433,73 @@
       "transform": [
         {
           "filter": "datum.country === 'Colombia'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": -4,
+        "dy": -7,
+        "angle": 25
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Mexico'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": -1,
+        "dy": 6
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Bolivia'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": -1,
+        "dy": 8
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" },
+        "color": { "value": "white" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Ethiopia'"
+        }
+      ]
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "dx": -1,
+        "dy": -3
+      },
+      "encoding": {
+        "text": { "field": "Score", "type": "quantitative", "format": ".2f" },
+        "color": { "value": "white" }
+      },
+      "transform": [
+        {
+          "filter": "datum.country === 'Nigeria'"
         }
       ]
     },

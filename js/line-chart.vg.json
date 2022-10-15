@@ -2,40 +2,12 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "How many people are happy?",
   "background": "#E8E8E8",
-  "width": 410,
+  "width": 500,
   "height": 340,
   "data": {
     "url": "data/share-of-people-who-say-they-are-happy.csv"
   },
-  "params": [
-    {
-      "name": "country_select",
-      "bind": {
-        "input": "select",
-        "options": [
-          null,
-          "United States",
-          "Australia",
-          "New Zealand",
-          "Europe",
-          "China",
-          "Russia"
-        ],
-        "labels": [
-          "All",
-          "United States",
-          "Australia",
-          "New Zealand",
-          "Europe",
-          "China",
-          "Russia"
-        ],
-        "name": "Choose Country: "
-      }
-    }
-  ],
   "transform": [
-    { "filter": "country_select == null || datum.Country == country_select" },
     {
       "filter": {
         "field": "Country",
@@ -119,12 +91,6 @@
           }
         ]
       },
-      "transform": [
-        {
-          "calculate": "country_select == null || country_select == 'Russia' && datum.info ? datum.info : ''",
-          "as": "Info"
-        }
-      ],
       "mark": {
         "type": "text",
         "color": "#007144",
@@ -143,7 +109,7 @@
           "scale": { "domain": [0, 100] }
         },
         "text": {
-          "field": "Info",
+          "field": "info",
           "type": "nominal"
         }
       }
