@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text": "How has Australia's ranking happiness ranking been?",
-    "subtitle": "Data from Year 2015 to 2022"
+    "subtitle": "Compared to 146 other countries"
   },
   "background": "#E8E8E8",
   "width": 400,

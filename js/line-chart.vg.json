@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "How many people are happy?",
   "background": "#E8E8E8",
-  "width": 390,
+  "width": 410,
   "height": 340,
   "data": {
     "url": "data/share-of-people-who-say-they-are-happy.csv"
@@ -17,33 +17,18 @@
           "United States",
           "Australia",
           "New Zealand",
-          "Ireland",
-          "United Kingdom",
-          "India",
-          "Japan",
+          "Europe",
           "China",
-          "Mexico",
-          "Poland",
-          "Russia",
-          "South Africa",
-          "South Korea",
-          "Turkey"
+          "Russia"
         ],
         "labels": [
           "All",
           "United States",
           "Australia",
           "New Zealand",
-          "Ireland",
-          "United Kingdom",
-          "India",
-          "Japan",
+          "Europe",
           "China",
-          "Poland",
-          "Russia",
-          "South Africa",
-          "South Korea",
-          "Turkey"
+          "Russia"
         ],
         "name": "Choose Country: "
       }
@@ -58,84 +43,205 @@
           "United States",
           "Australia",
           "New Zealand",
-          "Ireland",
-          "United Kingdom",
-          "India",
-          "Japan",
+          "Europe",
           "China",
-          "Poland",
-          "Russia",
-          "South Africa",
-          "South Korea",
-          "Turkey"
+          "Russia"
         ]
       }
     }
   ],
-  "mark": {
-    "type": "line",
-    "point": true
-  },
-  "encoding": {
-    "x": {
-      "timeUnit": "year",
-      "field": "Year",
-      "title": "Year",
-      "scale": { "domain": [1982, 2016] }
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "point": true,
+        "strokeWidth": 2.4
+      },
+      "encoding": {
+        "x": {
+          "timeUnit": "year",
+          "field": "Year",
+          "title": "Year",
+          "scale": { "domain": [1982, 2016] }
+        },
+        "y": {
+          "aggregate": "mean",
+          "field": "Share of people who are happy",
+          "type": "quantitative",
+          "title": "People who are happy (%)"
+        },
+        "color": {
+          "field": "Country",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "United States",
+              "Australia",
+              "New Zealand",
+              "Europe",
+              "China",
+              "Russia"
+            ],
+            "range": [
+              "#0085b1",
+              "#e98700",
+              "#0161d7",
+              "#ef62e2",
+              "#00d3dc",
+              "#007144"
+            ]
+          },
+          "legend": null
+        },
+        "tooltip": [
+          { "field": "Country", "type": "nominal" },
+          {
+            "field": "Share of people who are happy",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "People who are happy (%)"
+          }
+        ]
+      }
     },
-    "y": {
-      "aggregate": "mean",
-      "field": "Share of people who are happy",
-      "type": "quantitative",
-      "title": "People who are happy (%)"
-    },
-    "color": {
-      "field": "Country",
-      "type": "nominal",
-      "scale": {
-        "domain": [
-          "United States",
-          "Australia",
-          "New Zealand",
-          "United Kingdom",
-          "India",
-          "China",
-          "Russia",
-          "South Korea",
-          "Turkey",
-          "Ireland",
-          "Japan",
-          "Poland",
-          "South Africa"
-        ],
-        "range": [
-          "#0085b1",
-          "#e98700",
-          "#0161d7",
-          "#ef62e2",
-          "#008625",
-          "#00d3dc",
-          "#007144",
-          "#833f2a",
-          "#caabff",
-          "lightgray",
-          "lightgray",
-          "lightgray",
-          "lightgray"
+    {
+      "data": {
+        "values": [
+          {
+            "x": 55,
+            "y": 38,
+            "info": "Russian Economic"
+          },
+          {
+            "x": 55,
+            "y": 34,
+            "info": "Crisis Period"
+          }
         ]
       },
-      "legend": null
-    },
-    "tooltip": [
-      { "field": "Country", "type": "nominal" },
-      {
-        "field": "Share of people who are happy",
-        "type": "quantitative",
-        "format": ".2f",
-        "title": "People who are happy (%)"
+      "transform": [
+        {
+          "calculate": "country_select == null || country_select == 'Russia' && datum.info ? datum.info : ''",
+          "as": "Info"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "color": "#007144",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] },
+          "axis": null
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] }
+        },
+        "text": {
+          "field": "Info",
+          "type": "nominal"
+        }
       }
-    ]
-  },
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 50,
+            "y": 90,
+            "name": "United States",
+            "colour": "#0085b1"
+          },
+          {
+            "x": 10,
+            "y": 91,
+            "name": "Australia",
+            "colour": "#e98700"
+          },
+          {
+            "x": 50,
+            "y": 98,
+            "name": "New Zealand",
+            "colour": "#0161d7"
+          },
+          {
+            "x": 8,
+            "y": 73,
+            "name": "Europe",
+            "colour": "#ef62e2"
+          },
+          {
+            "x": 31,
+            "y": 63,
+            "name": "China",
+            "colour": "#00d3dc"
+          },
+          {
+            "x": 26,
+            "y": 47,
+            "name": "Russia",
+            "colour": "#007144"
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "color": { "expr": "datum.colour" }
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] },
+          "axis": null
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] }
+        },
+        "text": {
+          "field": "name",
+          "type": "nominal"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "x": 44,
+            "y": 44,
+            "img": "assets/russia-annotation.png"
+          }
+        ]
+      },
+      "mark": {
+        "type": "image",
+        "width": 40,
+        "height": 40
+      },
+      "encoding": {
+        "x": {
+          "field": "x",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] },
+          "axis": null
+        },
+        "y": {
+          "field": "y",
+          "type": "quantitative",
+          "scale": { "domain": [0, 100] }
+        },
+        "url": { "field": "img", "type": "nominal" }
+      }
+    }
+  ],
   "config": {
     "view": { "stroke": "transparent" },
     "title": {
@@ -147,6 +253,7 @@
     "axis": {
       "labelFont": "Verdana",
       "titleFont": "Verdana"
-    }
+    },
+    "text": { "font": "Verdana" }
   }
 }
